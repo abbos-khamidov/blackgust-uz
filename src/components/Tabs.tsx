@@ -6,7 +6,7 @@ export function Tabs({ tabs }: { tabs: { label: string; panel: ReactNode }[] }) 
   const id = useId();
   const list = useRef<HTMLDivElement>(null);
 
-  // brass indicator glides to the selected tab (positioned after mount, so SSR markup stays identical)
+  // lapis indicator glides to the selected tab (positioned after mount, so SSR markup stays identical)
   useEffect(() => {
     const el = list.current;
     if (!el) return;

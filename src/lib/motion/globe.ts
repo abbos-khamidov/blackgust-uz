@@ -145,9 +145,9 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
 
     // atmosphere
     const halo = c.createRadialGradient(cx, cy, R * 0.86, cx, cy, R * 1.35);
-    halo.addColorStop(0, "rgba(201,168,106,0.16)");
-    halo.addColorStop(0.25, "rgba(201,168,106,0.05)");
-    halo.addColorStop(1, "rgba(201,168,106,0)");
+    halo.addColorStop(0, "rgba(90,139,230,0.16)");
+    halo.addColorStop(0.25, "rgba(90,139,230,0.05)");
+    halo.addColorStop(1, "rgba(90,139,230,0)");
     c.fillStyle = halo;
     c.beginPath(); c.arc(cx, cy, R * 1.35, 0, Math.PI * 2); c.fill();
     // body
@@ -156,7 +156,7 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
     body.addColorStop(1, "#08090B");
     c.fillStyle = body;
     c.beginPath(); c.arc(cx, cy, R, 0, Math.PI * 2); c.fill();
-    c.strokeStyle = "rgba(201,168,106,0.28)";
+    c.strokeStyle = "rgba(90,139,230,0.28)";
     c.lineWidth = 1;
     c.stroke();
 
@@ -204,10 +204,10 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
       const a = (0.2 + z * 0.62) * (0.7 + wave * 0.3);
       const s = ds * (0.6 + z * 0.6);
       if (ca > 0.01) {
-        c.fillStyle = `rgba(222,190,128,${Math.min(1, a * 0.7 + ca * 0.9 + scan * 0.5)})`;
+        c.fillStyle = `rgba(120,160,235,${Math.min(1, a * 0.7 + ca * 0.9 + scan * 0.5)})`;
         c.fillRect(sx - s / 2, sy - s / 2, s * 1.15, s * 1.15);
       } else {
-        c.fillStyle = scan > 0 ? `rgba(233,207,151,${Math.min(1, a + scan * 0.6)})` : `rgba(236,233,226,${a})`;
+        c.fillStyle = scan > 0 ? `rgba(169,195,242,${Math.min(1, a + scan * 0.6)})` : `rgba(236,233,226,${a})`;
         c.fillRect(sx - s / 2, sy - s / 2, s, s);
       }
     }
@@ -235,8 +235,8 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
       }
       c.lineWidth = width;
       const g = c.createLinearGradient(pts2[0][0], pts2[0][1], pts2[pts2.length - 1][0], pts2[pts2.length - 1][1]);
-      g.addColorStop(0, `rgba(242,223,180,${alpha})`);
-      g.addColorStop(1, `rgba(201,168,106,${alpha * 0.45})`);
+      g.addColorStop(0, `rgba(214,227,250,${alpha})`);
+      g.addColorStop(1, `rgba(90,139,230,${alpha * 0.45})`);
       c.strokeStyle = g;
       c.beginPath();
       let pen = false;
@@ -255,7 +255,7 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
           const r2 = ((p[0] - cx) ** 2 + (p[1] - cy) ** 2) / (R * R);
           if (p[2] <= 0 && r2 <= 1) continue;
           const s = (j === 0 ? 2.6 : 2 - j * 0.2) * (R / 300 + 0.5);
-          c.fillStyle = j === 0 ? "rgba(255,240,205,0.95)" : `rgba(201,168,106,${0.7 - j * 0.08})`;
+          c.fillStyle = j === 0 ? "rgba(228,237,255,0.95)" : `rgba(90,139,230,${0.7 - j * 0.08})`;
           c.beginPath(); c.arc(p[0], p[1], Math.max(0.6, s), 0, Math.PI * 2); c.fill();
         }
       }
@@ -287,7 +287,7 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
       const a = Math.min(1, z * 1.4);
       c.fillStyle = `rgba(236,233,226,${a})`;
       c.fillRect(x - 1.5, y - 1.5, 3, 3);
-      c.strokeStyle = `rgba(201,168,106,${a * 0.5})`;
+      c.strokeStyle = `rgba(90,139,230,${a * 0.5})`;
       c.strokeRect(x - 4.5, y - 4.5, 9, 9);
       if (hero && hb.lbl && W > 700) {
         c.fillStyle = `rgba(190,188,180,${a})`;
@@ -301,25 +301,25 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
       if (z > 0) {
         const [bx, by] = proj(hq, 0, 1.16);
         const beam = c.createLinearGradient(x, y, bx, by);
-        beam.addColorStop(0, "rgba(233,207,151,0.95)");
-        beam.addColorStop(1, "rgba(233,207,151,0)");
+        beam.addColorStop(0, "rgba(169,195,242,0.95)");
+        beam.addColorStop(1, "rgba(169,195,242,0)");
         c.strokeStyle = beam; c.lineWidth = 1.5;
         c.beginPath(); c.moveTo(x, y); c.lineTo(bx, by); c.stroke();
         for (let k = 0; k < 3; k++) {
           const ph = ((t * 0.55 + k / 3) % 1);
-          c.strokeStyle = `rgba(201,168,106,${(1 - ph) * 0.8})`;
+          c.strokeStyle = `rgba(90,139,230,${(1 - ph) * 0.8})`;
           c.lineWidth = 1;
           c.beginPath(); c.ellipse(x, y, 4 + ph * R * 0.16, (4 + ph * R * 0.16) * (0.35 + z * 0.55), 0, 0, Math.PI * 2); c.stroke();
         }
-        c.fillStyle = "#F2DFB4";
+        c.fillStyle = "#D6E3FA";
         c.beginPath(); c.arc(x, y, 3.2, 0, Math.PI * 2); c.fill();
-        c.shadowColor = "rgba(201,168,106,.9)"; c.shadowBlur = 18;
+        c.shadowColor = "rgba(90,139,230,.9)"; c.shadowBlur = 18;
         c.beginPath(); c.arc(x, y, 2, 0, Math.PI * 2); c.fill();
         c.shadowBlur = 0;
         if (hero) {
           // tag
           const tx = bx + 10, ty = by - 6;
-          c.strokeStyle = "rgba(201,168,106,0.6)";
+          c.strokeStyle = "rgba(90,139,230,0.6)";
           c.beginPath(); c.moveTo(bx, by); c.lineTo(tx - 2, ty); c.stroke();
           const label = "TASHKENT · HQ";
           const sub = "41.31°N  69.28°E";
@@ -330,7 +330,7 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
           c.strokeRect(tx + 0.5, ty - 16.5, w, 36);
           c.fillStyle = "#ECE9E2";
           c.fillText(label, tx + 10, ty - 6);
-          c.fillStyle = "rgba(201,168,106,0.9)";
+          c.fillStyle = "rgba(90,139,230,0.9)";
           c.font = `400 10px "IBM Plex Mono", ui-monospace, monospace`;
           c.fillText(sub, tx + 10, ty + 9);
         }
@@ -351,7 +351,7 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
         const x = Math.cos(an) * rx, y = Math.sin(an) * ry;
         if (y < 0 && Math.hypot(x / R, y / R) < 1) continue;
         const L = k % 6 === 0 ? 6 : 2.5;
-        c.strokeStyle = k % 6 === 0 ? "rgba(201,168,106,0.5)" : "rgba(236,233,226,0.12)";
+        c.strokeStyle = k % 6 === 0 ? "rgba(90,139,230,0.5)" : "rgba(236,233,226,0.12)";
         c.beginPath(); c.moveTo(x, y); c.lineTo(x, y + L); c.stroke();
       }
       const sa = t * 0.35;
@@ -359,7 +359,7 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
       if (!(sy < 0 && Math.hypot(sx, sy) < R)) {
         c.fillStyle = "#ECE9E2";
         c.fillRect(sx - 2.5, sy - 2.5, 5, 5);
-        c.strokeStyle = "rgba(201,168,106,0.7)";
+        c.strokeStyle = "rgba(90,139,230,0.7)";
         c.strokeRect(sx - 6, sy - 6, 12, 12);
       }
       c.restore();
@@ -373,10 +373,10 @@ export function initGlobe(cv: HTMLCanvasElement, opt: GlobeOptions = {}): () => 
       const live = hubs.filter((h) => t > h.born + 0.9).length;
       c.fillText(`NODES ${String(live + 1).padStart(2, "0")} / ${hubs.length + 1}`, lx - 150, ly);
       c.fillText(`LON ${view.lon.toFixed(2)}°  LAT ${view.lat.toFixed(2)}°`, lx - 150, ly + 15);
-      c.fillStyle = "rgba(201,168,106,0.9)";
+      c.fillStyle = "rgba(90,139,230,0.9)";
       c.fillText(`● LINK ${(98.2 + Math.sin(t) * 0.6).toFixed(1)}%`, lx - 150, ly + 30);
       // corner brackets around globe
-      c.strokeStyle = "rgba(201,168,106,0.45)";
+      c.strokeStyle = "rgba(90,139,230,0.45)";
       const b = R * 1.22, L = 14;
       c.beginPath();
       for (const [sxn, syn] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) {

@@ -30,7 +30,7 @@ export function SubHero({ crumbHome, crumb, title, lede, seed }: { crumbHome: st
 export function Band({ title, text, children, seed }: { title: string; text: ReactNode; children: ReactNode; seed: number }) {
   return (
     <section className="band">
-      <GustCanvas options={{ density: 1400, brass: 0.14, seed, warm: 90 }} />
+      <GustCanvas options={{ density: 1400, lapis: 0.14, seed, warm: 90 }} />
       <div className="veil" style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,rgba(7,8,10,.95) 30%,rgba(7,8,10,.4))" }} />
       <div className="wrap">
         <h2><Split text={title} /></h2>

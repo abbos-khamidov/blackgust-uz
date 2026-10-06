@@ -1,4 +1,4 @@
-/** Animated wordmark: letters rise in, hold, sweep out and return on a loop; a brass bar scans across. */
+/** Animated wordmark: letters rise in, hold, sweep out and return on a loop; a lapis bar scans across. */
 export function BrandMark({ text = "BlackGust" }: { text?: string }) {
   return (
     <span className="bm" aria-label={text}>

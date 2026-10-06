@@ -28,7 +28,7 @@ export default async function Page({ params }: P) {
           <div className="tiers">
             {d.tiers.map((t: DevTier) => (
               <div key={t.name} className={`tier${t.hl ? " hl" : ""}`}>
-                <span className={`mono ${t.hl ? "brass" : "dim"}`}>{t.term}</span>
+                <span className={`mono ${t.hl ? "lapis" : "dim"}`}>{t.term}</span>
                 <h3 className="h3">{t.name}</h3>
                 <div className="price num">{t.price}</div>
                 <p className="dim">{t.for}</p>
@@ -80,7 +80,7 @@ export default async function Page({ params }: P) {
             <div className="cb">
               <div className="tbl-w"><table className="tbl">
                 <thead><tr>{d.roi.headers.map((x: string, i: number) => <th key={x} className={i ? "r" : undefined}>{x}</th>)}</tr></thead>
-                <tbody>{d.roi.rows.map((r: string[], k: number) => <tr key={r[0]}><td>{r[0]}</td><td className="r">{r[1]}</td><td className={`r${k === d.roi.rows.length - 1 ? " brass" : ""}`}>{r[2]}</td></tr>)}</tbody>
+                <tbody>{d.roi.rows.map((r: string[], k: number) => <tr key={r[0]}><td>{r[0]}</td><td className="r">{r[1]}</td><td className={`r${k === d.roi.rows.length - 1 ? " lapis" : ""}`}>{r[2]}</td></tr>)}</tbody>
               </table></div>
               <p className="note">{d.roi.note}</p>
             </div>

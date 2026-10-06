@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import { prefersReducedMotion } from "@/lib/motion/state";
 
-/** Brass follower ring for fine pointers. Grows over interactive elements, shows a label over [data-cursor]. */
+/** Lapis follower ring for fine pointers. Grows over interactive elements, shows a label over [data-cursor]. */
 export function Cursor() {
   const ring = useRef<HTMLDivElement>(null);
   const dot = useRef<HTMLDivElement>(null);

@@ -275,7 +275,7 @@ export function initPageMotion(root: HTMLElement): () => void {
 
   /* mono labels decode like a terminal when they enter */
   const GLYPHS = "ABCDEFGHJKLMNPQRSTUVWXYZ0123456789/<>#*+";
-  root.querySelectorAll<HTMLElement>(".label, .sec .mono.brass, .phase .dur").forEach((el) => {
+  root.querySelectorAll<HTMLElement>(".label, .sec .mono.lapis, .phase .dur").forEach((el) => {
     if (el.children.length || el.getBoundingClientRect().top < window.innerHeight * 0.9) return;
     const final = el.textContent ?? "";
     if (!final.trim() || final.length > 60) return;

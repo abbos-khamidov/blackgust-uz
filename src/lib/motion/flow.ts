@@ -95,7 +95,7 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
     var w = ctx.measureText(text).width + 16, h = 20;
     ctx.globalAlpha = a; ctx.fillStyle = strong ? 'rgba(14,16,19,.92)' : 'rgba(7,8,10,.78)';
     ctx.beginPath(); if (ctx.roundRect) ctx.roundRect(x, y-h/2, w, h, 10); else ctx.rect(x, y-h/2, w, h); ctx.fill();
-    ctx.strokeStyle = strong ? 'rgba(201,168,106,.85)' : 'rgba(236,233,226,.18)'; ctx.lineWidth = 1; ctx.stroke();
+    ctx.strokeStyle = strong ? 'rgba(90,139,230,.85)' : 'rgba(236,233,226,.18)'; ctx.lineWidth = 1; ctx.stroke();
     ctx.fillStyle = strong ? '#ECE9E2' : 'rgba(236,233,226,.86)'; ctx.fillText(text, x+8, y+3.8);
     ctx.globalAlpha = 1;
   }
@@ -158,7 +158,7 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
 
     // ambient: faint radial + scanline grid
     var g = ctx.createRadialGradient(cam.cx, cam.cy, 0, cam.cx, cam.cy, cam.U*2.2);
-    g.addColorStop(0, 'rgba(201,168,106,' + (.05 + .07*fm) + ')'); g.addColorStop(1, 'rgba(201,168,106,0)');
+    g.addColorStop(0, 'rgba(90,139,230,' + (.05 + .07*fm) + ')'); g.addColorStop(1, 'rgba(90,139,230,0)');
     ctx.fillStyle = g; ctx.fillRect(0,0,W,H);
 
     // empty-centre marker before the model exists
@@ -168,7 +168,7 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
       ctx.strokeStyle = 'rgba(236,233,226,' + (.16*ea) + ')'; ctx.setLineDash([3,7]); ctx.lineWidth = 1;
       ctx.beginPath(); ctx.arc(0,0,cam.U*.72,0,Math.PI*2); ctx.stroke();
       ctx.setLineDash([]); ctx.rotate(-time*.3);
-      for (var q=0;q<4;q++){ ctx.rotate(Math.PI/2); ctx.strokeStyle='rgba(201,168,106,'+(.35*ea)+')'; ctx.beginPath(); ctx.moveTo(cam.U*.78,0); ctx.lineTo(cam.U*.9,0); ctx.stroke(); }
+      for (var q=0;q<4;q++){ ctx.rotate(Math.PI/2); ctx.strokeStyle='rgba(90,139,230,'+(.35*ea)+')'; ctx.beginPath(); ctx.moveTo(cam.U*.78,0); ctx.lineTo(cam.U*.9,0); ctx.stroke(); }
       ctx.restore();
     }
 
@@ -213,19 +213,19 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
           return proj(x2, y2, z1, out);
         }
         // ring
-        ctx.strokeStyle = 'rgba(201,168,106,' + (.12*ag) + ')'; ctx.lineWidth = 1; ctx.beginPath();
+        ctx.strokeStyle = 'rgba(90,139,230,' + (.12*ag) + ')'; ctx.lineWidth = 1; ctx.beginPath();
         for (var t=0;t<=64;t++){ orb(t/64*Math.PI*2, tmp); if(!t) ctx.moveTo(tmp.sx,tmp.sy); else ctx.lineTo(tmp.sx,tmp.sy); }
         ctx.stroke();
         // trail
         var prev = null;
         for (var tr=0; tr<34; tr++){
           orb(base - tr*.035, tmp2);
-          if (prev){ var ta = ag*(1-tr/34); ctx.strokeStyle='rgba(201,168,106,'+(.75*ta).toFixed(3)+')'; ctx.lineWidth = 2.2*(1-tr/34)+.3; ctx.beginPath(); ctx.moveTo(prev.x,prev.y); ctx.lineTo(tmp2.sx,tmp2.sy); ctx.stroke(); }
+          if (prev){ var ta = ag*(1-tr/34); ctx.strokeStyle='rgba(90,139,230,'+(.75*ta).toFixed(3)+')'; ctx.lineWidth = 2.2*(1-tr/34)+.3; ctx.beginPath(); ctx.moveTo(prev.x,prev.y); ctx.lineTo(tmp2.sx,tmp2.sy); ctx.stroke(); }
           prev = {x:tmp2.sx, y:tmp2.sy};
         }
         orb(base, tmp);
         var hg = ctx.createRadialGradient(tmp.sx,tmp.sy,0,tmp.sx,tmp.sy,16*tmp.k);
-        hg.addColorStop(0,'rgba(255,236,190,'+(.95*ag)+')'); hg.addColorStop(.25,'rgba(201,168,106,'+(.5*ag)+')'); hg.addColorStop(1,'rgba(201,168,106,0)');
+        hg.addColorStop(0,'rgba(214,228,255,'+(.95*ag)+')'); hg.addColorStop(.25,'rgba(90,139,230,'+(.5*ag)+')'); hg.addColorStop(1,'rgba(90,139,230,0)');
         ctx.fillStyle = hg; ctx.beginPath(); ctx.arc(tmp.sx,tmp.sy,16*tmp.k,0,Math.PI*2); ctx.fill();
         o._x = tmp.sx; o._y = tmp.sy; o._z = tmp.sz;
       });
@@ -239,7 +239,7 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
         var a1 = pts[ENT[CHAIN[sgi]].i], b1 = pts[ENT[CHAIN[sgi+1]].i];
         var steps2 = 28, end = Math.max(1, Math.round(steps2*fr));
         for (var pass=0; pass<2; pass++){
-          ctx.strokeStyle = pass ? 'rgba(255,230,180,'+(.9*(1-.3*an))+')' : 'rgba(201,168,106,'+(.22*(1-.3*an))+')';
+          ctx.strokeStyle = pass ? 'rgba(200,218,252,'+(.9*(1-.3*an))+')' : 'rgba(90,139,230,'+(.22*(1-.3*an))+')';
           ctx.lineWidth = pass ? 1.4 : 5;
           ctx.beginPath();
           for (var st=0; st<=end; st++){ var v3 = slerp(a1,b1,st/steps2); proj(v3.x,v3.y,v3.z,tmp); if(!st) ctx.moveTo(tmp.sx,tmp.sy); else ctx.lineTo(tmp.sx,tmp.sy); }
@@ -249,7 +249,7 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
       if (ch >= 1){ // pulse running along the full chain
         var pt2 = (time*.45) % 1, gl = pt2*segs, si = Math.min(segs-1, Math.floor(gl));
         var v4 = slerp(pts[ENT[CHAIN[si]].i], pts[ENT[CHAIN[si+1]].i], gl-si); proj(v4.x,v4.y,v4.z,tmp);
-        var pg = ctx.createRadialGradient(tmp.sx,tmp.sy,0,tmp.sx,tmp.sy,12); pg.addColorStop(0,'rgba(255,240,205,.95)'); pg.addColorStop(1,'rgba(201,168,106,0)');
+        var pg = ctx.createRadialGradient(tmp.sx,tmp.sy,0,tmp.sx,tmp.sy,12); pg.addColorStop(0,'rgba(228,237,255,.95)'); pg.addColorStop(1,'rgba(90,139,230,0)');
         ctx.fillStyle = pg; ctx.beginPath(); ctx.arc(tmp.sx,tmp.sy,12,0,Math.PI*2); ctx.fill();
       }
     }
@@ -283,7 +283,7 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
       var X = it*it*x0 + 2*it*tt*cxp + tt*tt*x1, Y = it*it*y0 + 2*it*tt*cyp + tt*tt*y1;
       if (q3.px !== null){
         var fa = Math.sin(Math.PI*q3.t);
-        ctx.strokeStyle = q3.b ? 'rgba(201,168,106,'+(.85*fa).toFixed(3)+')' : 'rgba(236,233,226,'+(.55*fa).toFixed(3)+')';
+        ctx.strokeStyle = q3.b ? 'rgba(90,139,230,'+(.85*fa).toFixed(3)+')' : 'rgba(236,233,226,'+(.55*fa).toFixed(3)+')';
         ctx.lineWidth = 1.2; ctx.beginPath(); ctx.moveTo(q3.px, q3.py); ctx.lineTo(X, Y); ctx.stroke();
       }
       q3.px = X; q3.py = Y;
@@ -297,8 +297,8 @@ export function createFlow(sec, cfg: FlowConfig): FlowApi | null {
         var a2 = en * clamp((dep-.25)/.4, .12, 1);
         var rr2 = (inChain ? 5 : 3.5) * pe.k;
         ctx.globalAlpha = a2;
-        ctx.fillStyle = inChain ? '#FFE6B4' : '#C9A86A'; ctx.fillRect(pe.sx-rr2/2, pe.sy-rr2/2, rr2, rr2);
-        ctx.strokeStyle = 'rgba(201,168,106,.8)'; ctx.lineWidth = 1; var rq = (9 + (inChain ? 3*Math.sin(time*4)+3 : 0))*pe.k; ctx.strokeRect(pe.sx-rq/2, pe.sy-rq/2, rq, rq);
+        ctx.fillStyle = inChain ? '#E3ECFF' : '#5A8BE6'; ctx.fillRect(pe.sx-rr2/2, pe.sy-rr2/2, rr2, rr2);
+        ctx.strokeStyle = 'rgba(90,139,230,.8)'; ctx.lineWidth = 1; var rq = (9 + (inChain ? 3*Math.sin(time*4)+3 : 0))*pe.k; ctx.strokeRect(pe.sx-rq/2, pe.sy-rq/2, rq, rq);
         ctx.beginPath(); ctx.moveTo(pe.sx + rq/2, pe.sy); ctx.lineTo(pe.sx + rq/2 + 10, pe.sy); ctx.stroke();
         ctx.globalAlpha = 1;
         pill(pe.sx + rq/2 + 10, pe.sy, e.name, a2*(1-.25*an), inChain);

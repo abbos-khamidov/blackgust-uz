@@ -2,7 +2,7 @@ export const Logo = () => (
   <svg viewBox="0 0 32 32" aria-hidden="true" width="26" height="26">
     <rect x="1" y="1" width="30" height="30" fill="none" stroke="currentColor" strokeOpacity=".35" />
     <path d="M6 11 H22 c3 0 4 -3 2 -4.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
-    <path d="M6 16.5 H26" fill="none" stroke="#C9A86A" strokeWidth="1.6" />
+    <path d="M6 16.5 H26" fill="none" stroke="#5A8BE6" strokeWidth="1.6" />
     <path d="M6 22 H18 c3 0 4 3 2 4.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
   </svg>
 );

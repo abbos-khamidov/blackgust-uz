@@ -49,7 +49,7 @@ export default async function Page({ params }: P) {
             <div className="console">
               <div className="ch"><span><i />{d.agents.consoleTitle}</span><span>{d.agents.consoleNote}</span></div>
               <div className="cb" style={{ fontFamily: "var(--f-mono)", fontSize: ".8rem", lineHeight: 1.7, color: "#C9C7C0" }}>
-                {d.agents.config.map(([k, v]: string[]) => <div key={k}><span className="brass">{k}:</span> {v}</div>)}
+                {d.agents.config.map(([k, v]: string[]) => <div key={k}><span className="lapis">{k}:</span> {v}</div>)}
               </div>
             </div>
             <ul className="ticks" style={{ alignSelf: "center" }}>{d.agents.items.map((i: string) => <li key={i}>{i}</li>)}</ul>

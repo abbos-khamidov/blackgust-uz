@@ -37,7 +37,7 @@ export default async function Home({ params }: P) {
   return (
     <>
       <section className="hero hero-home">
-        <GustCanvas options={{ density: 1500, brass: 0.08, seed: 11 }} />
+        <GustCanvas options={{ density: 1500, lapis: 0.08, seed: 11 }} />
         <GlobeCanvas options={{ variant: "hero" }} />
         <div className="veil" />
         <div className="hero-scan" aria-hidden="true" />
@@ -78,7 +78,7 @@ export default async function Home({ params }: P) {
           <div className="split">
             {(["platform", "engineers"] as const).map((k) => (
               <div className="gap" key={k}>
-                <span className="mono brass">{k === "platform" ? split.platformTag : split.engineersTag}</span>
+                <span className="mono lapis">{k === "platform" ? split.platformTag : split.engineersTag}</span>
                 <h3 className="h3">{h.what[k].title}</h3>
                 <ul className="ticks mt-s">{h.what[k].items.map((i: string) => <li key={i}>{i}</li>)}</ul>
                 <Link className="btn btn-g mt-s" href={k === "platform" ? "/platform" : "/approach"} style={{ justifySelf: "start" }}>{h.what[k].cta} <Arrow /></Link>

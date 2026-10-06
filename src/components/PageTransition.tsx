@@ -7,7 +7,7 @@ import { LEAVE_EVENT } from "./PageMotion";
 const COVER_MS = 560;
 
 /**
- * Exit half of the page transition: an internal link click closes brass-ruled bars over the page and
+ * Exit half of the page transition: an internal link click closes lapis-ruled bars over the page and
  * names the destination, then navigates. The entry half is the CSS shutter in [locale]/template.tsx.
  * Without JS (or with reduced motion) links behave normally.
  */

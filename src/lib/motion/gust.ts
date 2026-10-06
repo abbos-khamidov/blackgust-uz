@@ -2,12 +2,12 @@ import { motionState, prefersReducedMotion } from "./state";
 
 export type GustOptions = {
   density?: number; // px² per particle (lower = denser)
-  brass?: number; // share of brass particles
+  lapis?: number; // share of lapis particles
   seed?: number;
   warm?: number; // pre-simulated steps so the first frame is already full
   scale?: number;
   tilt?: number;
-  nodes?: [number, number][]; // brass "data source" markers, relative coords
+  nodes?: [number, number][]; // lapis "data source" markers, relative coords
 };
 
 /** Wind-like flow field. Returns a cleanup function. */
@@ -40,7 +40,7 @@ export function initGust(cv: HTMLCanvasElement, opt: GustOptions = {}): () => vo
     const u = fade(xf), v = fade(yf);
     return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v;
   };
-  const spawn = (any: boolean): P => ({ x: any ? Math.random() * W : -10, y: Math.random() * H, life: 200 + Math.random() * 400, b: Math.random() < (opt.brass ?? 0.09) });
+  const spawn = (any: boolean): P => ({ x: any ? Math.random() * W : -10, y: Math.random() * H, life: 200 + Math.random() * 400, b: Math.random() < (opt.lapis ?? 0.09) });
 
   function step(clear: number) {
     ctx!.fillStyle = `rgba(7,8,10,${clear})`;
@@ -63,7 +63,7 @@ export function initGust(cv: HTMLCanvasElement, opt: GustOptions = {}): () => vo
       }
       const nx = p.x + Math.cos(ang) * sp, ny = p.y + Math.sin(ang) * sp;
       const a = Math.min(1, (0.18 + n * 0.5) * (1 + boost * 0.8));
-      ctx!.strokeStyle = p.b ? `rgba(201,168,106,${a + 0.15})` : `rgba(236,233,226,${a * 0.55})`;
+      ctx!.strokeStyle = p.b ? `rgba(90,139,230,${a + 0.15})` : `rgba(236,233,226,${a * 0.55})`;
       ctx!.beginPath();
       ctx!.moveTo(p.x, p.y);
       ctx!.lineTo(nx, ny);
@@ -74,9 +74,9 @@ export function initGust(cv: HTMLCanvasElement, opt: GustOptions = {}): () => vo
     if (opt.nodes && W > 900) {
       for (const [qx, qy] of opt.nodes) {
         const x = qx * W, y = qy * H;
-        ctx!.fillStyle = "rgba(201,168,106,.9)";
+        ctx!.fillStyle = "rgba(90,139,230,.9)";
         ctx!.fillRect(x - 2, y - 2, 4, 4);
-        ctx!.strokeStyle = "rgba(201,168,106,.35)";
+        ctx!.strokeStyle = "rgba(90,139,230,.35)";
         ctx!.strokeRect(x - 7, y - 7, 14, 14);
       }
     }
