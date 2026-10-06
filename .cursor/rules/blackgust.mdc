@@ -1,0 +1,43 @@
+---
+description: BlackGust website — stack, conventions and guardrails
+alwaysApply: true
+---
+
+# BlackGust web (blackgust.uz)
+
+Next.js 16 App Router + TypeScript, next-intl 4, GSAP + ScrollTrigger, Lenis. No Tailwind: one hand-written design system in `src/app/globals.css`.
+
+## Read first
+- Next.js 16 differs from older versions. Middleware is now `src/proxy.ts`. Check `node_modules/next/dist/docs/` before using an API you are unsure about.
+- `params` in pages/layouts is a Promise: `const { locale } = await params`.
+
+## Content & i18n
+- ALL user-facing text lives in `src/messages/{uz,ru,en,kk,zh}.json`. `en.json` is the source of truth for keys; `uz` is the default locale.
+- Never hardcode copy in components. Add the key to `en.json` and to every other locale, then run `npm run i18n:check` (must pass; it checks keys, array lengths, `{placeholders}` and link targets).
+- Strings support inline markdown via `<Md>`: `[text](/path)`, `**bold**`, `*em*`. Internal links start with `/` and are locale-aware automatically.
+- Prices are never written in messages. Use `{foundation}`, `{enterprise}`, `{sovereign}`, `{diagnostic}`, `{strategy}`, `{architecture}`, `{academy}`, `{advisory}`; values come from `src/config/site.ts` (USD everywhere) and are formatted by `src/lib/format.ts`.
+- Headlines go through `<Split text=… />` so the GSAP word reveal works. `*word*` inside a headline renders as the brass italic accent.
+- Load page content on the server with `content(locale, "namespace")` from `src/lib/content.ts`.
+
+## Contacts, prices, partner links
+- Single source: `src/config/site.ts` (email, WhatsApp, phones, address, prices, parent company AISolution).
+
+## Motion
+- Global smooth scroll + header in `src/components/MotionRoot.tsx`.
+- Page choreography in `src/lib/motion/page.ts`, started by `<PageMotion />` which MUST be the last element of every page (it runs after hydration; touching page DOM earlier breaks hydration).
+- The live model on the home page: `src/lib/motion/flow.ts` (canvas engine, pure function of scroll progress + time) and `src/components/FlowViz.tsx` (markup + ScrollTrigger).
+- Globe hero: `src/lib/motion/globe.ts` via `<GlobeCanvas/>`. Intro (once per session) and the page shutter are pure CSS; everything is disabled under `prefers-reduced-motion`.
+- Content must be fully visible without JS and with `prefers-reduced-motion`. Only elements below the fold may be pre-hidden.
+- Number formatting rendered on the server must be identical on the client (Intl differs between Node and browsers): always pass explicit `minimumFractionDigits`/`maximumFractionDigits`, and format through `numberTag(locale)` (uz/kk ICU data is missing in some browsers).
+
+## SEO
+- Every page exports `generateMetadata` via `pageMetadata(locale, key, path)` — canonical + hreflang for all locales + OG.
+- `/aisolution` is the parent-company page with a dofollow link to https://aisolution.uz (entity SEO). Keep it, and keep the footer "built by AISolution" line.
+- JSON-LD: Organization + WebSite in the layout, FAQPage on /faq, ProfessionalService on /contact.
+
+## Forms
+- `src/app/api/lead/route.ts`: origin check, honeypot, min completion time, per-IP rate limit, duplicate suppression, optional Turnstile, delivery to Telegram and/or Resend. Never log personal data.
+
+## Brand
+- Colors are tokens in `:root` of globals.css. Brass (`--brass`) is the only accent; keep it under ~10% of any screen. Warning is orange (`--warn`), never brass.
+- Fonts: Spectral (display), IBM Plex Sans (body), IBM Plex Mono (labels) — self-hosted via @fontsource, no requests to Google.

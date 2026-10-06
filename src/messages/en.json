@@ -1,0 +1,2146 @@
+{
+  "meta": {
+    "siteName": "BlackGust",
+    "default": {
+      "title": "BlackGust by AISolution — operational intelligence for government and enterprise",
+      "description": "BlackGust by AISolution: an enterprise AI platform built in Uzbekistan to an international standard. One model of the organization, AI agents on top, every deviation visible. For government bodies and large companies in Uzbekistan and Asia."
+    },
+    "home": {
+      "title": "BlackGust by AISolution — operational intelligence for government and enterprise",
+      "description": "An enterprise AI platform from AISolution, built in Uzbekistan to an international standard: one model of the organization, AI agents, every deviation visible. Sovereign deployment, Uzbek and Russian language."
+    },
+    "platform": {
+      "title": "Platform — BlackGust",
+      "description": "BlackGust platform architecture: connectors, a unified organization model, AI agents, interfaces and governance. Cloud, on-premises or air-gapped."
+    },
+    "approach": {
+      "title": "Approach — BlackGust",
+      "description": "How BlackGust delivers AI: forward-deployed engineers, diagnostic, pilot, integration and scale. Timelines, roles and what we need from you."
+    },
+    "solutions": {
+      "title": "Solutions — BlackGust",
+      "description": "AI use cases by function and industry: leadership, finance, operations, contact centers, legal, HR, IT; government, manufacturing, construction, finance, retail, transport."
+    },
+    "government": {
+      "title": "Government — BlackGust",
+      "description": "AI for government agencies: data residency, air-gapped deployment, multilingual interfaces, transparent procurement and phase-by-phase acceptance."
+    },
+    "security": {
+      "title": "Security — BlackGust",
+      "description": "The BlackGust security model: where data lives, who can access it, how AI agents are constrained, audit logging and data residency."
+    },
+    "pricing": {
+      "title": "Pricing — BlackGust",
+      "description": "Turnkey development from {foundation}, {enterprise} and {sovereign}. Strategic consulting from {diagnostic}. Prices in USD, payment in UZS at the Central Bank rate."
+    },
+    "company": {
+      "title": "Company — BlackGust",
+      "description": "BlackGust is the enterprise platform of AISolution, an AI integrator from Tashkent working across Uzbekistan and Asia. Team, leadership, principles, careers."
+    },
+    "faq": {
+      "title": "FAQ — BlackGust",
+      "description": "Answers for CEOs, CFOs, IT, security teams, department heads and government buyers about delivering AI with BlackGust."
+    },
+    "contact": {
+      "title": "Contact — BlackGust",
+      "description": "Contact BlackGust: email, WhatsApp, phone and our headquarters in Tashkent. Request a free consultation or a diagnostic."
+    },
+    "aisolution": {
+      "title": "AISolution — the company behind BlackGust",
+      "description": "BlackGust is AISolution's platform for government and large enterprise. AISolution is an AI integrator from Tashkent and an OpenAI Select Partner."
+    },
+    "notFound": {
+      "title": "Page not found — BlackGust",
+      "description": "The page you are looking for does not exist."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "platform": "Platform",
+    "approach": "Approach",
+    "solutions": "Solutions",
+    "government": "Government",
+    "security": "Security",
+    "pricing": "Pricing",
+    "company": "Company",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "aisolution": "AISolution"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "cta": "Request a strategy session",
+    "menu": "Menu",
+    "close": "Close",
+    "youAreHere": "You are here",
+    "language": "Language",
+    "mainMenu": "Main menu",
+    "mobileMenu": "Mobile menu",
+    "breadcrumbHome": "BlackGust",
+    "copy": "Copy",
+    "copied": "Copied",
+    "example": "Example · illustrative data",
+    "notFoundTitle": "This page doesn't exist",
+    "notFoundText": "The link may be outdated. Start from the home page or get in touch.",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "tagline": "Operational intelligence for governments and large enterprises. A platform, and the engineers who embed it in how an organization works.",
+    "platformH": "Platform",
+    "workH": "Work with us",
+    "companyH": "Company",
+    "contactH": "Contact",
+    "architecture": "Architecture",
+    "modules": "Modules",
+    "deployment": "Deployment",
+    "security": "Security",
+    "approach": "Approach & phases",
+    "solutions": "Solutions by role",
+    "government": "Government",
+    "pricing": "Pricing",
+    "about": "About",
+    "careers": "Careers & bootcamp",
+    "faq": "FAQ",
+    "aisolution": "AISolution",
+    "legal": "© {year} BlackGust by AISolution. Tashkent, Uzbekistan.",
+    "hours": "Mon–Sat 9:00–19:00 GMT+5",
+    "built": "BlackGust is the enterprise platform of [AISolution](https://aisolution.uz), an AI integrator from Tashkent. Built in Uzbekistan to an international standard."
+  },
+  "split": {
+    "platformTag": "The platform",
+    "engineersTag": "Forward-deployed engineers"
+  },
+  "home": {
+    "hero": {
+      "badge": "By AISolution · Tashkent → Asia → world",
+      "title": "An organization that *sees* itself whole and decides faster",
+      "lede": "BlackGust connects the systems you already run — ERP, accounting, CRM, documents, citizen requests, cameras — into one model of your organization and puts AI agents to work on it. Every deviation, however small, surfaces before it becomes a problem. Built in Uzbekistan by AISolution to an international standard, for government bodies and the largest companies of the region.",
+      "cta2": "How the platform works",
+      "meta": [
+        [
+          "Deployment",
+          "Data center in Uzbekistan · on-prem · air-gapped"
+        ],
+        [
+          "Languages",
+          "O‘zbekcha · Русский · English · Қазақша · 中文"
+        ],
+        [
+          "Engagement",
+          "Turnkey, from {foundation}"
+        ]
+      ]
+    },
+    "marquee": [
+      "ERP · SAP · Oracle · Dynamics",
+      "CRM · Salesforce · HubSpot",
+      "Databases · PostgreSQL · Oracle · MS SQL",
+      "Data warehouses · Snowflake · BigQuery",
+      "Streaming · Kafka",
+      "Identity · Active Directory · SAML · OIDC",
+      "Security · SIEM · RBAC · audit",
+      "Frontier models · OpenAI · Anthropic",
+      "Local models · Llama · Qwen · Mistral",
+      "Infrastructure · Kubernetes · on-prem GPU · air-gapped",
+      "Documents · ECM · OCR",
+      "Contact center · VoIP · speech",
+      "Collaboration · Teams · Slack",
+      "Vision · CCTV"
+    ],
+    "problem": {
+      "label": "The problem",
+      "title": "The data exists. The picture doesn't. Decisions arrive late.",
+      "text": "In a large organization, information lives in a dozen systems and hundreds of spreadsheets. Answering one simple question from leadership takes analysts a week of stitching exports together. By the time a decision is made, the numbers are already stale.",
+      "cells": [
+        {
+          "k": "Fragmentation",
+          "h": "Every department, its own system",
+          "p": "Sales in the CRM, finance in the ERP, inventory in Excel, requests in messengers and on paper. Nothing is connected."
+        },
+        {
+          "k": "Speed",
+          "h": "A report is a project",
+          "p": "Consolidated reports are assembled by hand over days. Copy-paste errors go unnoticed, and decisions run on yesterday's data."
+        },
+        {
+          "k": "Busywork",
+          "h": "Skilled people moving data around",
+          "p": "Qualified staff spend hours on reconciliations, emails, data entry and answering the same questions."
+        },
+        {
+          "k": "Stalled pilots",
+          "h": "AI was tried and didn't stick",
+          "p": "A chatbot with no access to real data and processes changes nothing. Three months later, nobody uses it."
+        }
+      ]
+    },
+    "what": {
+      "label": "What BlackGust is",
+      "title": "A platform and engineers. Neither works without the other.",
+      "text": "We don't sell a license and walk away. Our engineers come on site, learn your processes, connect your systems and stay until the solution is part of daily work. The platform stays with you and grows with the organization.",
+      "platform": {
+        "title": "One model of your organization, with AI agents working on it",
+        "items": [
+          "Connectors to your systems, without replacing them",
+          "An object model: customers, contracts, requests, assets, people, and how they relate",
+          "Frontier models from OpenAI and Anthropic, or local models trained on your data inside your perimeter",
+          "AI agents that act only within the permissions they are given",
+          "Every action logged, with human approval wherever it matters"
+        ],
+        "cta": "Platform architecture"
+      },
+      "engineers": {
+        "title": "An on-site team accountable for outcomes, not hours",
+        "items": [
+          "Engineers work inside your processes, next to your teams",
+          "Diagnostic first: where AI pays off measurably, and where it doesn't",
+          "A pilot on one process, with before-and-after numbers",
+          "Training for your staff and a real handover of knowledge",
+          "Support and development after launch"
+        ],
+        "cta": "How we work"
+      }
+    },
+    "how": {
+      "label": "How it works",
+      "title": "From scattered systems to a decision in four steps",
+      "text": "Scroll to watch an organization's data turn into an answer for leadership and an action by an agent.",
+      "steps": [
+        {
+          "tag": "Step 1 · Sources",
+          "title": "Connect what you already have",
+          "text": "ERP, accounting, CRM, spreadsheets, email, scanned documents, telephony, cameras. Systems stay where they are, with read-only access by default."
+        },
+        {
+          "tag": "Step 2 · Organization model",
+          "title": "Link the data into one picture",
+          "text": "Counterparty, contract, invoice, payment and owner become connected objects. Numbers from different departments stop contradicting each other."
+        },
+        {
+          "tag": "Step 3 · Agents",
+          "title": "Put agents on the processes",
+          "text": "Each agent gets a role, access to the right part of the model and a list of permitted actions. Anything significant goes to a person for approval."
+        },
+        {
+          "tag": "Step 4 · Decision",
+          "title": "Answers with sources, actions under control",
+          "text": "Leadership gets an answer in seconds, linked to the source documents. The agent prepares the next step and waits for sign-off."
+        }
+      ]
+    },
+    "console": {
+      "label": "Executive — the first module",
+      "title": "Ask in plain language. Get numbers with sources.",
+      "text": "Leaders ask the way they would ask a deputy. The system finds the data across every connected source, consolidates it, and shows where each number came from. Access follows the user's permissions: everyone sees only what they're entitled to.",
+      "items": [
+        "An answer in seconds instead of a report in a week",
+        "A link to the source document behind every figure",
+        "By voice or chat, in the user's language"
+      ]
+    },
+    "roles": {
+      "label": "Who it's for",
+      "title": "Everyone in the organization gets something different",
+      "text": "What changes for each role. Detailed answers to every role's questions are in the [FAQ](/faq).",
+      "tabs": [
+        {
+          "tab": "Founder & CEO",
+          "quote": "I want to see what's happening in the company without waiting for reports, and know where we're losing money.",
+          "qa": [
+            [
+              "What you get",
+              "A console where you can ask about any metric and see the number with its source right away. A daily digest of deviations: what moved, by how much, and who owns it."
+            ],
+            [
+              "Investment",
+              "Start with a free strategy session with our leadership. A diagnostic costs from {diagnostic} and is credited toward development. Turnkey development starts at {foundation}. Details on the [pricing](/pricing) page."
+            ],
+            [
+              "Time to impact",
+              "An opportunity map with estimated impact in 3–4 weeks. A working pilot on one process in 6–10 weeks."
+            ],
+            [
+              "What you risk",
+              "The cost of the diagnostic. If we don't find processes where the investment pays back, we say so and stop there."
+            ]
+          ]
+        },
+        {
+          "tab": "CFO",
+          "quote": "Show me how you'll measure the impact before I sign off on the budget.",
+          "qa": [
+            [
+              "How impact is measured",
+              "During the diagnostic we record a baseline: hours per process, cycle time, error rates, losses. The pilot measures the same metrics. The comparison is part of the report."
+            ],
+            [
+              "Commercial model",
+              "A fixed-price turnkey contract with milestone acceptance, preceded by a paid diagnostic. Support and evolution under a separate annual contract. Payment in UZS at the Central Bank rate."
+            ],
+            [
+              "Hidden costs",
+              "AI model and infrastructure costs are estimated as a separate line during the diagnostic. No surprises after launch."
+            ],
+            [
+              "For finance teams",
+              "Reconciliations, receivables control, consolidated reporting from ERP and accounting, checking source documents."
+            ]
+          ]
+        },
+        {
+          "tab": "CIO / IT",
+          "quote": "Don't touch my systems, don't move data outside, and don't leave me with another unsupported toy.",
+          "qa": [
+            [
+              "Replacing systems",
+              "Not required. We connect to existing systems through APIs, database replicas or exports. Read-only by default."
+            ],
+            [
+              "Where it runs",
+              "In our cloud, in your private cloud, on your servers, or in a fully air-gapped environment with local models."
+            ],
+            [
+              "Who supports it",
+              "We do, under an SLA. Meanwhile we train your engineers and hand over documentation and configuration access."
+            ],
+            [
+              "More detail",
+              "[Architecture](/platform) and [security](/security)."
+            ]
+          ]
+        },
+        {
+          "tab": "Department head",
+          "quote": "My team is already stretched. How much of their time will this take, and will it replace them?",
+          "qa": [
+            [
+              "Team time",
+              "The process owner spends 2–4 hours a week during the pilot. Other staff join interviews and testing, 1–2 hours each."
+            ],
+            [
+              "Replacing people",
+              "The goal is to remove routine: reconciliations, data entry, repetitive answers. Decisions and approvals stay with people."
+            ],
+            [
+              "Training",
+              "We train staff on their real tasks, in their language, with a short guide for each role."
+            ],
+            [
+              "What the team gets",
+              "An agent that drafts documents, answers routine requests, tracks deadlines and flags risks."
+            ]
+          ]
+        },
+        {
+          "tab": "Government",
+          "quote": "Citizens' data cannot leave the country. We need transparent procurement and clear accountability.",
+          "qa": [
+            [
+              "Data residency",
+              "Data stays in Uzbekistan, on infrastructure inside the country or on your own servers, in line with the Law on Personal Data."
+            ],
+            [
+              "Air-gapped",
+              "The platform can run with no internet access, on local language models."
+            ],
+            [
+              "Procurement",
+              "We work through tenders, direct contracts where permitted, and pilots. We provide specifications, documentation and phase-by-phase reporting."
+            ],
+            [
+              "More detail",
+              "[Government page](/government)."
+            ]
+          ]
+        }
+      ]
+    },
+    "sectors": {
+      "label": "Industries",
+      "title": "Where we work",
+      "text": "The problems look alike across industries: lots of data, lots of approvals, too little time. What differs is the systems and the regulation, and we account for both in the diagnostic.",
+      "more": "Learn more",
+      "cells": [
+        {
+          "k": "Government",
+          "h": "Ministries, municipalities, state enterprises",
+          "p": "Citizen requests, document workflows, tracking of directives, analytics for leadership.",
+          "href": "/government"
+        },
+        {
+          "k": "Manufacturing",
+          "h": "Plants and industrial groups",
+          "p": "Plan vs. actual, procurement, quality, video analytics on the shop floor.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Construction",
+          "h": "Developers and contractors",
+          "p": "Project and schedule control, estimates, tender documentation, a corporate knowledge base.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Financial services",
+          "h": "Banks and insurers",
+          "p": "Voice and text agents in mobile apps, document checks, transaction monitoring.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Retail & distribution",
+          "h": "Chains and distributors",
+          "p": "Receivables, inventory, loyalty programs, regional sales and marketing analytics.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Transport & logistics",
+          "h": "Carriers and infrastructure",
+          "p": "Passenger flows, capacity, asset maintenance, passenger requests.",
+          "href": "/solutions#industries"
+        }
+      ]
+    },
+    "process": {
+      "label": "Engagement path",
+      "title": "Four phases. You can stop after any of them.",
+      "text": "Each phase ends with a result you keep and a formal acceptance. The whole path is fixed in one turnkey contract.",
+      "outcome": "Outcome",
+      "phases": [
+        {
+          "dur": "3–4 weeks",
+          "title": "Diagnostic",
+          "text": "Interviews, a systems and data audit, impact estimates.",
+          "out": "An opportunity map and a costed development plan"
+        },
+        {
+          "dur": "6–10 weeks",
+          "title": "Pilot",
+          "text": "The first process on real data, with real users.",
+          "out": "A working solution and before/after numbers"
+        },
+        {
+          "dur": "3–9 months",
+          "title": "Integration",
+          "text": "Systems connected, access rights set, staff trained.",
+          "out": "The solution in the daily work of departments"
+        },
+        {
+          "dur": "Ongoing",
+          "title": "Scale",
+          "text": "New processes and modules on the same data model.",
+          "out": "An organization run on its data"
+        }
+      ],
+      "cta": "More on each phase"
+    },
+    "facts": {
+      "label": "By the numbers",
+      "title": "A team, not a reseller",
+      "text": "Our own engineers, our own platform, and contractual accountability for results.",
+      "items": [
+        [
+          "25",
+          "specialists: engineers, analysts and project leads"
+        ],
+        [
+          "6",
+          "projects delivered since the start of 2026"
+        ],
+        [
+          "50",
+          "engineers we plan to train by the end of 2026 through our own bootcamp"
+        ],
+        [
+          "<1 h",
+          "response time from a consultant during business hours. Our AI assistant answers around the clock"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Security",
+      "title": "Your data stays yours",
+      "text": "We design every solution the way your security team will review it. Details are on the security page.",
+      "cta": "Security model",
+      "items": [
+        "Your data is never used to train third-party models",
+        "Stored in your jurisdiction or on your own servers",
+        "Role-based access: an agent sees only what its user may see",
+        "Every query and agent action is logged",
+        "Human approval for significant actions",
+        "NDA signed before the diagnostic begins"
+      ]
+    },
+    "band": {
+      "title": "Start with a strategy session with our leadership.",
+      "text": "Two hours, free and under NDA. Then a diagnostic from {diagnostic}, credited toward development.",
+      "cta1": "Request a session",
+      "cta2": "FAQ"
+    },
+    "signals": {
+      "label": "Every detail",
+      "title": "Nothing that happens in the company goes unnoticed",
+      "text": "The model watches every process continuously. A payment that slipped by three days, a contract signed outside the approval route, a branch whose margin is quietly sliding: each one becomes a signal with an owner, before it turns into a loss. That is what lets an organization grow without losing control.",
+      "feedTitle": "Signal feed",
+      "feedNote": "Example · illustrative data",
+      "headers": [
+        "Time",
+        "Source",
+        "Signal",
+        "Owner",
+        "Level"
+      ],
+      "rows": [
+        [
+          "09:12",
+          "ERP",
+          "Supplier payment overdue by 3 days, penalty clause applies from day 5",
+          "Treasury",
+          "c"
+        ],
+        [
+          "09:40",
+          "Contracts",
+          "Contract signed without legal review, amount above threshold",
+          "Legal",
+          "c"
+        ],
+        [
+          "10:05",
+          "BI",
+          "Fergana branch gross margin down 2.1 pts over 3 weeks",
+          "Regional director",
+          "w"
+        ],
+        [
+          "11:30",
+          "Warehouse",
+          "Stock count differs from ledger by 14 units, SKU 40-118",
+          "Warehouse 2",
+          "w"
+        ],
+        [
+          "12:15",
+          "Requests",
+          "12 requests unanswered for more than 48 hours",
+          "Service desk",
+          "w"
+        ],
+        [
+          "13:02",
+          "HR",
+          "Three resignations in one team within a month",
+          "HR director",
+          "o"
+        ]
+      ],
+      "scaleTitle": "Built to scale with you",
+      "scale": [
+        "New branches, entities and systems plug into the same model",
+        "Every new process reuses what is already connected",
+        "Leadership keeps one picture as the organization grows ten-fold"
+      ]
+    },
+    "parent": {
+      "label": "BlackGust by AISolution",
+      "title": "An Uzbek company building at an international level",
+      "text": "BlackGust is the enterprise platform of AISolution. AISolution has worked with companies and public bodies in Uzbekistan since day one; BlackGust is how we serve the most demanding of them: government, national companies and large holdings across Uzbekistan and Asia.",
+      "items": [
+        "The same team, platform and accountability",
+        "OpenAI Select Partner (AISolution)",
+        "Delivery in Uzbek, Russian and English"
+      ],
+      "cta": "About AISolution",
+      "ext": "aisolution.uz"
+    }
+  },
+  "viz": {
+    "aria": "Live diagram: eight organizational systems feed a single model, three AI agents work on it, and the result is a sourced answer for leadership",
+    "hud": "BlackGust · organization model",
+    "sources": "Sources",
+    "objects": "Objects",
+    "links": "Links",
+    "agentsLabel": "Agents",
+    "titles": [
+      "Sources",
+      "Organization model",
+      "Agents",
+      "Decision"
+    ],
+    "captions": [
+      "8 systems · 0 links between them",
+      "Data is linked into one model",
+      "3 agents working on the model",
+      "Answer with sources · action awaits approval"
+    ],
+    "entities": [
+      "Counterparty",
+      "Contract",
+      "Invoice",
+      "Payment",
+      "Employee",
+      "Warehouse"
+    ],
+    "agents": [
+      "Analyst",
+      "Deadline monitor",
+      "Records clerk"
+    ],
+    "cards": {
+      "erp": "ERP · Ledger",
+      "erpRows": [
+        "Reconciliation",
+        "Acct 62.01",
+        "Payment 4471"
+      ],
+      "crm": "CRM",
+      "crmCols": [
+        "Lead",
+        "Proposal",
+        "Won"
+      ],
+      "excel": "Excel · plan.xlsx",
+      "tg": "Chat · Teams",
+      "tgMsgs": [
+        "Where's the Samarkand statement?",
+        "Sent it yesterday",
+        "It's not in the ERP"
+      ],
+      "cam": "Camera · Warehouse 2",
+      "camNote": "2 people · zone B",
+      "scan": "Scan · PDF",
+      "scanTitle": "CONTRACT No. 118/26",
+      "phone": "Telephony",
+      "mail": "Email",
+      "mailRows": [
+        [
+          "Supplier",
+          "Invoice 0412"
+        ],
+        [
+          "Branch",
+          "September report"
+        ],
+        [
+          "Bank",
+          "Statement 30.09"
+        ]
+      ]
+    },
+    "answer": {
+      "head": "Answer · 0.8 s · 3 sources",
+      "sev": "Up 19%",
+      "sub": "in overdue receivables",
+      "src": "ERP · CRM · Contract registry",
+      "act": "14 letters awaiting approval"
+    },
+    "branches": [
+      "Samarkand",
+      "Fergana",
+      "Bukhara",
+      "Namangan"
+    ]
+  },
+  "console": {
+    "title": "BlackGust · Executive",
+    "queryLabel": "Query",
+    "agentLabel": "Agent",
+    "query": "Which receivables are more than 30 days overdue across regional branches, and who owns them?",
+    "answer": "**{total}** is overdue across 41 counterparties. 68% sits in two branches. Samarkand is up 19% month over month.",
+    "headers": [
+      "Branch",
+      "Overdue",
+      "Counterparties",
+      "Owner",
+      "Status"
+    ],
+    "rows": [
+      [
+        "Samarkand",
+        "14",
+        "Sales — South",
+        "Up 19%",
+        "c"
+      ],
+      [
+        "Fergana",
+        "11",
+        "Sales — East",
+        "Flat",
+        "w"
+      ],
+      [
+        "Bukhara",
+        "9",
+        "Sales — West",
+        "Down 7%",
+        "o"
+      ],
+      [
+        "Namangan",
+        "7",
+        "Sales — East",
+        "Flat",
+        "w"
+      ]
+    ],
+    "sources": [
+      "ERP · reconciliation statement",
+      "CRM · deals",
+      "Contract registry"
+    ],
+    "agent": "Draft reminder letters to the 14 Samarkand counterparties and send them to the department head for approval?"
+  },
+  "platform": {
+    "crumb": "Platform",
+    "title": "Five layers between your data and a decision",
+    "lede": "The platform doesn't replace your systems. It connects to them, builds a shared model of the organization and gives AI agents safe access to it. Every layer can be inspected, configured and deployed wherever your security policy requires.",
+    "arch": {
+      "label": "Architecture",
+      "title": "How it's built",
+      "text": "Bottom to top: from data sources to the people making decisions. The governance layer runs through every level."
+    },
+    "layers": [
+      {
+        "tag": "05 · Interfaces",
+        "h": "Where people work",
+        "p": "Executive console, web app, corporate chat, voice, and embedding into your own systems.",
+        "chips": [
+          "Executive",
+          "Web",
+          "Teams · Slack",
+          "Voice",
+          "API"
+        ]
+      },
+      {
+        "tag": "04 · Agents",
+        "h": "Who does the work",
+        "p": "AI agents with a role, instructions and a set of permitted actions: find, calculate, draft, send for approval.",
+        "chips": [
+          "Analyst",
+          "Records clerk",
+          "Deadline monitor",
+          "Request handler"
+        ],
+        "hl": true
+      },
+      {
+        "tag": "03 · Organization model",
+        "h": "What connects to what",
+        "p": "Objects and relationships: counterparty → contract → invoice → payment → owner. One source of truth for every department.",
+        "chips": [
+          "Objects",
+          "Relationships",
+          "Metrics",
+          "Vector search"
+        ]
+      },
+      {
+        "tag": "02 · Connectors",
+        "h": "How data gets in",
+        "p": "APIs, database replicas, exports and document processing. Synced on a schedule or in real time.",
+        "chips": [
+          "API",
+          "CDC",
+          "ETL",
+          "OCR",
+          "STT"
+        ]
+      },
+      {
+        "tag": "01 · Sources",
+        "h": "Your systems, unchanged",
+        "p": "ERP and accounting, CRM, databases and data warehouses, documents, email, telephony, corporate chat, cameras.",
+        "chips": [
+          "SAP",
+          "Oracle",
+          "Dynamics",
+          "Salesforce",
+          "PostgreSQL",
+          "Snowflake",
+          "MS SQL",
+          "Excel"
+        ]
+      },
+      {
+        "tag": "⟂ Governance",
+        "h": "The cross-cutting layer",
+        "p": "Access rights, audit log, human approval, limits, masking of personal data.",
+        "chips": [
+          "RBAC",
+          "Audit",
+          "Human-in-the-loop",
+          "PII masking"
+        ],
+        "dashed": true
+      }
+    ],
+    "modules": {
+      "label": "Modules",
+      "title": "Modules on one data model",
+      "text": "We start with one module aimed at the most expensive problem. Later modules plug into the model that's already built, so each one ships faster than the last.",
+      "cells": [
+        {
+          "k": "First module",
+          "h": "Executive",
+          "p": "A leadership console: plain-language questions, a daily digest of deviations, tracking of directives, answers linked to their sources."
+        },
+        {
+          "k": "Operations",
+          "h": "Operations",
+          "p": "Agents for routine processes: reconciliations, requests, deadline tracking, drafting letters and reports, task routing."
+        },
+        {
+          "k": "Documents",
+          "h": "Documents",
+          "p": "Reading scans and PDFs, extracting key fields, checking contracts against a checklist, searching the archive."
+        },
+        {
+          "k": "Knowledge",
+          "h": "Knowledge",
+          "p": "A corporate knowledge base of policies, procedures and regulations. Staff get answers quoted from the source document."
+        },
+        {
+          "k": "Voice",
+          "h": "Voice",
+          "p": "Speech recognition and synthesis in several languages, including Uzbek. Voice agents for contact centers, hotlines and mobile apps."
+        },
+        {
+          "k": "Vision",
+          "h": "Vision",
+          "p": "Video analytics on your existing cameras: people counting, zone occupancy, process and safety monitoring."
+        }
+      ]
+    },
+    "agents": {
+      "label": "Agents",
+      "title": "An agent is an employee with instructions and limits",
+      "text": "An agent isn't a smart chat. It has a role, access to specific data, a list of permitted actions and rules for when to ask a human.",
+      "consoleTitle": "Agent · Contract review",
+      "consoleNote": "Configuration",
+      "config": [
+        [
+          "role",
+          "review incoming supply contracts"
+        ],
+        [
+          "reads",
+          "contract registry, counterparty directory, ERP"
+        ],
+        [
+          "can",
+          "extract terms · check against checklist · raise a comment"
+        ],
+        [
+          "cannot",
+          "sign · change amounts · write to external systems"
+        ],
+        [
+          "asks a human when",
+          "amount > {threshold} · new counterparty · deviation from template"
+        ],
+        [
+          "log",
+          "every step with source and timestamp"
+        ]
+      ],
+      "items": [
+        "An agent's rights never exceed those of the user it acts for",
+        "Actions that change data go through approval",
+        "Every answer links to a document or record",
+        "When data is insufficient, the agent says so rather than inventing an answer",
+        "Quality is checked against a reference question set before every update"
+      ]
+    },
+    "deploy": {
+      "label": "Deployment",
+      "title": "Four ways to deploy",
+      "text": "The choice depends on data sensitivity, regulatory requirements and your IT policy. Platform functionality is the same in every option; what differs is which language models are available.",
+      "headers": [
+        "Option",
+        "Where the data lives",
+        "AI models",
+        "Best for",
+        "Time to deploy"
+      ],
+      "rows": [
+        [
+          "BlackGust Cloud",
+          "Data center in Uzbekistan",
+          "Cloud and local",
+          "Companies that want a fast start",
+          "Days"
+        ],
+        [
+          "Private cloud",
+          "Your cloud account",
+          "Cloud and local",
+          "Companies with a cloud policy",
+          "1–2 weeks"
+        ],
+        [
+          "On-premises",
+          "Your servers",
+          "Local; cloud by agreement",
+          "Banks, large holdings",
+          "2–4 weeks"
+        ],
+        [
+          "Air-gapped",
+          "Isolated network with no internet",
+          "Local only",
+          "Government, critical infrastructure",
+          "4–8 weeks"
+        ]
+      ],
+      "note": "Timelines cover platform deployment and depend on the client's infrastructure readiness."
+    },
+    "models": {
+      "label": "AI models",
+      "title": "Frontier intelligence or sovereign models. Your choice.",
+      "text": "The platform is model-agnostic. Choose frontier models through enterprise APIs, run open models trained on your own data inside your perimeter, or combine both. A model can be swapped without rebuilding the solution.",
+      "options": [
+        {
+          "k": "Frontier",
+          "h": "OpenAI, Anthropic and other leading models",
+          "p": "Through enterprise APIs whose terms exclude training on your data. The strongest reasoning for analysis, documents and agents.",
+          "items": [
+            "Fastest to start",
+            "Best general reasoning",
+            "Data masked before it leaves"
+          ]
+        },
+        {
+          "k": "Sovereign",
+          "h": "Local models trained on your data",
+          "p": "Open models deployed on your servers or in an air-gapped network, fine-tuned on your documents, terminology and processes. Nothing leaves your perimeter.",
+          "items": [
+            "Fine-tuning on your corpus",
+            "Our own security architecture",
+            "Works with no internet access"
+          ],
+          "hl": true
+        },
+        {
+          "k": "Hybrid",
+          "h": "The right model for each task",
+          "p": "Routing sends sensitive or routine work to local models and hard reasoning to frontier models, within the rules your security team sets.",
+          "items": [
+            "Policy-based routing",
+            "Cost control per request",
+            "Full audit of every call"
+          ]
+        }
+      ]
+    },
+    "it": {
+      "label": "For IT teams",
+      "title": "Technical overview",
+      "text": "A short brief for architects and CIOs. Full technical documentation is available under NDA.",
+      "qa": [
+        [
+          "Source access",
+          "Read-only by default. Writes happen only through explicitly permitted, approved actions."
+        ],
+        [
+          "Integrations",
+          "REST/GraphQL APIs; direct connections to PostgreSQL, Oracle and MS SQL replicas; Snowflake and BigQuery; Kafka streams; SAP, Dynamics, Salesforce and 1C connectors; file exports; IMAP email; webhooks."
+        ],
+        [
+          "Authentication",
+          "Single sign-on via LDAP / Active Directory, SAML or OIDC. Roles are inherited from your directory."
+        ],
+        [
+          "Deployment",
+          "Containers on Kubernetes, or Docker Compose for small environments. Infrastructure as code."
+        ],
+        [
+          "Observability",
+          "Metrics, logs and tracing of agent requests. Export to your SIEM."
+        ],
+        [
+          "Backup",
+          "Scheduled backups and recovery to the RPO/RTO agreed in the contract."
+        ],
+        [
+          "Platform API",
+          "Your systems can call agents and receive results through the API."
+        ]
+      ]
+    },
+    "band": {
+      "title": "See the platform on your own scenarios",
+      "text": "A demo takes about an hour. Bring your IT and security leads.",
+      "cta1": "Request a demo",
+      "cta2": "Security"
+    }
+  },
+  "approach": {
+    "crumb": "Approach",
+    "title": "Engineers on your floor, not in your inbox",
+    "lede": "Most AI projects fail not because of the technology but because the vendor never understood the process. So our engineers go on site, sit next to your teams and own the outcome: a solution people use every day.",
+    "fde": {
+      "label": "Forward-deployed engineers",
+      "title": "One person accountable end to end",
+      "text": "Every engagement has a lead engineer. They run the diagnostic, build the pilot and stay through launch. You never have to re-explain the problem to three different teams.",
+      "cells": [
+        {
+          "k": "Understands the process",
+          "h": "Starts with people, not code",
+          "p": "Interviews the people doing the work, watches how it actually gets done, and finds where time is lost."
+        },
+        {
+          "k": "Builds it",
+          "h": "An engineer, not an account manager",
+          "p": "Connects systems, configures agents, writes integrations. Decisions get made on the spot, without a chain of sign-offs."
+        },
+        {
+          "k": "Transfers knowledge",
+          "h": "Your team learns alongside",
+          "p": "By the end, your staff can change agent instructions and add new scenarios themselves."
+        }
+      ]
+    },
+    "phases": {
+      "label": "Phases",
+      "title": "What happens in each phase",
+      "text": "Timelines are typical for a mid-sized engagement. The dated plan is fixed at the end of the diagnostic.",
+      "youGet": "You get",
+      "items": [
+        {
+          "dur": "3–4 weeks · from {diagnostic}",
+          "title": "Diagnostic",
+          "list": [
+            "Interviews with leadership and process owners",
+            "Audit of systems, data and data quality",
+            "Baseline metrics",
+            "3–5 candidate processes with impact estimates"
+          ],
+          "out": "An opportunity map, an ROI estimate and a development plan. The document is yours even if we go no further; its cost is credited toward development."
+        },
+        {
+          "dur": "6–10 weeks · within the development contract",
+          "title": "Pilot",
+          "list": [
+            "One process, one user group",
+            "The sources it needs, connected",
+            "Agent and interface configured",
+            "Weekly progress demos"
+          ],
+          "out": "A working solution on real data and a before/after report."
+        },
+        {
+          "dur": "3–9 months · from {foundation}",
+          "title": "Integration",
+          "list": [
+            "All required systems connected",
+            "Single sign-on and roles from your directory",
+            "Role-based staff training",
+            "Procedures and documentation"
+          ],
+          "out": "The solution in daily use, a trained team, and handover to SLA support."
+        },
+        {
+          "dur": "Ongoing · annual support contract",
+          "title": "Scale",
+          "list": [
+            "New processes and modules",
+            "The organization model keeps growing",
+            "Regular agent quality reviews",
+            "Quarterly impact report"
+          ],
+          "out": "A platform that covers more processes at a lower cost for each new one."
+        }
+      ]
+    },
+    "roles": {
+      "label": "Roles",
+      "title": "Who does what",
+      "text": "A clear split of responsibilities is what gets a project finished on time.",
+      "headers": [
+        "Task",
+        "BlackGust",
+        "Client"
+      ],
+      "rows": [
+        [
+          "Project goals and success criteria",
+          "Proposes and quantifies",
+          "Approved by the sponsor"
+        ],
+        [
+          "Process description",
+          "Runs interviews, documents",
+          "Process owner, 2–4 h per week"
+        ],
+        [
+          "Data access",
+          "Prepares requirements and schema",
+          "IT grants access, security approves"
+        ],
+        [
+          "Development and configuration",
+          "All of it",
+          "—"
+        ],
+        [
+          "Testing",
+          "Reference checks",
+          "Users test on their own tasks"
+        ],
+        [
+          "Training",
+          "Delivers",
+          "Makes staff time available"
+        ],
+        [
+          "Phase acceptance",
+          "Report and demo",
+          "Signs the acceptance certificate"
+        ]
+      ]
+    },
+    "needs": {
+      "label": "What we need from you",
+      "title": "Not much, but non-negotiable",
+      "text": "We handle the technology. The organization provides decisions and access; without them no vendor can ship a working product.",
+      "items": [
+        "An executive sponsor who makes decisions",
+        "A process owner who knows how the work really gets done",
+        "An IT contact for system access",
+        "Sign-off from your security team at the start",
+        "A pilot group of 5–20 users"
+      ]
+    },
+    "no": {
+      "label": "When we'll say no",
+      "title": "Not every process is worth automating",
+      "items": [
+        "There's no data and no way to collect it — record-keeping comes first",
+        "The process runs once a month and takes an hour — there's nothing to save",
+        "No one on the client side owns the process",
+        "AI is expected to make unsupervised decisions where mistakes are costly"
+      ]
+    },
+    "band": {
+      "title": "The first step is a conversation with an engineer",
+      "text": "The first strategy session is free. Tell us about the challenge and our leadership will tell you where to start.",
+      "cta1": "Get in touch",
+      "cta2": "Pricing"
+    }
+  },
+  "solutions": {
+    "crumb": "Solutions",
+    "title": "Specific problems, not AI adoption",
+    "lede": "These are the problems we solve most often, grouped by function and by industry. Any of them can become a pilot. If yours isn't on the list, that doesn't mean we don't solve it.",
+    "functions": {
+      "label": "By function",
+      "title": "What changes in each department",
+      "text": "For each function: typical use cases, and the metric we use to measure the result.",
+      "rows": [
+        [
+          "Leadership",
+          "Plain-language answers about the business, a daily digest of deviations, tracking of directives, meeting preparation.",
+          "Metric · time to answer"
+        ],
+        [
+          "Finance",
+          "Counterparty reconciliations, receivables control, consolidated reporting from ERP and accounting, source-document checks, plan vs. actual.",
+          "Metric · days to close"
+        ],
+        [
+          "Operations & production",
+          "Output plan vs. actual, downtime, quality control, procurement and inventory, on-site video analytics.",
+          "Metric · downtime, losses"
+        ],
+        [
+          "Sales & marketing",
+          "Lead qualification, proposal drafting, channel analytics, monitoring of sales activity in the CRM.",
+          "Metric · conversion, cycle time"
+        ],
+        [
+          "Contact center",
+          "Multilingual voice and text agents, request routing, response-time tracking, call analysis.",
+          "Metric · resolved without an operator"
+        ],
+        [
+          "Legal & records",
+          "Contract review against a checklist, regulatory search, standard document drafting, deadline control.",
+          "Metric · time per contract review"
+        ],
+        [
+          "HR",
+          "Résumé screening, policy questions from staff, onboarding, a company knowledge base.",
+          "Metric · time to hire"
+        ],
+        [
+          "IT",
+          "A single access point to data for analytics, first-line internal support, systems documentation.",
+          "Metric · first-line ticket load"
+        ]
+      ]
+    },
+    "industries": {
+      "label": "By industry",
+      "title": "Typical use cases by industry",
+      "text": "Examples of what clients bring to us. We name clients only with their consent.",
+      "more": "Government in detail",
+      "cells": [
+        {
+          "k": "Government",
+          "h": "Ministries, municipalities, state enterprises",
+          "items": [
+            "Citizen request handling and routing between agencies",
+            "Tracking of directives and deadlines",
+            "A legal AI assistant over the regulatory base",
+            "An analytics console for leadership"
+          ],
+          "href": "/government"
+        },
+        {
+          "k": "Construction & development",
+          "h": "A corporate AI platform for a holding",
+          "items": [
+            "One knowledge base for projects, estimates and procedures",
+            "Schedule and budget control per site",
+            "Tender documentation drafting",
+            "A staff assistant in corporate chat"
+          ]
+        },
+        {
+          "k": "Financial services",
+          "h": "Banks and insurers",
+          "items": [
+            "An in-app agent: payments by voice, text or a photo of a document",
+            "Customer document package checks",
+            "Analysis of requests and calls",
+            "Operation inside the bank's closed perimeter"
+          ]
+        },
+        {
+          "k": "Retail & distribution",
+          "h": "Chains, dealers, distributors",
+          "items": [
+            "Loyalty programs for partners and installers",
+            "Regional marketing and sales analytics",
+            "Receivables and inventory control",
+            "Automated dealer ordering"
+          ]
+        },
+        {
+          "k": "Manufacturing",
+          "h": "Plants and industrial groups",
+          "items": [
+            "Real-time production plan vs. actual",
+            "Video monitoring of safety compliance",
+            "Procurement and supplier analysis",
+            "A digital assistant for process engineers"
+          ]
+        },
+        {
+          "k": "Transport & infrastructure",
+          "h": "Airports, railways, logistics",
+          "items": [
+            "Video analytics of passenger flow and zone occupancy",
+            "Multilingual answers for passengers",
+            "Asset maintenance planning",
+            "Consolidated analytics for leadership"
+          ]
+        }
+      ]
+    },
+    "pilot": {
+      "label": "Choosing the first process",
+      "title": "What makes a good pilot",
+      "text": "The signs we look for during the diagnostic. The more of them a process has, the faster the pilot pays back.",
+      "cells": [
+        {
+          "k": "Frequency",
+          "h": "It happens every day",
+          "p": "Dozens or hundreds of similar operations a week."
+        },
+        {
+          "k": "Data",
+          "h": "The data already exists",
+          "p": "Even if it's spread across systems and spreadsheets."
+        },
+        {
+          "k": "Measurability",
+          "h": "It's clear how to count",
+          "p": "Hours, days, errors, money: something you can compare before and after."
+        },
+        {
+          "k": "Ownership",
+          "h": "Someone owns it",
+          "p": "A person this process frustrates, who wants it changed."
+        },
+        {
+          "k": "Risk",
+          "h": "Mistakes are recoverable",
+          "p": "The first process shouldn't be one where a single error is expensive."
+        },
+        {
+          "k": "Visibility",
+          "h": "The result shows",
+          "p": "Leadership should be able to see the pilot's impact and decide on scaling."
+        }
+      ]
+    },
+    "band": {
+      "title": "Don't see your problem here?",
+      "text": "Describe it in your request. An engineer will tell you whether it's solvable and where to start.",
+      "cta1": "Describe the problem"
+    }
+  },
+  "government": {
+    "crumb": "Government",
+    "title": "AI for government: data stays in the country, decisions stay with people",
+    "lede": "Public bodies handle huge volumes of requests, documents and directives. We help process them faster without moving data out of the jurisdiction, and without taking accountability for decisions away from officials.",
+    "principles": {
+      "label": "Principles",
+      "title": "Four conditions we won't work in the public sector without",
+      "cells": [
+        {
+          "k": "Data sovereignty",
+          "h": "Data stays in-country",
+          "p": "Citizens' personal data is stored and processed on infrastructure inside the jurisdiction, in line with local data-protection and localization law. In Uzbekistan, that is the Law on Personal Data (ZRU-547)."
+        },
+        {
+          "k": "Isolation",
+          "h": "Air-gapped",
+          "p": "The platform can be deployed in an isolated network with no internet access, running on local language models."
+        },
+        {
+          "k": "Accountability",
+          "h": "People decide",
+          "p": "AI drafts, checks and proposes. Signatures, resolutions and legally binding actions stay with the responsible official."
+        },
+        {
+          "k": "Transparency",
+          "h": "Every step on record",
+          "p": "Who asked, what the agent answered, which documents it cited, who approved the action. The log is open to audit."
+        }
+      ]
+    },
+    "cases": {
+      "label": "Use cases",
+      "title": "What can be solved in the pilot",
+      "text": "Use cases with measurable impact within 6–10 weeks.",
+      "rows": [
+        [
+          "Citizen requests",
+          "Classifying requests, identifying the responsible agency, drafting a reply, tracking review deadlines. Works across languages and scripts, including Uzbek in both Latin and Cyrillic.",
+          "Review time"
+        ],
+        [
+          "Directive tracking",
+          "Extracting directives from minutes and documents, assigning owners, sending reminders, a digest of overdue items for leadership.",
+          "Share on time"
+        ],
+        [
+          "Regulatory base",
+          "A legal assistant that searches laws, decrees and internal acts and returns an exact quote with a link to the relevant version.",
+          "Time to legal opinion"
+        ],
+        [
+          "Leadership analytics",
+          "Key indicators across regions and subordinate bodies in one console, with answers to plain-language questions.",
+          "Time to answer"
+        ],
+        [
+          "Voice line",
+          "A multilingual voice agent for public hotlines that answers routine questions and hands complex cases to an operator.",
+          "Share without operator"
+        ],
+        [
+          "Video analytics",
+          "Visitor counts, service-zone occupancy, queues and access control on existing cameras.",
+          "Waiting time"
+        ]
+      ]
+    },
+    "languages": {
+      "label": "Languages",
+      "title": "Local languages are the foundation, not a translation",
+      "text": "Most global AI products handle languages like Uzbek or Kazakh poorly, especially speech and text that mixes scripts. We tune speech recognition and synthesis to the local language and check quality on real requests.",
+      "facts": [
+        [
+          "3",
+          "core languages out of the box: English, Russian, Uzbek; others per project"
+        ],
+        [
+          "2",
+          "Uzbek scripts, Latin and Cyrillic, detected automatically"
+        ],
+        [
+          "24/7",
+          "voice and text agents working without breaks"
+        ],
+        [
+          "100%",
+          "of agent actions recorded in the audit log"
+        ]
+      ]
+    },
+    "procurement": {
+      "label": "Procurement & contracts",
+      "title": "How to contract with us",
+      "text": "We work in the formats used in public procurement and help prepare the documentation.",
+      "cells": [
+        {
+          "k": "Pilot",
+          "h": "Pilot project",
+          "p": "A project limited in scope and duration to prove impact before a larger procurement. Useful when the budget needs justification."
+        },
+        {
+          "k": "Tender",
+          "h": "Competitive bid",
+          "p": "We prepare the technical proposal, cost breakdown and document package to the tender's requirements."
+        },
+        {
+          "k": "Direct contract",
+          "h": "Where the law allows",
+          "p": "When procurement rules permit it. Milestone payments with formal acceptance at each stage."
+        }
+      ],
+      "docsTitle": "Documents we provide",
+      "docs": [
+        "Technical specification, or help preparing one",
+        "Architecture and security model description",
+        "Project schedule with acceptance milestones",
+        "Test program and methodology",
+        "User and administrator guides in the required languages",
+        "A report at the end of each phase"
+      ]
+    },
+    "band": {
+      "title": "Let's discuss your agency's challenge",
+      "text": "A meeting with an engineer and the practice lead. We can come to you.",
+      "cta1": "Schedule a meeting",
+      "cta2": "Security"
+    }
+  },
+  "security": {
+    "crumb": "Security",
+    "title": "Answers for your security team",
+    "lede": "This page is written for information security professionals: where data is stored, who can see it, what an AI agent can and cannot do, and how to verify all of it.",
+    "data": {
+      "label": "Data",
+      "title": "Where the data is and who sees it",
+      "qa": [
+        [
+          "Where data is stored",
+          "In the deployment option you choose: BlackGust Cloud in-region, your private cloud, your own servers, or an air-gapped environment. Personal data stays in the jurisdiction its law requires."
+        ],
+        [
+          "Is data used to train models?",
+          "No. Cloud models are accessed through enterprise APIs whose terms exclude training on customer data. Local models run entirely inside your infrastructure."
+        ],
+        [
+          "What goes to external models",
+          "Only the fragments needed to answer. Personal data is masked before it leaves. In air-gapped deployments, external calls are disabled completely."
+        ],
+        [
+          "Who at BlackGust has access",
+          "Only the named engineers on the project, as agreed with you and for the duration of the work. All access is logged and revoked at handover."
+        ],
+        [
+          "Encryption",
+          "Data is encrypted in transit and at rest. In on-premises deployments, the client holds the keys."
+        ],
+        [
+          "Data deletion",
+          "At the end of the contract, data is deleted within the agreed period and a deletion certificate is issued."
+        ]
+      ]
+    },
+    "agents": {
+      "label": "Agents",
+      "title": "What an AI agent can and cannot do",
+      "text": "An agent never gets more rights than the person it acts for. Every limit is set in configuration and enforced by the platform, not by the model.",
+      "canTitle": "Can",
+      "can": [
+        "Read data within the user's permissions",
+        "Draft documents, letters and reports",
+        "Create tasks and reminders",
+        "Perform pre-approved actions"
+      ],
+      "cannotTitle": "Cannot without human approval",
+      "cannot": [
+        "Change or delete data in systems of record",
+        "Send documents outside the organization",
+        "Execute payments or legally binding actions",
+        "Expand its own permissions"
+      ]
+    },
+    "controls": {
+      "label": "Controls",
+      "title": "Control mechanisms",
+      "cells": [
+        {
+          "k": "Access",
+          "h": "Role-based model",
+          "p": "Roles are inherited from Active Directory or LDAP. Object access is restricted down to rows and fields."
+        },
+        {
+          "k": "Audit",
+          "h": "Full audit trail",
+          "p": "Every query, answer, source and action, with timestamp and user. Exportable to your SIEM."
+        },
+        {
+          "k": "Approval",
+          "h": "Human in the loop",
+          "p": "Threshold rules on amount, document type or new counterparty route an action for sign-off."
+        },
+        {
+          "k": "Quality",
+          "h": "Reference testing",
+          "p": "A set of control questions runs before every agent update. A drop in quality blocks the release."
+        },
+        {
+          "k": "Protection",
+          "h": "Input filtering",
+          "p": "Incoming requests are checked for attempts to override instructions or reach other users' data."
+        },
+        {
+          "k": "Contract",
+          "h": "NDA and obligations",
+          "p": "A non-disclosure agreement before the diagnostic. Data-protection obligations in the main contract."
+        }
+      ]
+    },
+    "verify": {
+      "label": "Verification",
+      "title": "Vet us before work begins",
+      "text": "We'll provide an architecture description and threat model, and complete your security questionnaire. An engineer can meet your security team before the contract is signed.",
+      "cta": "Request security documentation"
+    }
+  },
+  "pricing": {
+    "crumb": "Pricing",
+    "title": "Priced for government and the largest companies",
+    "lede": "BlackGust is delivered turnkey: platform, engineers on site, integration and training in one fixed-price contract. Strategic consulting is a separate line. Prices are in US dollars; payment in UZS at the Central Bank rate on the invoice date.",
+    "dev": {
+      "label": "Turnkey development",
+      "title": "Three levels of engagement",
+      "text": "Minimum contract values. The final price is fixed after the diagnostic and does not change without a change in scope."
+    },
+    "tiers": [
+      {
+        "name": "Foundation",
+        "price": "from {foundation}",
+        "term": "3–4 months",
+        "for": "One business domain, end to end",
+        "items": [
+          "One module: Executive or Operations",
+          "Up to 5 connected systems",
+          "2–3 AI agents on real processes",
+          "BlackGust Cloud in Uzbekistan or your private cloud",
+          "Engineers on site, staff training"
+        ],
+        "cta": "Discuss Foundation"
+      },
+      {
+        "name": "Enterprise",
+        "price": "from {enterprise}",
+        "term": "6–9 months",
+        "for": "The organization as one model",
+        "items": [
+          "Organization model across departments and branches",
+          "Up to 15 connected systems",
+          "6–12 agents, Executive console for leadership",
+          "Voice in Uzbek and Russian",
+          "On-premises deployment, single sign-on, audit"
+        ],
+        "cta": "Discuss Enterprise",
+        "hl": true
+      },
+      {
+        "name": "Sovereign",
+        "price": "from {sovereign}",
+        "term": "9–12+ months",
+        "for": "Government and national scale",
+        "items": [
+          "Air-gapped deployment in your perimeter",
+          "Local models fine-tuned on your data",
+          "Our security architecture and threat model",
+          "Several organizations or agencies on one platform",
+          "Procurement-ready documentation, dedicated team"
+        ],
+        "cta": "Discuss Sovereign"
+      }
+    ],
+    "consult": {
+      "label": "Strategic consulting",
+      "title": "Consulting for leadership",
+      "text": "Separate engagements for when you need an answer before building, or a partner at the top table. Simple consulting and ready-made solutions for smaller companies are provided by [AISolution](/aisolution).",
+      "items": [
+        {
+          "k": "Start",
+          "h": "Strategy session with leadership",
+          "p": "Two hours with our leadership under NDA: where AI changes your organization and where it doesn't.",
+          "price": "Free"
+        },
+        {
+          "k": "3–4 weeks",
+          "h": "AI diagnostic",
+          "p": "Interviews, systems and data audit, baseline metrics, opportunity map with impact estimates. Credited toward development.",
+          "price": "from {diagnostic}"
+        },
+        {
+          "k": "6–8 weeks",
+          "h": "AI strategy and transformation roadmap",
+          "p": "A board-level strategy: target model, priorities, budget, team, risks and a three-year roadmap.",
+          "price": "from {strategy}"
+        },
+        {
+          "k": "6–10 weeks",
+          "h": "Sovereign AI architecture",
+          "p": "Architecture, security model and infrastructure specification for an air-gapped or on-premises AI platform.",
+          "price": "from {architecture}"
+        },
+        {
+          "k": "Program",
+          "h": "AI program for leadership",
+          "p": "A closed program for the top team: what AI can do, how to manage it, how to measure it. On your real cases.",
+          "price": "from {academy}"
+        },
+        {
+          "k": "Monthly",
+          "h": "Chief AI Officer as a service",
+          "p": "A senior advisor working with your leadership: priorities, vendor selection, oversight of AI projects.",
+          "price": "from {advisory}",
+          "unit": "per month"
+        }
+      ]
+    },
+    "support": {
+      "label": "After launch",
+      "title": "Support and evolution",
+      "text": "A separate annual contract with an SLA: platform updates, agent quality reviews, new processes and modules, quarterly impact reports. Its scope is agreed when development is accepted."
+    },
+    "factors": {
+      "label": "What drives the price",
+      "title": "Cost factors",
+      "text": "We name them up front so the final estimate holds no surprises.",
+      "qa": [
+        [
+          "Scope",
+          "Number of departments, processes, branches and users the platform covers."
+        ],
+        [
+          "Systems",
+          "Connecting a system with a ready API costs less than an undocumented legacy database or a paper archive."
+        ],
+        [
+          "Models",
+          "Frontier API usage, or GPU infrastructure and fine-tuning for sovereign models."
+        ],
+        [
+          "Deployment",
+          "Air-gapped deployment needs dedicated hardware and extra time."
+        ],
+        [
+          "Languages and voice",
+          "Voice in Uzbek and Russian is tuned to your vocabulary and real recordings."
+        ]
+      ]
+    },
+    "roi": {
+      "label": "Payback",
+      "title": "How we calculate impact",
+      "text": "The calculation uses your numbers, not market averages.",
+      "consoleTitle": "Example calculation",
+      "consoleNote": "Illustrative numbers",
+      "headers": [
+        "Metric",
+        "Before",
+        "After pilot"
+      ],
+      "rows": [
+        [
+          "Time to review one contract",
+          "90 min",
+          "20 min"
+        ],
+        [
+          "Contracts per month",
+          "320",
+          "320"
+        ],
+        [
+          "Lawyer hours per month",
+          "480",
+          "107"
+        ],
+        [
+          "Hours freed per month",
+          "—",
+          "373"
+        ]
+      ],
+      "note": "Hours freed × hourly staff cost − support and model costs = monthly impact. Payback period = investment ÷ monthly impact."
+    },
+    "band": {
+      "title": "Get an estimate for your organization",
+      "text": "Start with a free strategy session. Our leadership will assess the task and tell you which level fits.",
+      "cta1": "Request a session"
+    }
+  },
+  "company": {
+    "crumb": "Company",
+    "title": "Founded in Tashkent. Working wherever results are needed.",
+    "lede": "BlackGust is the enterprise platform of AISolution, an AI integrator from Tashkent. We build an operating brain for government bodies and large organizations on top of the systems they already run, so that every detail is visible and the organization can scale without losing control. Built in Uzbekistan to an international standard.",
+    "why": {
+      "label": "Why we exist",
+      "title": "Large organizations deserve tools that understand their language and their processes",
+      "paras": [
+        "Large companies and public bodies in emerging markets are sold AI products built for somewhere else: without their languages, without integration into their accounting and ERP systems, without regard for local data rules.",
+        "We work the other way round. We start from a specific organization's processes, connect to its systems, and account for its language and regulation. Then we stay until the solution is part of how the work gets done."
+      ]
+    },
+    "facts": [
+      [
+        "2026",
+        "BlackGust launched as AISolution's enterprise platform"
+      ],
+      [
+        "25",
+        "specialists on the team"
+      ],
+      [
+        "6",
+        "projects delivered since the start of 2026"
+      ],
+      [
+        "50",
+        "engineers we aim to train by the end of 2026"
+      ]
+    ],
+    "principles": {
+      "label": "Principles",
+      "title": "How we make decisions",
+      "cells": [
+        {
+          "k": "Outcomes",
+          "h": "We measure, we don't promise",
+          "p": "Every project starts with baseline metrics and ends with a comparison. If there's no impact, we say so."
+        },
+        {
+          "k": "Presence",
+          "h": "We work next to the client",
+          "p": "Engineers on site understand a process better than any brief."
+        },
+        {
+          "k": "Control",
+          "h": "Accountability stays with people",
+          "p": "AI speeds up the work but doesn't make decisions where mistakes are costly."
+        },
+        {
+          "k": "Candor",
+          "h": "We say no",
+          "p": "We turn down projects where AI won't pay back, and we're upfront about the technology's limits."
+        }
+      ]
+    },
+    "leadership": {
+      "label": "Leadership",
+      "title": "Who runs the company",
+      "people": [
+        {
+          "k": "Founder & CEO",
+          "h": "Abbas Khamidov",
+          "p": "Strategy, key clients, product. Senior backend engineer; teaches Python and machine learning."
+        },
+        {
+          "k": "Co-founder & Executive Director",
+          "h": "Ziyodulla",
+          "p": "Project delivery and solution architecture."
+        }
+      ]
+    },
+    "parent": {
+      "label": "Parent company",
+      "title": "Built by AISolution",
+      "text": "AISolution was founded in Tashkent and builds AI for companies and public bodies in Uzbekistan. BlackGust is its platform for the most demanding clients: government, national companies and large holdings in Uzbekistan and Asia.",
+      "cta": "About AISolution",
+      "ext": "aisolution.uz"
+    },
+    "partners": {
+      "label": "Partnerships",
+      "title": "Technology partners",
+      "text": "We use the best available models and tools, and we never lock a client into a single vendor.",
+      "cells": [
+        {
+          "k": "Status",
+          "h": "OpenAI Select Partner",
+          "p": "AISolution is an OpenAI Select Partner within the OpenAI Partner Network."
+        },
+        {
+          "k": "Partner network",
+          "h": "Engineering partner teams",
+          "p": "For standard small-business solutions we work with partners held to our standards. The contract and accountability stay with us."
+        }
+      ]
+    },
+    "careers": {
+      "label": "Careers",
+      "title": "Forward-deployed engineer bootcamp",
+      "text": "We train engineers who can both understand a client's process and build the solution with their own hands. Our goal is 50 trained engineers by the end of 2026.",
+      "lookTitle": "Who we're looking for",
+      "look": [
+        "Backend developers: Python, PostgreSQL, integrations",
+        "Data engineers and analysts",
+        "ML engineers with speech and text experience",
+        "Project managers with an engineering background"
+      ],
+      "teachTitle": "What we teach",
+      "teach": [
+        "Designing and evaluating AI agents",
+        "Integrating with enterprise systems",
+        "Working with clients on site",
+        "Security and work in closed environments"
+      ],
+      "cta": "Apply"
+    }
+  },
+  "faq": {
+    "crumb": "FAQ",
+    "title": "The questions we hear most often",
+    "lede": "Grouped by role, because a founder, a CFO and a security lead ask different things. If yours isn't here, include it in your request and an engineer will answer.",
+    "navLabel": "Sections",
+    "groups": [
+      {
+        "id": "general",
+        "title": "General",
+        "items": [
+          [
+            "What is BlackGust, in plain terms?",
+            "A platform plus a team of engineers. The platform links data from your systems into one picture and gives AI agents safe access to it. The engineers embed that into the work of specific departments, from leadership questions to document processing."
+          ],
+          [
+            "How is this different from a ChatGPT chatbot?",
+            "A chatbot knows what's on the internet. Our agents work with your data — contracts, accounting, CRM — within the user's permissions, cite their sources and can take actions inside your processes. On top of that: audit logs, controls, and deployment in your jurisdiction or on your servers."
+          ],
+          [
+            "Do you sell a product or services?",
+            "Both. The platform is the foundation the solution is built on. Our engineers' work is what makes it useful for your organization specifically. We don't sell the license on its own without delivery."
+          ],
+          [
+            "Who are your clients?",
+            "Government bodies, national companies, state enterprises and large holdings in Uzbekistan and across Asia. Smaller companies are served by [AISolution](/aisolution) with ready-made solutions."
+          ],
+          [
+            "Do you work outside Uzbekistan?",
+            "Yes. We are headquartered in Tashkent and work across Central Asia and beyond. Our engineers travel to the client."
+          ],
+          [
+            "How are BlackGust and AISolution related?",
+            "BlackGust is AISolution's enterprise platform. [AISolution](/aisolution) builds AI for companies of every size; BlackGust is the level for government and the largest organizations."
+          ]
+        ]
+      },
+      {
+        "id": "ceo",
+        "title": "Founder & CEO",
+        "items": [
+          [
+            "What impact can we expect?",
+            "It depends on the process. Typical outcomes: routine operations take a fraction of the time, leadership questions are answered in seconds instead of days, and fewer losses come from missed deadlines. The diagnostic gives a concrete estimate for your organization, built on your numbers."
+          ],
+          [
+            "How long until the first result?",
+            "An opportunity map with estimates in 3–4 weeks. A working pilot on one process 6–10 weeks after the diagnostic."
+          ],
+          [
+            "What if it doesn't work?",
+            "The work is split into phases with separate acceptance, and it starts with a diagnostic from {diagnostic}. If we don't find processes where the investment pays back, we say so before any development begins."
+          ],
+          [
+            "Why not build this with our own IT team?",
+            "You can, if your team has experience with language models, agents, local-language speech and AI quality evaluation. It's usually faster to start with us and train your engineers in parallel; knowledge transfer is part of every engagement."
+          ],
+          [
+            "Will we become dependent on you?",
+            "We design to keep dependency low: documentation, configuration access, training for your engineers. Models can be swapped, and the data stays with you."
+          ],
+          [
+            "Who will work on our project?",
+            "A lead engineer who runs the project from diagnostic to launch, plus a team sized to the task. You'll know their names and experience before we start."
+          ]
+        ]
+      },
+      {
+        "id": "cfo",
+        "title": "Finance",
+        "items": [
+          [
+            "How much does it cost?",
+            "The strategy session is free. Diagnostic from {diagnostic}, credited toward development. Turnkey development: Foundation from {foundation}, Enterprise from {enterprise}, Sovereign from {sovereign}. Details on the [pricing](/pricing) page."
+          ],
+          [
+            "What currency do you invoice in?",
+            "Prices are in US dollars. Payment is in UZS at the Central Bank of Uzbekistan rate on the invoice date."
+          ],
+          [
+            "What is included in a development contract?",
+            "The platform and the modules in scope, engineers on site, integration of your systems, agents, training, documentation and acceptance by milestones. Support after launch is a separate annual contract."
+          ],
+          [
+            "How is acceptance handled?",
+            "Each phase ends with a report, a demo and a signed acceptance certificate. Payment is by milestone."
+          ],
+          [
+            "How do you calculate payback?",
+            "We record baseline process metrics (time, volume, errors, losses) and measure the same metrics after the pilot. The difference in money, minus support and model costs, is the monthly impact."
+          ]
+        ]
+      },
+      {
+        "id": "it",
+        "title": "IT",
+        "items": [
+          [
+            "Do we need to change our systems?",
+            "No. We connect to existing systems through APIs, database replicas or exports. Access is read-only by default."
+          ],
+          [
+            "Which systems do you integrate with?",
+            "ERP (SAP, Oracle, Microsoft Dynamics, 1C), CRM (Salesforce, HubSpot, Dynamics), databases and warehouses (PostgreSQL, Oracle, MS SQL, Snowflake, BigQuery), Kafka, document management, email, VoIP telephony, Teams, Slack, CCTV. Anything non-standard is assessed during the audit."
+          ],
+          [
+            "Where is the platform deployed?",
+            "In BlackGust Cloud, your private cloud, your own servers, or an air-gapped network. See [Deployment](/platform#deploy)."
+          ],
+          [
+            "What servers do local models need?",
+            "It depends on load and the models chosen. Air-gapped deployments usually need GPU servers. We prepare the spec during the diagnostic."
+          ],
+          [
+            "How do users sign in?",
+            "Through your directory: Active Directory / LDAP, SAML or OIDC. Roles and groups are inherited."
+          ],
+          [
+            "Who supports the solution after launch?",
+            "We do, under an SLA. We also train your engineers and hand over documentation so you can make some changes yourselves."
+          ]
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "items": [
+          [
+            "Are models trained on our data?",
+            "No. Cloud models are accessed through enterprise APIs that don't train on customer data; local models run inside your infrastructure."
+          ],
+          [
+            "Do you meet data-residency requirements?",
+            "Yes. Personal data is stored and processed in the jurisdiction its law requires — in Uzbekistan, under the Law on Personal Data."
+          ],
+          [
+            "Can an agent do something without a human knowing?",
+            "Only what its configuration explicitly allows. Changing data, sending documents outside and legally binding actions all require human approval."
+          ],
+          [
+            "Can we review documentation before signing?",
+            "Yes. Under NDA we provide an architecture description and threat model, and we complete your security questionnaire. See [Security](/security)."
+          ]
+        ]
+      },
+      {
+        "id": "head",
+        "title": "Department head",
+        "items": [
+          [
+            "How much of my team's time will this take?",
+            "The process owner spends 2–4 hours a week during the pilot. Everyone else joins interviews and testing, 1–2 hours each."
+          ],
+          [
+            "Will AI replace my staff?",
+            "The goal is to remove routine so people can focus on work that needs their expertise. Decisions and approvals stay with people."
+          ],
+          [
+            "What if the AI gets something wrong?",
+            "Every answer links to its source, so errors are easy to check. Where mistakes are costly, a human approves. Errors we find are added to the reference tests so they don't recur."
+          ],
+          [
+            "Can we change agent instructions without a developer?",
+            "Yes. Instructions and rules are configured in the interface, and we train a designated person on your team to do it."
+          ]
+        ]
+      },
+      {
+        "id": "gov",
+        "title": "Government & procurement",
+        "items": [
+          [
+            "How can a government body contract with you?",
+            "Through a pilot project, a competitive tender, or a direct contract where procurement rules allow. We help prepare the specification and documentation."
+          ],
+          [
+            "Can it run without internet access?",
+            "Yes, in an air-gapped environment on local language models."
+          ],
+          [
+            "Can models be trained on our own data?",
+            "Yes. In a sovereign deployment, open models are fine-tuned on your documents and terminology inside your perimeter. Neither the data nor the trained weights leave your infrastructure."
+          ],
+          [
+            "Which languages are supported?",
+            "English, Russian and Uzbek out of the box, for the interface, agent answers and speech. Other languages, including Kazakh, French, German and Chinese, are configured per project. Uzbek works in both Latin and Cyrillic."
+          ],
+          [
+            "What documents do you hand over?",
+            "Project schedule, test program and methodology, user and administrator guides, and a report for each phase. See [Government](/government)."
+          ]
+        ]
+      },
+      {
+        "id": "staff",
+        "title": "Staff",
+        "items": [
+          [
+            "How will staff use the system?",
+            "Wherever is convenient: in the web interface, in Teams or Slack, or by voice. There's no complex new software to learn."
+          ],
+          [
+            "Is there training?",
+            "Yes, on real tasks, by role, in the team's language. Plus short guides and a contact for questions."
+          ],
+          [
+            "Can the system read my personal messages?",
+            "No. Only sources agreed with the organization and its security team are connected, and every data access is logged."
+          ]
+        ]
+      }
+    ],
+    "band": {
+      "title": "Still have a question?",
+      "text": "A consultant replies within an hour, Monday to Saturday, 9:00–19:00 Tashkent time (GMT+5).",
+      "cta1": "Ask a question"
+    }
+  },
+  "contact": {
+    "crumb": "Contact",
+    "title": "Tell us about the problem",
+    "lede": "A consultant replies within an hour during business hours and sets up a call with an engineer. The first consultation is free.",
+    "channels": {
+      "email": {
+        "title": "Email",
+        "note": "The fastest way to send documents"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "note": "Message us, reply within an hour"
+      },
+      "phone": {
+        "title": "Phone",
+        "note": "Mon–Sat, 9:00–19:00 GMT+5"
+      },
+      "office": {
+        "title": "Headquarters",
+        "note": "Meetings by appointment",
+        "map": "Open map"
+      }
+    },
+    "hoursTitle": "Hours",
+    "hours": "Mon–Sat, 9:00–19:00 Tashkent time (GMT+5). A consultant replies within an hour; our AI assistant answers around the clock.",
+    "nextTitle": "What happens next",
+    "next": [
+      "A consultant clarifies the problem and a convenient time",
+      "A call with an engineer: is it solvable, and where to start",
+      "A diagnostic proposal with scope and timeline"
+    ],
+    "form": {
+      "name": "Name",
+      "role": "Title",
+      "org": "Organization",
+      "sector": "Sector",
+      "interest": "I'm interested in",
+      "phone": "Phone",
+      "email": "Email",
+      "msg": "The problem",
+      "msgPh": "Which process takes the most time? Which systems do you use?",
+      "select": "Select",
+      "sectors": [
+        "Government body",
+        "State enterprise",
+        "Enterprise (500+)",
+        "Mid-sized company (50–500)",
+        "Small business"
+      ],
+      "interests": [
+        "Free consultation",
+        "Diagnostic",
+        "Platform demo",
+        "Pilot",
+        "Security documentation",
+        "Careers & bootcamp"
+      ],
+      "submit": "Send request",
+      "sending": "Sending…",
+      "consent": "By sending this request you agree to the processing of your contact details.",
+      "okTitle": "Request received",
+      "okText": "Thank you. A consultant will reply within an hour during business hours.",
+      "errRequired": "Please enter your name and a phone number or email.",
+      "errEmail": "Please check the email address.",
+      "errRate": "Too many requests. Please try again in a few minutes or message us on WhatsApp.",
+      "errServer": "We couldn't send the request. Please email us or message us on WhatsApp."
+    }
+  },
+  "aisolution": {
+    "crumb": "AISolution",
+    "title": "The company behind BlackGust",
+    "lede": "BlackGust is the enterprise platform of AISolution, an AI integrator founded in Tashkent. Same engineers, same accountability: AISolution builds AI for companies of every size, BlackGust is the level for government and the largest organizations.",
+    "about": {
+      "label": "About AISolution",
+      "title": "An AI integrator from Uzbekistan",
+      "paras": [
+        "AISolution builds AI solutions for large and mid-sized companies and government organizations. The team consults leadership on where AI pays off, then builds the organization's brain on top of its existing systems: accounting, ERP, CRM, documents and telephony.",
+        "AISolution is an OpenAI Select Partner within the OpenAI Partner Network and works with both cloud and local models, including its own Uzbek speech recognition and synthesis."
+      ],
+      "cta": "Visit aisolution.uz",
+      "blog": "AISolution blog"
+    },
+    "facts": [
+      [
+        "25",
+        "specialists"
+      ],
+      [
+        "6",
+        "projects delivered in 2026"
+      ],
+      [
+        "2",
+        "levels: AISolution for business, BlackGust for enterprise and government"
+      ],
+      [
+        "1",
+        "team and platform"
+      ]
+    ],
+    "which": {
+      "label": "Which one to contact",
+      "title": "AISolution or BlackGust?",
+      "rows": [
+        [
+          "AISolution",
+          "Small and mid-sized companies: ready-made AI solutions, chatbots, automation and consulting. Fast start, accessible budgets.",
+          "aisolution.uz"
+        ],
+        [
+          "BlackGust",
+          "Government bodies, national companies and large holdings: a turnkey organization model, sovereign deployment, contracts from {foundation}.",
+          "blackgust.uz"
+        ]
+      ]
+    },
+    "band": {
+      "title": "Not a government body or a large holding?",
+      "text": "AISolution will pick a ready-made solution for your company: the same team, faster and at a smaller budget.",
+      "cta1": "Go to aisolution.uz",
+      "cta2": "Contact BlackGust"
+    }
+  }
+}

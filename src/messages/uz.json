@@ -1,0 +1,2146 @@
+{
+  "meta": {
+    "siteName": "BlackGust",
+    "default": {
+      "title": "BlackGust by AISolution — davlat va yirik biznes uchun operatsion intellekt",
+      "description": "BlackGust by AISolution: O‘zbekistonda xalqaro standart bo‘yicha yaratilgan korporativ sun’iy intellekt platformasi. Tashkilotning yagona modeli, SI-agentlar, har bir og‘ish ko‘z oldida. O‘zbekiston va Osiyodagi davlat organlari hamda yirik kompaniyalar uchun."
+    },
+    "home": {
+      "title": "BlackGust by AISolution — davlat va yirik biznes uchun operatsion intellekt",
+      "description": "AISolution tomonidan O‘zbekistonda xalqaro standart bo‘yicha yaratilgan korporativ SI-platforma: tashkilotning yagona modeli, SI-agentlar, har bir og‘ish ko‘z oldida. Suveren joylashtirish, o‘zbek va rus tillari."
+    },
+    "platform": {
+      "title": "Platforma — BlackGust",
+      "description": "BlackGust platformasi arxitekturasi: konnektorlar, tashkilotning yagona modeli, SI-agentlar, interfeyslar va nazorat. Bulut, on-prem yoki yopiq kontur."
+    },
+    "approach": {
+      "title": "Yondashuv — BlackGust",
+      "description": "BlackGust sun’iy intellektni qanday joriy qiladi: obyektdagi muhandislar, diagnostika, pilot, integratsiya va kengaytirish. Muddatlar, rollar va buyurtmachidan nima kerak."
+    },
+    "solutions": {
+      "title": "Yechimlar — BlackGust",
+      "description": "Funksiyalar va sohalar bo‘yicha SI vazifalari: rahbariyat, moliya, operatsiyalar, kontakt-markaz, yuristlar, HR, IT; davlat, ishlab chiqarish, qurilish, moliya, savdo, transport."
+    },
+    "government": {
+      "title": "Davlat sektori — BlackGust",
+      "description": "Davlat organlari uchun sun’iy intellekt: ma’lumotlarni mamlakatda saqlash, yopiq kontur, ko‘p tilli interfeyslar, shaffof xaridlar va bosqichma-bosqich qabul qilish."
+    },
+    "security": {
+      "title": "Xavfsizlik — BlackGust",
+      "description": "BlackGust xavfsizlik modeli: ma’lumotlar qayerda saqlanadi, kimda kirish huquqi bor, SI-agentlar qanday cheklanadi, harakatlar jurnali va ma’lumotlarni mamlakatda saqlash."
+    },
+    "pricing": {
+      "title": "Narxlar — BlackGust",
+      "description": "Kalit topshirish asosida ishlab chiqish {foundation}, {enterprise} va {sovereign} dan. Strategik konsalting {diagnostic} dan. Narxlar USD da, to‘lov Markaziy bank kursi bo‘yicha so‘mda."
+    },
+    "company": {
+      "title": "Kompaniya — BlackGust",
+      "description": "BlackGust — O‘zbekiston va Osiyoda ishlaydigan toshkentlik SI-integrator AISolution kompaniyasining korporativ platformasi. Jamoa, rahbariyat, tamoyillar, karyera."
+    },
+    "faq": {
+      "title": "Savol-javoblar — BlackGust",
+      "description": "CEO, moliya direktorlari, IT, xavfsizlik xizmati, bo‘lim rahbarlari va davlat buyurtmachilari uchun BlackGust bilan sun’iy intellektni joriy etish haqida javoblar."
+    },
+    "contact": {
+      "title": "Aloqa — BlackGust",
+      "description": "BlackGust bilan bog‘lanish: pochta, WhatsApp, telefon va Toshkentdagi bosh ofis. Strategik sessiya yoki diagnostikaga ariza."
+    },
+    "aisolution": {
+      "title": "AISolution — BlackGust ortidagi kompaniya",
+      "description": "BlackGust — AISolution kompaniyasining davlat va yirik biznes uchun platformasi. AISolution — Toshkentdagi SI-integrator va OpenAI Select Partner."
+    },
+    "notFound": {
+      "title": "Sahifa topilmadi — BlackGust",
+      "description": "Siz qidirayotgan sahifa mavjud emas."
+    }
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "platform": "Platforma",
+    "approach": "Yondashuv",
+    "solutions": "Yechimlar",
+    "government": "Davlat sektori",
+    "security": "Xavfsizlik",
+    "pricing": "Narxlar",
+    "company": "Kompaniya",
+    "faq": "Savollar",
+    "contact": "Aloqa",
+    "aisolution": "AISolution"
+  },
+  "ui": {
+    "skip": "Asosiy mazmunga o‘tish",
+    "cta": "Strategik sessiyaga ariza",
+    "menu": "Menyu",
+    "close": "Yopish",
+    "youAreHere": "Siz shu yerdasiz",
+    "language": "Til",
+    "mainMenu": "Asosiy menyu",
+    "mobileMenu": "Mobil menyu",
+    "breadcrumbHome": "BlackGust",
+    "copy": "Nusxa olish",
+    "copied": "Nusxa olindi",
+    "example": "Namuna · shartli ma’lumotlar",
+    "notFoundTitle": "Bunday sahifa yo‘q",
+    "notFoundText": "Havola eskirgan bo‘lishi mumkin. Bosh sahifadan boshlang yoki biz bilan bog‘laning.",
+    "backHome": "Bosh sahifaga"
+  },
+  "footer": {
+    "tagline": "Davlat va yirik biznes uchun operatsion intellekt. Platforma va uni tashkilot ishiga joriy qiladigan muhandislar.",
+    "platformH": "Platforma",
+    "workH": "Hamkorlik",
+    "companyH": "Kompaniya",
+    "contactH": "Aloqa",
+    "architecture": "Arxitektura",
+    "modules": "Modullar",
+    "deployment": "Joylashtirish",
+    "security": "Xavfsizlik",
+    "approach": "Yondashuv va bosqichlar",
+    "solutions": "Rollar bo‘yicha yechimlar",
+    "government": "Davlat sektori",
+    "pricing": "Narxlar",
+    "about": "Kompaniya haqida",
+    "careers": "Karyera va butkemp",
+    "faq": "Savol-javoblar",
+    "aisolution": "AISolution",
+    "legal": "© {year} BlackGust by AISolution. Toshkent, O‘zbekiston.",
+    "hours": "Du–Sh 9:00–19:00 GMT+5",
+    "built": "BlackGust — toshkentlik SI-integrator [AISolution](https://aisolution.uz) kompaniyasining korporativ platformasi. O‘zbekistonda xalqaro standart bo‘yicha yaratilgan."
+  },
+  "split": {
+    "platformTag": "Platforma",
+    "engineersTag": "Obyektdagi muhandislar"
+  },
+  "home": {
+    "hero": {
+      "badge": "By AISolution · Toshkent → Osiyo → dunyo",
+      "title": "O‘zini yaxlit *ko‘radigan* va tezroq qaror qabul qiladigan tashkilot",
+      "lede": "BlackGust sizda mavjud tizimlarni — ERP, hisob, CRM, hujjatlar, fuqarolar murojaatlari, kameralar — tashkilotning yagona modeliga birlashtiradi va unga SI-agentlarni ulaydi. Har qanday og‘ish, hatto eng kichigi ham, muammoga aylanmasidan oldin ko‘rinadi. AISolution jamoasi tomonidan O‘zbekistonda xalqaro standart bo‘yicha yaratilgan — mintaqaning davlat organlari va eng yirik kompaniyalari uchun.",
+      "cta2": "Platforma qanday ishlaydi",
+      "meta": [
+        [
+          "Joylashtirish",
+          "O‘zbekistondagi MMM · on-prem · yopiq kontur"
+        ],
+        [
+          "Tillar",
+          "O‘zbekcha · Русский · English · Қазақша · 中文"
+        ],
+        [
+          "Format",
+          "Kalit topshirish, {foundation} dan"
+        ]
+      ]
+    },
+    "marquee": [
+      "ERP · SAP · Oracle · Dynamics · 1C",
+      "CRM · Salesforce · HubSpot · Bitrix24",
+      "Ma’lumotlar bazalari · PostgreSQL · Oracle · MS SQL",
+      "Ma’lumotlar omborlari · Snowflake · BigQuery",
+      "Oqimlar · Kafka",
+      "Kirish · Active Directory · SAML · OIDC",
+      "Xavfsizlik · SIEM · RBAC · audit",
+      "Ilg‘or modellar · OpenAI · Anthropic",
+      "Mahalliy modellar · Llama · Qwen · Mistral",
+      "Infratuzilma · Kubernetes · o‘z GPU · yopiq kontur",
+      "Hujjatlar · ECM · OCR",
+      "Kontakt-markaz · IP-telefoniya · nutq",
+      "Kommunikatsiya · Teams · Slack · Telegram",
+      "Video · kameralar"
+    ],
+    "problem": {
+      "label": "Muammo",
+      "title": "Ma’lumotlar bor. Yaxlit manzara yo‘q. Qarorlar kechikadi.",
+      "text": "Yirik tashkilotda ma’lumotlar o‘nlab tizim va yuzlab jadvallarda tarqalib yotadi. Rahbariyatning oddiy savoliga javob berish uchun tahlilchilar bir hafta davomida eksportlarni jamlaydi. Qaror qabul qilinayotganda raqamlar allaqachon eskirgan bo‘ladi.",
+      "cells": [
+        {
+          "k": "Tarqoqlik",
+          "h": "Har bir bo‘limning o‘z tizimi",
+          "p": "Savdo CRM da, moliya ERP da, ombor Excel da, murojaatlar messenjerlarda va qog‘ozda. Hech narsa bog‘lanmagan."
+        },
+        {
+          "k": "Tezlik",
+          "h": "Hisobot — bu loyiha",
+          "p": "Yig‘ma hisobotlar kunlab qo‘lda tuziladi. Nusxa olishdagi xatolarni hech kim sezmaydi, qarorlar kechagi ma’lumotlar asosida qabul qilinadi."
+        },
+        {
+          "k": "Kundalik ish",
+          "h": "Mutaxassislar ma’lumot tashish bilan band",
+          "p": "Malakali xodimlar soatlab solishtirish, xatlar, ma’lumot kiritish va bir xil savollarga javob berishga vaqt sarflaydi."
+        },
+        {
+          "k": "Natijasiz pilotlar",
+          "h": "SI sinab ko‘rildi, lekin ildiz otmadi",
+          "p": "Haqiqiy ma’lumotlar va jarayonlarga kirishi bo‘lmagan chat-bot hech narsani o‘zgartirmaydi. Uch oydan keyin undan hech kim foydalanmaydi."
+        }
+      ]
+    },
+    "what": {
+      "label": "BlackGust nima",
+      "title": "Platforma va muhandislar. Biri ikkinchisisiz ishlamaydi.",
+      "text": "Biz litsenziyani sotib, ketib qolmaymiz. Muhandislarimiz sizga keladi, jarayonlarni o‘rganadi, tizimlarni ulaydi va yechim kundalik ishning bir qismiga aylanmaguncha yoningizda bo‘ladi. Platforma sizda qoladi va tashkilot bilan birga o‘sadi.",
+      "platform": {
+        "title": "SI-agentlar ishlaydigan tashkilotning yagona modeli",
+        "items": [
+          "Tizimlaringizni almashtirmasdan ulanadigan konnektorlar",
+          "Obyektlar modeli: mijozlar, shartnomalar, arizalar, aktivlar, odamlar va ular orasidagi bog‘liqliklar",
+          "OpenAI va Anthropic ilg‘or modellari yoki konturingiz ichida ma’lumotlaringizda o‘qitilgan mahalliy modellar",
+          "SI-agentlar faqat berilgan huquqlar doirasida harakat qiladi",
+          "Har bir harakat jurnalda, muhim joylarda inson tasdig‘i bilan"
+        ],
+        "cta": "Platforma arxitekturasi"
+      },
+      "engineers": {
+        "title": "Obyektdagi jamoa soat uchun emas, natija uchun javob beradi",
+        "items": [
+          "Muhandislar jarayonlaringiz ichida, jamoalaringiz yonida ishlaydi",
+          "Avval diagnostika: SI qayerda o‘lchanadigan natija beradi, qayerda yo‘q",
+          "Bitta jarayonda pilot, «oldin» va «keyin» raqamlari bilan",
+          "Xodimlarni o‘qitish va bilimni haqiqiy topshirish",
+          "Ishga tushirilgandan keyin qo‘llab-quvvatlash va rivojlantirish"
+        ],
+        "cta": "Biz qanday ishlaymiz"
+      }
+    },
+    "how": {
+      "label": "Bu qanday ishlaydi",
+      "title": "Tarqoq tizimlardan qarorgacha — to‘rt qadam",
+      "text": "Tashkilot ma’lumotlari rahbariyatga javobga va agent harakatiga qanday aylanishini ko‘rish uchun pastga aylantiring.",
+      "steps": [
+        {
+          "tag": "1-qadam · Manbalar",
+          "title": "Mavjud narsalarni ulaymiz",
+          "text": "ERP, hisob, CRM, jadvallar, pochta, skanerlangan hujjatlar, telefoniya, kameralar. Tizimlar joyida qoladi, standart holatda faqat o‘qish huquqi."
+        },
+        {
+          "tag": "2-qadam · Tashkilot modeli",
+          "title": "Ma’lumotlarni yagona manzaraga bog‘laymiz",
+          "text": "Kontragent, shartnoma, hisob-faktura, to‘lov va mas’ul shaxs o‘zaro bog‘langan obyektlarga aylanadi. Turli bo‘limlarning raqamlari bir-biriga zid kelmaydi."
+        },
+        {
+          "tag": "3-qadam · Agentlar",
+          "title": "Agentlarni jarayonlarga qo‘yamiz",
+          "text": "Har bir agent rol, modelning kerakli qismiga kirish va ruxsat etilgan harakatlar ro‘yxatini oladi. Barcha muhim narsalar inson tasdig‘iga yuboriladi."
+        },
+        {
+          "tag": "4-qadam · Qaror",
+          "title": "Manbali javob, nazoratdagi harakat",
+          "text": "Rahbariyat birlamchi hujjatlarga havola bilan javobni bir necha soniyada oladi. Agent keyingi qadamni tayyorlab, tasdiqni kutadi."
+        }
+      ]
+    },
+    "console": {
+      "label": "Executive — birinchi modul",
+      "title": "Oddiy tilda savol. Raqamlar va manbalar bilan javob.",
+      "text": "Rahbar o‘rinbosaridan qanday so‘rasa, shunday so‘raydi. Tizim barcha ulangan manbalardan ma’lumotlarni topadi, jamlaydi va har bir raqam qayerdan olinganini ko‘rsatadi. Kirish foydalanuvchi huquqlariga mos: har kim faqat o‘ziga tegishlisini ko‘radi.",
+      "items": [
+        "Bir haftalik hisobot o‘rniga bir necha soniyada javob",
+        "Har bir raqam ortida birlamchi hujjatga havola",
+        "Ovoz yoki chat orqali, foydalanuvchining tilida"
+      ]
+    },
+    "roles": {
+      "label": "Kim uchun",
+      "title": "Tashkilotdagi har kim o‘ziga keraklisini oladi",
+      "text": "Har bir rol uchun nima o‘zgaradi. Har bir rolning savollariga batafsil javoblar — [«Savollar»](/faq) bo‘limida.",
+      "tabs": [
+        {
+          "tab": "Asoschi va CEO",
+          "quote": "Hisobotlarni kutmasdan kompaniyada nima bo‘layotganini ko‘rishni va pulni qayerda yo‘qotayotganimizni bilishni xohlayman.",
+          "qa": [
+            [
+              "Siz nima olasiz",
+              "Istalgan ko‘rsatkich haqida so‘rab, raqamni manbasi bilan darhol ko‘rish mumkin bo‘lgan panel. Og‘ishlarning kundalik xulosasi: nima o‘zgardi, qanchaga va kim mas’ul."
+            ],
+            [
+              "Investitsiya",
+              "Rahbariyatimiz bilan bepul strategik sessiyadan boshlang. Diagnostika — {diagnostic} dan, ishlab chiqishga hisoblanadi. Kalit topshirish asosida ishlab chiqish — {foundation} dan. Batafsil [«Narxlar»](/pricing) sahifasida."
+            ],
+            [
+              "Natijagacha muddat",
+              "Ta’siri baholangan imkoniyatlar xaritasi — 3–4 haftada. Bitta jarayonda ishlaydigan pilot — 6–10 haftada."
+            ],
+            [
+              "Siz nimani tavakkal qilasiz",
+              "Diagnostika narxini. Agar sarmoya o‘zini oqlaydigan jarayonlarni topmasak, buni ochiq aytamiz va shu yerda to‘xtaymiz."
+            ]
+          ]
+        },
+        {
+          "tab": "Moliya direktori",
+          "quote": "Byudjetga imzo qo‘yishimdan oldin natijani qanday hisoblashingizni ko‘rsating.",
+          "qa": [
+            [
+              "Natija qanday o‘lchanadi",
+              "Diagnostikada boshlang‘ich darajani qayd etamiz: jarayonga ketadigan soatlar, sikl davomiyligi, xatolar, yo‘qotishlar. Pilotda xuddi shu ko‘rsatkichlarni o‘lchaymiz. Taqqoslash — hisobotning bir qismi."
+            ],
+            [
+              "Tijorat modeli",
+              "Bosqichma-bosqich qabul qilinadigan qat’iy narxli kalit topshirish shartnomasi, undan oldin — pullik diagnostika. Kuzatib borish va rivojlantirish — alohida yillik shartnoma bo‘yicha. To‘lov Markaziy bank kursi bo‘yicha so‘mda."
+            ],
+            [
+              "Yashirin xarajatlar",
+              "SI modellari va infratuzilma narxini diagnostikadayoq alohida qator sifatida hisoblaymiz. Ishga tushirilgandan keyin kutilmagan holatlar bo‘lmaydi."
+            ],
+            [
+              "Moliya xizmati uchun",
+              "Solishtirishlar, debitorlik qarzini nazorat qilish, ERP va hisobdan yig‘ma hisobotlar, birlamchi hujjatlarni tekshirish."
+            ]
+          ]
+        },
+        {
+          "tab": "IT direktori",
+          "quote": "Tizimlarimga tegmang, ma’lumotlarni tashqariga chiqarmang va menga qo‘llab-quvvatlanmaydigan yana bir o‘yinchoq qoldirmang.",
+          "qa": [
+            [
+              "Tizimlarni almashtirish",
+              "Kerak emas. Mavjud tizimlarga API, ma’lumotlar bazasi replikalari yoki eksport orqali ulanamiz. Standart holatda faqat o‘qish."
+            ],
+            [
+              "Qayerda ishlaydi",
+              "Bizning bulutimizda, sizning xususiy bulutingizda, serverlaringizda yoki mahalliy modellar bilan to‘liq yopiq konturda."
+            ],
+            [
+              "Kim qo‘llab-quvvatlaydi",
+              "Biz, SLA bo‘yicha. Parallel ravishda muhandislaringizni o‘qitamiz, hujjatlar va konfiguratsiyaga kirishni topshiramiz."
+            ],
+            [
+              "Batafsil",
+              "[Arxitektura](/platform) va [xavfsizlik](/security)."
+            ]
+          ]
+        },
+        {
+          "tab": "Bo‘lim rahbari",
+          "quote": "Jamoam shundoq ham band. Bu ularning qancha vaqtini oladi va ularni mashina almashtirmaydimi?",
+          "qa": [
+            [
+              "Jamoa vaqti",
+              "Jarayon egasi pilot davomida haftasiga 2–4 soat sarflaydi. Qolganlar intervyu va testlarda qatnashadi, har biri 1–2 soat."
+            ],
+            [
+              "Odamlarni almashtirish",
+              "Maqsad — kundalik ishlarni olib tashlash: solishtirishlar, ma’lumot kiritish, bir xil javoblar. Qarorlar va kelishuvlar odamlarda qoladi."
+            ],
+            [
+              "O‘qitish",
+              "Xodimlarni haqiqiy vazifalarida, o‘z tilida, har bir rol uchun qisqa yo‘riqnoma bilan o‘qitamiz."
+            ],
+            [
+              "Bo‘lim nima oladi",
+              "Hujjatlarni tayyorlaydigan, odatiy so‘rovlarga javob beradigan, muddatlarni kuzatadigan va xavflar haqida ogohlantiradigan agent."
+            ]
+          ]
+        },
+        {
+          "tab": "Davlat organi",
+          "quote": "Fuqarolarning ma’lumotlari mamlakatdan chiqmasligi kerak. Bizga shaffof xarid va aniq javobgarlik kerak.",
+          "qa": [
+            [
+              "Ma’lumotlarni mamlakatda saqlash",
+              "Ma’lumotlar O‘zbekistonda — mamlakat ichidagi infratuzilmada yoki serverlaringizda — «Shaxsga doir ma’lumotlar to‘g‘risida»gi Qonunga muvofiq qoladi."
+            ],
+            [
+              "Yopiq kontur",
+              "Platforma internetga ulanmasdan, mahalliy til modellarida ishlay oladi."
+            ],
+            [
+              "Xarid",
+              "Tenderlar, ruxsat etilgan hollarda to‘g‘ridan-to‘g‘ri shartnomalar va pilotlar orqali ishlaymiz. Texnik topshiriq, hujjatlar va bosqichlar bo‘yicha hisobotlarni taqdim etamiz."
+            ],
+            [
+              "Batafsil",
+              "[Davlat sektori sahifasi](/government)."
+            ]
+          ]
+        }
+      ]
+    },
+    "sectors": {
+      "label": "Sohalar",
+      "title": "Biz qayerda ishlaymiz",
+      "text": "Turli sohalardagi vazifalar o‘xshash: ma’lumot ko‘p, kelishuvlar ko‘p, vaqt kam. Farq tizimlar va tartibga solishda — ikkalasini ham diagnostikada hisobga olamiz.",
+      "more": "Batafsil",
+      "cells": [
+        {
+          "k": "Davlat",
+          "h": "Vazirliklar, hokimliklar, davlat korxonalari",
+          "p": "Fuqarolar murojaatlari, hujjat aylanishi, topshiriqlar ijrosini nazorat qilish, rahbariyat uchun tahlil.",
+          "href": "/government"
+        },
+        {
+          "k": "Ishlab chiqarish",
+          "h": "Zavodlar va sanoat guruhlari",
+          "p": "Reja va fakt, xaridlar, sifat, maydondagi video tahlil.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Qurilish",
+          "h": "Developerlar va pudratchilar",
+          "p": "Obyektlar va muddatlarni nazorat qilish, smetalar, tender hujjatlari, korporativ bilimlar bazasi.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Moliya",
+          "h": "Banklar va sug‘urta kompaniyalari",
+          "p": "Mobil ilovalardagi ovozli va matnli agentlar, hujjatlarni tekshirish, operatsiyalarni nazorat qilish.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Savdo va distributsiya",
+          "h": "Tarmoqlar va distributorlar",
+          "p": "Debitorlik qarzi, qoldiqlar, sodiqlik dasturlari, hududlar bo‘yicha savdo va marketing tahlili.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Transport va logistika",
+          "h": "Tashuvchilar va infratuzilma",
+          "p": "Yo‘lovchilar oqimi, yuklama, aktivlarga xizmat ko‘rsatish, yo‘lovchilar murojaatlari.",
+          "href": "/solutions#industries"
+        }
+      ]
+    },
+    "process": {
+      "label": "Joriy etish yo‘li",
+      "title": "To‘rt bosqich. Istalganidan keyin to‘xtash mumkin.",
+      "text": "Har bir bosqich sizda qoladigan natija va rasmiy qabul qilish bilan yakunlanadi. Butun yo‘l bitta kalit topshirish shartnomasida mustahkamlangan.",
+      "outcome": "Natija",
+      "phases": [
+        {
+          "dur": "3–4 hafta",
+          "title": "Diagnostika",
+          "text": "Intervyular, tizimlar va ma’lumotlar auditi, ta’sirni baholash.",
+          "out": "Imkoniyatlar xaritasi va hisob-kitobli ishlab chiqish rejasi"
+        },
+        {
+          "dur": "6–10 hafta",
+          "title": "Pilot",
+          "text": "Haqiqiy ma’lumotlar va haqiqiy foydalanuvchilar bilan birinchi jarayon.",
+          "out": "Ishlaydigan yechim va «oldin / keyin» raqamlari"
+        },
+        {
+          "dur": "3–9 oy",
+          "title": "Integratsiya",
+          "text": "Tizimlar ulandi, huquqlar sozlandi, xodimlar o‘qitildi.",
+          "out": "Bo‘linmalarning kundalik ishidagi yechim"
+        },
+        {
+          "dur": "Doimiy",
+          "title": "Kengaytirish",
+          "text": "O‘sha ma’lumotlar modelida yangi jarayonlar va modullar.",
+          "out": "Ma’lumotlar asosida boshqariladigan tashkilot"
+        }
+      ],
+      "cta": "Bosqichlar haqida batafsil"
+    },
+    "facts": {
+      "label": "Raqamlarda",
+      "title": "Vositachi emas, jamoa",
+      "text": "O‘z muhandislarimiz, o‘z platformamiz va shartnoma bo‘yicha natija uchun javobgarlik.",
+      "items": [
+        [
+          "25",
+          "mutaxassis: muhandislar, tahlilchilar, loyiha rahbarlari"
+        ],
+        [
+          "6",
+          "loyiha 2026-yil boshidan beri yakunlandi"
+        ],
+        [
+          "50",
+          "muhandisni 2026-yil oxirigacha o‘z butkempimizda tayyorlashni rejalashtirganmiz"
+        ],
+        [
+          "<1 soat",
+          "ish vaqtida maslahatchining javob berish vaqti. SI-yordamchi kecha-kunduz javob beradi"
+        ]
+      ]
+    },
+    "signals": {
+      "label": "Har bir mayda narsa",
+      "title": "Kompaniyada sodir bo‘layotgan hech narsa e’tibordan chetda qolmaydi",
+      "text": "Model har bir jarayonni uzluksiz kuzatib boradi. Uch kunga kechiktirilgan to‘lov, kelishuvni chetlab imzolangan shartnoma, marjasi sezdirmay pasayayotgan filial — har biri zararga aylanmasidan oldin mas’ul shaxsi bor signalga aylanadi. Aynan shu tashkilotga nazoratni yo‘qotmasdan o‘sish imkonini beradi.",
+      "feedTitle": "Signallar lentasi",
+      "feedNote": "Namuna · shartli ma’lumotlar",
+      "headers": [
+        "Vaqt",
+        "Manba",
+        "Signal",
+        "Mas’ul",
+        "Daraja"
+      ],
+      "rows": [
+        [
+          "09:12",
+          "ERP",
+          "Yetkazib beruvchiga to‘lov 3 kunga kechikdi, 5-kundan shartnoma bo‘yicha jarima",
+          "G‘aznachilik",
+          "c"
+        ],
+        [
+          "09:40",
+          "Shartnomalar",
+          "Shartnoma yuridik tekshiruvsiz imzolandi, summa chegaradan yuqori",
+          "Yuridik bo‘lim",
+          "c"
+        ],
+        [
+          "10:05",
+          "BI",
+          "Farg‘ona filialining yalpi marjasi 3 haftada 2,1 foiz bandga pasaydi",
+          "Hududiy direktor",
+          "w"
+        ],
+        [
+          "11:30",
+          "Ombor",
+          "Qoldiq hisobdan 14 birlikka farq qiladi, artikul 40-118",
+          "2-ombor",
+          "w"
+        ],
+        [
+          "12:15",
+          "Murojaatlar",
+          "12 ta murojaat 48 soatdan ortiq javobsiz",
+          "Qo‘llab-quvvatlash xizmati",
+          "w"
+        ],
+        [
+          "13:02",
+          "HR",
+          "Bir jamoada bir oy ichida uch kishi ishdan ketdi",
+          "HR-direktor",
+          "o"
+        ]
+      ],
+      "scaleTitle": "Siz bilan birga o‘sishga tayyor",
+      "scale": [
+        "Yangi filiallar, yuridik shaxslar va tizimlar o‘sha modelga ulanadi",
+        "Har bir yangi jarayon allaqachon ulangan narsalardan foydalanadi",
+        "Tashkilot o‘n baravar o‘ssa ham, rahbariyat yagona manzarani ko‘radi"
+      ]
+    },
+    "security": {
+      "label": "Xavfsizlik",
+      "title": "Ma’lumotlaringiz sizniki bo‘lib qoladi",
+      "text": "Har bir yechimni xavfsizlik xizmatingiz qanday tekshirsa, shunday loyihalaymiz. Batafsil — «Xavfsizlik» sahifasida.",
+      "cta": "Xavfsizlik modeli",
+      "items": [
+        "Ma’lumotlaringiz begona modellarni o‘qitish uchun ishlatilmaydi",
+        "O‘zbekistonda yoki o‘z serverlaringizda saqlash",
+        "Rolga asoslangan kirish: agent faqat foydalanuvchiga ruxsat etilganini ko‘radi",
+        "Har bir so‘rov va agent harakati jurnalda",
+        "Muhim harakatlar uchun inson tasdig‘i",
+        "Diagnostika boshlanishidan oldin NDA"
+      ]
+    },
+    "band": {
+      "title": "Rahbariyatimiz bilan strategik sessiyadan boshlang.",
+      "text": "Ikki soat, bepul va NDA doirasida. Keyin — ishlab chiqishga hisoblanadigan {diagnostic} dan diagnostika.",
+      "cta1": "Sessiyaga ariza",
+      "cta2": "Savollar"
+    },
+    "parent": {
+      "label": "BlackGust by AISolution",
+      "title": "Xalqaro darajadagi o‘zbek kompaniyasi",
+      "text": "BlackGust — AISolution kompaniyasining korporativ platformasi. AISolution birinchi kundan O‘zbekiston kompaniyalari va davlat organlari bilan ishlaydi; BlackGust — ularning eng talabchanlari bilan ishlash usulimiz: davlat, milliy kompaniyalar hamda O‘zbekiston va Osiyoning yirik xoldinglari.",
+      "items": [
+        "O‘sha jamoa, platforma va javobgarlik",
+        "OpenAI Select Partner (AISolution)",
+        "O‘zbek, rus va ingliz tillarida ishlash"
+      ],
+      "cta": "AISolution haqida",
+      "ext": "aisolution.uz"
+    }
+  },
+  "viz": {
+    "aria": "Jonli sxema: tashkilotning sakkizta tizimi ma’lumotlarni yagona modelga uzatadi, unda uchta SI-agent ishlaydi, natija — rahbariyatga manbali javob",
+    "hud": "BlackGust · tashkilot modeli",
+    "sources": "Manbalar",
+    "objects": "Obyektlar",
+    "links": "Bog‘lanishlar",
+    "agentsLabel": "Agentlar",
+    "titles": [
+      "Manbalar",
+      "Tashkilot modeli",
+      "Agentlar",
+      "Qaror"
+    ],
+    "captions": [
+      "8 tizim · ular orasida 0 bog‘lanish",
+      "Ma’lumotlar yagona modelga bog‘lanadi",
+      "Modelda 3 agent ishlaydi",
+      "Manbali javob · harakat tasdiqni kutmoqda"
+    ],
+    "entities": [
+      "Kontragent",
+      "Shartnoma",
+      "Hisob-faktura",
+      "To‘lov",
+      "Xodim",
+      "Ombor"
+    ],
+    "agents": [
+      "Tahlilchi",
+      "Muddat nazoratchisi",
+      "Ish yurituvchi"
+    ],
+    "cards": {
+      "erp": "ERP · Hisob",
+      "erpRows": [
+        "Solishtirish dalolatnomasi",
+        "Hisob 62.01",
+        "To‘lov 4471"
+      ],
+      "crm": "CRM",
+      "crmCols": [
+        "Lid",
+        "TT",
+        "Bitim"
+      ],
+      "excel": "Excel · reja.xlsx",
+      "tg": "Chat · Telegram",
+      "tgMsgs": [
+        "Samarqand bo‘yicha dalolatnoma qani?",
+        "Kecha yubordim",
+        "ERP da yo‘q"
+      ],
+      "cam": "Kamera · 2-ombor",
+      "camNote": "2 kishi · B zona",
+      "scan": "Skan · PDF",
+      "scanTitle": "SHARTNOMA № 118/26",
+      "phone": "Telefoniya",
+      "mail": "Pochta",
+      "mailRows": [
+        [
+          "Yetkazib beruvchi",
+          "Hisob-faktura 0412"
+        ],
+        [
+          "Filial",
+          "Sentabr hisoboti"
+        ],
+        [
+          "Bank",
+          "Ko‘chirma 30.09"
+        ]
+      ]
+    },
+    "answer": {
+      "head": "Javob · 0,8 s · 3 manba",
+      "sev": "O‘sish +19%",
+      "sub": "muddati o‘tgan debitorlik qarzi",
+      "src": "ERP · CRM · Shartnomalar reyestri",
+      "act": "14 ta xat tasdiqni kutmoqda"
+    },
+    "branches": [
+      "Samarqand",
+      "Farg‘ona",
+      "Buxoro",
+      "Namangan"
+    ]
+  },
+  "console": {
+    "title": "BlackGust · Executive",
+    "queryLabel": "Savol",
+    "agentLabel": "Agent",
+    "query": "Hududiy filiallar bo‘yicha muddati 30 kundan oshgan debitorlik qarzi qancha va unga kim mas’ul?",
+    "answer": "41 ta kontragent bo‘yicha **{total}** muddati o‘tgan. 68% ikkita filialga to‘g‘ri keladi. Samarqand bo‘yicha summa bir oyda 19% ga oshgan.",
+    "headers": [
+      "Filial",
+      "Muddati o‘tgan",
+      "Kontragentlar",
+      "Mas’ul",
+      "Holat"
+    ],
+    "rows": [
+      [
+        "Samarqand",
+        "14",
+        "Savdo — Janub",
+        "O‘sish +19%",
+        "c"
+      ],
+      [
+        "Farg‘ona",
+        "11",
+        "Savdo — Sharq",
+        "O‘zgarishsiz",
+        "w"
+      ],
+      [
+        "Buxoro",
+        "9",
+        "Savdo — G‘arb",
+        "Pasayish −7%",
+        "o"
+      ],
+      [
+        "Namangan",
+        "7",
+        "Savdo — Sharq",
+        "O‘zgarishsiz",
+        "w"
+      ]
+    ],
+    "sources": [
+      "ERP · solishtirish dalolatnomasi",
+      "CRM · bitimlar",
+      "Shartnomalar reyestri"
+    ],
+    "agent": "Samarqanddagi 14 ta kontragentga eslatma xatlarini tayyorlab, bo‘lim rahbarining tasdig‘iga yuboraymi?"
+  },
+  "platform": {
+    "crumb": "Platforma",
+    "title": "Ma’lumotlaringiz va qaror orasidagi besh qatlam",
+    "lede": "Platforma tizimlaringizni almashtirmaydi. U ularga ulanadi, tashkilotning umumiy modelini quradi va SI-agentlarga unga xavfsiz kirish imkonini beradi. Har bir qatlamni tekshirish, sozlash va xavfsizlik siyosatingiz talab qilgan joyda joylashtirish mumkin.",
+    "arch": {
+      "label": "Arxitektura",
+      "title": "U qanday tuzilgan",
+      "text": "Pastdan yuqoriga: ma’lumotlar manbalaridan qaror qabul qiladigan odamlargacha. Nazorat qatlami barcha darajalardan o‘tadi."
+    },
+    "layers": [
+      {
+        "tag": "05 · Interfeyslar",
+        "h": "Odamlar qayerda ishlaydi",
+        "p": "Rahbar paneli, veb-ilova, korporativ chat, ovoz va o‘z tizimlaringizga integratsiya.",
+        "chips": [
+          "Executive",
+          "Web",
+          "Teams · Telegram",
+          "Ovoz",
+          "API"
+        ]
+      },
+      {
+        "tag": "04 · Agentlar",
+        "h": "Ishni kim bajaradi",
+        "p": "Roli, yo‘riqnomasi va ruxsat etilgan harakatlar to‘plami bor SI-agentlar: topish, hisoblash, tayyorlash, tasdiqqa yuborish.",
+        "chips": [
+          "Tahlilchi",
+          "Ish yurituvchi",
+          "Muddat nazoratchisi",
+          "Murojaatlar operatori"
+        ],
+        "hl": true
+      },
+      {
+        "tag": "03 · Tashkilot modeli",
+        "h": "Nima nima bilan bog‘liq",
+        "p": "Obyektlar va bog‘lanishlar: kontragent → shartnoma → hisob-faktura → to‘lov → mas’ul. Barcha bo‘limlar uchun yagona haqiqat.",
+        "chips": [
+          "Obyektlar",
+          "Bog‘lanishlar",
+          "Metrikalar",
+          "Vektor qidiruv"
+        ]
+      },
+      {
+        "tag": "02 · Konnektorlar",
+        "h": "Ma’lumotlar ichkariga qanday kiradi",
+        "p": "API, ma’lumotlar bazasi replikalari, eksport va hujjatlarni qayta ishlash. Jadval bo‘yicha yoki real vaqtda sinxronlash.",
+        "chips": [
+          "API",
+          "CDC",
+          "ETL",
+          "OCR",
+          "STT"
+        ]
+      },
+      {
+        "tag": "01 · Manbalar",
+        "h": "Tizimlaringiz — o‘zgarishsiz",
+        "p": "ERP va hisob, CRM, ma’lumotlar bazalari va omborlari, hujjatlar, pochta, telefoniya, korporativ chat, kameralar.",
+        "chips": [
+          "SAP",
+          "Oracle",
+          "1C",
+          "Dynamics",
+          "PostgreSQL",
+          "Snowflake",
+          "MS SQL",
+          "Excel"
+        ]
+      },
+      {
+        "tag": "⟂ Nazorat",
+        "h": "O‘tuvchi qatlam",
+        "p": "Kirish huquqlari, harakatlar jurnali, inson tasdig‘i, limitlar, shaxsga doir ma’lumotlarni yashirish.",
+        "chips": [
+          "RBAC",
+          "Audit",
+          "Human-in-the-loop",
+          "ShDM yashirish"
+        ],
+        "dashed": true
+      }
+    ],
+    "modules": {
+      "label": "Modullar",
+      "title": "Bitta ma’lumotlar modelidagi modullar",
+      "text": "Eng qimmat muammo uchun bitta moduldan boshlaymiz. Keyingilari allaqachon qurilgan modelga ulanadi, shuning uchun har biri oldingisidan tezroq joriy qilinadi.",
+      "cells": [
+        {
+          "k": "Birinchi modul",
+          "h": "Executive",
+          "p": "Rahbar paneli: oddiy tilda savollar, og‘ishlarning kundalik xulosasi, topshiriqlar nazorati, manbaga havolali javoblar."
+        },
+        {
+          "k": "Operatsiyalar",
+          "h": "Operations",
+          "p": "Kundalik jarayonlar uchun agentlar: solishtirishlar, arizalar, muddatlar nazorati, xat va hisobotlarni tayyorlash, vazifalarni yo‘naltirish."
+        },
+        {
+          "k": "Hujjatlar",
+          "h": "Documents",
+          "p": "Skan va PDF larni tanib olish, rekvizitlarni ajratib olish, shartnomalarni nazorat ro‘yxati bo‘yicha tekshirish, arxivdan qidirish."
+        },
+        {
+          "k": "Bilimlar",
+          "h": "Knowledge",
+          "p": "Korporativ bilimlar bazasi: reglamentlar, yo‘riqnomalar, normativ hujjatlar. Xodimlar hujjatdan iqtibos bilan javob oladi."
+        },
+        {
+          "k": "Ovoz",
+          "h": "Voice",
+          "p": "Bir necha tilda, jumladan o‘zbek tilida nutqni tanib olish va sintez qilish. Kontakt-markazlar, ishonch telefonlari va mobil ilovalar uchun ovozli agentlar."
+        },
+        {
+          "k": "Video",
+          "h": "Vision",
+          "p": "Mavjud kameralarda video tahlil: odamlarni sanash, zonalar bandligi, jarayonlar va texnika xavfsizligini nazorat qilish."
+        }
+      ]
+    },
+    "agents": {
+      "label": "Agentlar",
+      "title": "Agent — yo‘riqnoma va cheklovlarga ega xodim",
+      "text": "Agent «aqlli chat» emas. Uning roli, aniq ma’lumotlarga kirishi, ruxsat etilgan harakatlar ro‘yxati va qachon insondan so‘rash kerakligi haqida qoidalari bor.",
+      "consoleTitle": "Agent · Shartnomalarni tekshirish",
+      "consoleNote": "Konfiguratsiya",
+      "config": [
+        [
+          "roli",
+          "kiruvchi yetkazib berish shartnomalarini tekshirish"
+        ],
+        [
+          "o‘qiydi",
+          "shartnomalar reyestri, kontragentlar ma’lumotnomasi, ERP"
+        ],
+        [
+          "qila oladi",
+          "shartlarni ajratish · nazorat ro‘yxati bilan solishtirish · izoh yaratish"
+        ],
+        [
+          "qila olmaydi",
+          "imzolash · summalarni o‘zgartirish · tashqi tizimlarga yozish"
+        ],
+        [
+          "insondan so‘raydi",
+          "summa > {threshold} · yangi kontragent · namunaviy shakldan chetga chiqish"
+        ],
+        [
+          "jurnal",
+          "har bir qadam manba va vaqt bilan"
+        ]
+      ],
+      "items": [
+        "Agent huquqlari hech qachon u nomidan ishlayotgan foydalanuvchi huquqlaridan oshmaydi",
+        "Ma’lumotlarni o‘zgartiradigan harakatlar kelishuvdan o‘tadi",
+        "Har bir javob hujjat yoki yozuvga havola qiladi",
+        "Ma’lumot yetarli bo‘lmasa, agent to‘qib chiqarmay, buni aytadi",
+        "Har bir yangilanishdan oldin sifat namunaviy savollar to‘plamida tekshiriladi"
+      ]
+    },
+    "deploy": {
+      "label": "Joylashtirish",
+      "title": "Joylashtirishning to‘rt varianti",
+      "text": "Tanlov ma’lumotlarning maxfiyligi, regulyator talablari va IT siyosatingizga bog‘liq. Platforma funksionalligi barcha variantlarda bir xil; faqat mavjud til modellari to‘plami farq qiladi.",
+      "headers": [
+        "Variant",
+        "Ma’lumotlar qayerda",
+        "SI modellari",
+        "Kim uchun",
+        "Ishga tushirish muddati"
+      ],
+      "rows": [
+        [
+          "BlackGust buluti",
+          "O‘zbekistondagi ma’lumotlarni qayta ishlash markazi",
+          "Bulutli va mahalliy",
+          "Tez boshlash kerak bo‘lgan kompaniyalar",
+          "Bir necha kun"
+        ],
+        [
+          "Xususiy bulut",
+          "Sizning bulut akkauntingiz",
+          "Bulutli va mahalliy",
+          "Bulut siyosati bor kompaniyalar",
+          "1–2 hafta"
+        ],
+        [
+          "On-premise",
+          "Sizning serverlaringiz",
+          "Mahalliy; bulutli kelishuv bo‘yicha",
+          "Banklar, yirik xoldinglar",
+          "2–4 hafta"
+        ],
+        [
+          "Yopiq kontur",
+          "Internetsiz izolyatsiyalangan tarmoq",
+          "Faqat mahalliy",
+          "Davlat organlari, muhim infratuzilma",
+          "4–8 hafta"
+        ]
+      ],
+      "note": "Muddatlar platformani joylashtirishga tegishli va buyurtmachi infratuzilmasining tayyorligiga bog‘liq."
+    },
+    "models": {
+      "label": "SI modellari",
+      "title": "Ilg‘or bulutli yoki suveren modellar. Tanlov sizda.",
+      "text": "Platforma bitta modelga bog‘lanmagan. Ilg‘or modellardan korporativ API orqali foydalaning, o‘z konturingizda o‘z ma’lumotlaringizda o‘qitilgan ochiq modellarni ishga tushiring yoki ikkalasini birlashtiring. Modelni yechimni qayta yaratmasdan almashtirish mumkin.",
+      "options": [
+        {
+          "k": "Ilg‘or",
+          "h": "OpenAI, Anthropic va boshqa yetakchi modellar",
+          "p": "Shartlari ma’lumotlaringizda o‘qitishni istisno qiladigan korporativ API orqali. Tahlil, hujjatlar va agentlar uchun eng kuchli fikrlash qobiliyati.",
+          "items": [
+            "Eng tez boshlash",
+            "Eng yaxshi umumiy imkoniyatlar",
+            "Ma’lumotlar yuborilishidan oldin yashiriladi"
+          ]
+        },
+        {
+          "k": "Suveren",
+          "h": "Ma’lumotlaringizda o‘qitilgan mahalliy modellar",
+          "p": "Serverlaringizdagi yoki izolyatsiyalangan tarmoqdagi, hujjatlaringiz, terminologiyangiz va jarayonlaringizga moslab qo‘shimcha o‘qitilgan ochiq modellar. Konturdan hech narsa chiqmaydi.",
+          "items": [
+            "Korpusingizda qo‘shimcha o‘qitish",
+            "Bizning xavfsizlik arxitekturamiz",
+            "Internetsiz ishlash"
+          ],
+          "hl": true
+        },
+        {
+          "k": "Gibrid",
+          "h": "Har bir vazifaga mos model",
+          "p": "Yo‘naltirish xavfsizlik xizmatingiz qoidalari doirasida maxfiy va kundalik vazifalarni mahalliy modellarga, murakkablarini esa ilg‘or modellarga yuboradi.",
+          "items": [
+            "Siyosatlar bo‘yicha yo‘naltirish",
+            "Har bir so‘rov narxini nazorat qilish",
+            "Har bir chaqiruvning to‘liq auditi"
+          ]
+        }
+      ]
+    },
+    "it": {
+      "label": "IT xizmati uchun",
+      "title": "Texnik parametrlar",
+      "text": "Arxitektorlar va IT direktorlari uchun qisqa ma’lumotnoma. To‘liq texnik hujjatlar — NDA imzolangandan keyin.",
+      "qa": [
+        [
+          "Manbalarga kirish",
+          "Standart holatda faqat o‘qish. Yozish — faqat aniq ruxsat etilgan va kelishilgan harakatlar orqali."
+        ],
+        [
+          "Integratsiyalar",
+          "REST/GraphQL API; PostgreSQL, Oracle va MS SQL replikalariga to‘g‘ridan-to‘g‘ri ulanish; Snowflake va BigQuery; Kafka oqimlari; SAP, Dynamics, Salesforce va 1C konnektorlari; fayl eksporti; IMAP pochta; vebxuklar."
+        ],
+        [
+          "Autentifikatsiya",
+          "LDAP / Active Directory, SAML yoki OIDC orqali yagona kirish. Rollar katalogingizdan meros qilib olinadi."
+        ],
+        [
+          "Joylashtirish",
+          "Kubernetes dagi konteynerlar yoki kichik konturlar uchun Docker Compose. Infratuzilma kod bilan tavsiflangan."
+        ],
+        [
+          "Kuzatuvchanlik",
+          "Agent so‘rovlarining metrikalari, loglari va trassirovkasi. Sizning SIEM ga eksport."
+        ],
+        [
+          "Zaxiralash",
+          "Jadval bo‘yicha zaxira nusxalar va shartnomada kelishilgan RPO/RTO bo‘yicha tiklash."
+        ],
+        [
+          "Platforma API",
+          "Tizimlaringiz agentlarni chaqirib, natijalarni API orqali olishi mumkin."
+        ]
+      ]
+    },
+    "band": {
+      "title": "Platformani o‘z ssenariylaringizda ko‘rsatamiz",
+      "text": "Namoyish taxminan bir soat davom etadi. IT va xavfsizlik rahbarlarini taklif qiling.",
+      "cta1": "Namoyishga ariza",
+      "cta2": "Xavfsizlik"
+    }
+  },
+  "approach": {
+    "crumb": "Yondashuv",
+    "title": "Muhandislar yozishmada emas, sizning yoningizda ishlaydi",
+    "lede": "Ko‘pchilik SI loyihalari texnologiya tufayli emas, pudratchi jarayonni hech qachon tushunmagani uchun muvaffaqiyatsiz tugaydi. Shuning uchun muhandislarimiz obyektga boradi, jamoalaringiz yonida ishlaydi va natija uchun javob beradi: har kuni foydalaniladigan yechim uchun.",
+    "fde": {
+      "label": "Obyektdagi muhandislar",
+      "title": "Butun yo‘l uchun bitta odam javobgar",
+      "text": "Har bir loyihaga yetakchi muhandis biriktiriladi. U diagnostikani o‘tkazadi, pilotni quradi va ishga tushirilgunga qadar qoladi. Vazifani uchta turli jamoaga qayta-qayta tushuntirishingiz shart emas.",
+      "cells": [
+        {
+          "k": "Jarayonni tushunadi",
+          "h": "Koddan emas, odamlardan boshlaydi",
+          "p": "Ijrochilar bilan intervyu o‘tkazadi, ish haqiqatda qanday bajarilishini ko‘radi va vaqt qayerda yo‘qolishini topadi."
+        },
+        {
+          "k": "O‘zi quradi",
+          "h": "Menejer emas, muhandis",
+          "p": "Tizimlarni ulaydi, agentlarni sozlaydi, integratsiyalarni yozadi. Qarorlar kelishuvlar zanjirisiz joyida qabul qilinadi."
+        },
+        {
+          "k": "Bilimni topshiradi",
+          "h": "Jamoangiz birga o‘rganadi",
+          "p": "Loyiha oxirida xodimlaringiz agent yo‘riqnomalarini o‘zlari o‘zgartiradi va yangi ssenariylar qo‘shadi."
+        }
+      ]
+    },
+    "phases": {
+      "label": "Bosqichlar",
+      "title": "Har bir bosqichda nima bo‘ladi",
+      "text": "Muddatlar o‘rtacha hajmdagi loyiha uchun odatiy. Sanali reja diagnostika natijalari bo‘yicha belgilanadi.",
+      "youGet": "Siz olasiz",
+      "items": [
+        {
+          "dur": "3–4 hafta · {diagnostic} dan",
+          "title": "Diagnostika",
+          "list": [
+            "Rahbariyat va jarayon egalari bilan intervyular",
+            "Tizimlar, ma’lumotlar va ularning sifati auditi",
+            "Boshlang‘ich ko‘rsatkichlar",
+            "Ta’siri baholangan 3–5 nomzod jarayon"
+          ],
+          "out": "Imkoniyatlar xaritasi, o‘zini oqlashni baholash va ishlab chiqish rejasi. Agar davom etmasak ham, hujjat sizda qoladi; uning narxi ishlab chiqishga hisoblanadi."
+        },
+        {
+          "dur": "6–10 hafta · ishlab chiqish shartnomasi doirasida",
+          "title": "Pilot",
+          "list": [
+            "Bitta jarayon, bitta foydalanuvchilar guruhi",
+            "Kerakli manbalarni ulash",
+            "Agent va interfeysni sozlash",
+            "Haftalik namoyishlar"
+          ],
+          "out": "Haqiqiy ma’lumotlarda ishlaydigan yechim va «oldin / keyin» hisoboti."
+        },
+        {
+          "dur": "3–9 oy · {foundation} dan",
+          "title": "Integratsiya",
+          "list": [
+            "Barcha kerakli tizimlarni ulash",
+            "Katalogingizdan yagona kirish va rollar",
+            "Xodimlarni rollar bo‘yicha o‘qitish",
+            "Reglamentlar va hujjatlar"
+          ],
+          "out": "Kundalik ishdagi yechim, o‘qitilgan jamoa va SLA bo‘yicha qo‘llab-quvvatlashga topshirish."
+        },
+        {
+          "dur": "Doimiy · yillik kuzatib borish shartnomasi",
+          "title": "Kengaytirish",
+          "list": [
+            "Yangi jarayonlar va modullar",
+            "Tashkilot modeli o‘sishda davom etadi",
+            "Agentlar sifatini muntazam tekshirish",
+            "Ta’sir haqida choraklik hisobot"
+          ],
+          "out": "Tobora ko‘proq jarayonlarni qamrab oladigan, har bir yangisiga xarajati kamayib boradigan platforma."
+        }
+      ]
+    },
+    "roles": {
+      "label": "Rollar",
+      "title": "Kim nima qiladi",
+      "text": "Mas’uliyatning aniq taqsimlanishi loyihani o‘z vaqtida yakunlash imkonini beradi.",
+      "headers": [
+        "Vazifa",
+        "BlackGust",
+        "Buyurtmachi"
+      ],
+      "rows": [
+        [
+          "Loyiha maqsadlari va muvaffaqiyat mezonlari",
+          "Taklif qiladi va hisoblaydi",
+          "Homiy tasdiqlaydi"
+        ],
+        [
+          "Jarayonni tavsiflash",
+          "Intervyu o‘tkazadi, hujjatlashtiradi",
+          "Jarayon egasi, haftasiga 2–4 soat"
+        ],
+        [
+          "Ma’lumotlarga kirish",
+          "Talablar va sxemani tayyorlaydi",
+          "IT kirish beradi, AX kelishadi"
+        ],
+        [
+          "Ishlab chiqish va sozlash",
+          "To‘liq",
+          "—"
+        ],
+        [
+          "Testlash",
+          "Namunaviy tekshiruvlar",
+          "Foydalanuvchilar o‘z vazifalarida tekshiradi"
+        ],
+        [
+          "O‘qitish",
+          "O‘tkazadi",
+          "Xodimlar vaqtini ajratadi"
+        ],
+        [
+          "Bosqichni qabul qilish",
+          "Hisobot va namoyish",
+          "Dalolatnomani imzolaydi"
+        ]
+      ]
+    },
+    "needs": {
+      "label": "Sizdan nima kerak",
+      "title": "Ko‘p emas, lekin majburiy",
+      "text": "Texnologiyani o‘zimiz zimmamizga olamiz. Tashkilotdan qarorlar va kirish huquqi kerak — ularsiz hech bir pudratchi ishlaydigan mahsulot yarata olmaydi.",
+      "items": [
+        "Qaror qabul qiladigan rahbariyatdan homiy",
+        "Ish haqiqatda qanday bajarilishini biladigan jarayon egasi",
+        "Tizimlarga kirish uchun IT dagi mas’ul shaxs",
+        "Boshida xavfsizlik xizmati bilan kelishuv",
+        "5–20 foydalanuvchidan iborat pilot guruh"
+      ]
+    },
+    "no": {
+      "label": "Qachon rad etamiz",
+      "title": "Har bir jarayonni avtomatlashtirishga arzimaydi",
+      "items": [
+        "Ma’lumot yo‘q va uni yig‘ib bo‘lmaydi — avval hisob yuritish kerak",
+        "Jarayon oyiga bir marta bajariladi va bir soat oladi — tejaydigan narsa yo‘q",
+        "Buyurtmachi tomonida jarayon egasi yo‘q",
+        "Xato qimmatga tushadigan joyda SI dan nazoratsiz qaror kutilmoqda"
+      ]
+    },
+    "band": {
+      "title": "Birinchi qadam — rahbariyat bilan suhbat",
+      "text": "Birinchi strategik sessiya bepul. Vazifa haqida aytib bering — rahbariyatimiz nimadan boshlash kerakligini aytadi.",
+      "cta1": "Biz bilan bog‘lanish",
+      "cta2": "Narxlar"
+    }
+  },
+  "solutions": {
+    "crumb": "Yechimlar",
+    "title": "«SI joriy etish» emas, aniq vazifalar",
+    "lede": "Biz eng ko‘p hal qiladigan vazifalar funksiyalar va sohalar bo‘yicha guruhlangan. Ularning har biri pilot bo‘lishi mumkin. Vazifangiz ro‘yxatda bo‘lmasa, bu biz uni hal qilmaymiz degani emas.",
+    "functions": {
+      "label": "Funksiyalar bo‘yicha",
+      "title": "Har bir bo‘linmada nima o‘zgaradi",
+      "text": "Har bir funksiya uchun — odatiy vazifalar va natijani o‘lchaydigan metrika.",
+      "rows": [
+        [
+          "Rahbariyat",
+          "Biznes haqida oddiy tilda javoblar, og‘ishlarning kundalik xulosasi, topshiriqlar nazorati, yig‘ilishlarga tayyorgarlik.",
+          "Metrika · javobgacha vaqt"
+        ],
+        [
+          "Moliya",
+          "Kontragentlar bilan solishtirish, debitorlik qarzini nazorat qilish, ERP va hisobdan yig‘ma hisobotlar, birlamchi hujjatlarni tekshirish, reja va fakt.",
+          "Metrika · davrni yopish kunlari"
+        ],
+        [
+          "Operatsiyalar va ishlab chiqarish",
+          "Ishlab chiqarish rejasi va fakti, to‘xtab qolishlar, sifat nazorati, xaridlar va qoldiqlar, maydondagi video tahlil.",
+          "Metrika · to‘xtab qolish, yo‘qotishlar"
+        ],
+        [
+          "Savdo va marketing",
+          "Lidlarni saralash, tijorat takliflarini tayyorlash, kanallar tahlili, CRM da menejerlar ishini nazorat qilish.",
+          "Metrika · konversiya, bitim davomiyligi"
+        ],
+        [
+          "Kontakt-markaz",
+          "Ko‘p tilli ovozli va matnli agentlar, murojaatlarni yo‘naltirish, javob muddatlarini nazorat qilish, qo‘ng‘iroqlar tahlili.",
+          "Metrika · operatorsiz hal qilingan ulush"
+        ],
+        [
+          "Yuristlar va ish yuritish",
+          "Shartnomalarni nazorat ro‘yxati bo‘yicha tekshirish, normativ baza bo‘yicha qidiruv, namunaviy hujjatlar tayyorlash, muddatlarni nazorat qilish.",
+          "Metrika · shartnomani tekshirish vaqti"
+        ],
+        [
+          "HR",
+          "Rezyumelarni saralash, xodimlarga reglamentlar bo‘yicha javob, yangi xodimlarni moslashtirish, kompaniya bilimlar bazasi.",
+          "Metrika · vakansiyani yopish vaqti"
+        ],
+        [
+          "IT",
+          "Tahlil uchun ma’lumotlarga yagona kirish nuqtasi, birinchi liniyadagi ichki qo‘llab-quvvatlash, tizimlar bo‘yicha hujjatlar.",
+          "Metrika · birinchi liniya yuklamasi"
+        ]
+      ]
+    },
+    "industries": {
+      "label": "Sohalar bo‘yicha",
+      "title": "Sohalar bo‘yicha odatiy vazifalar",
+      "text": "Bizga nima bilan murojaat qilishlariga misollar. Buyurtmachilar nomini faqat ularning roziligi bilan oshkor qilamiz.",
+      "more": "Davlat sektori batafsil",
+      "cells": [
+        {
+          "k": "Davlat",
+          "h": "Vazirliklar, hokimliklar, davlat korxonalari",
+          "items": [
+            "Fuqarolar murojaatlarini qayta ishlash va idoralar o‘rtasida yo‘naltirish",
+            "Topshiriqlar va muddatlarni nazorat qilish",
+            "Normativ baza bo‘yicha yuridik SI-yordamchi",
+            "Rahbariyat uchun tahliliy panel"
+          ],
+          "href": "/government"
+        },
+        {
+          "k": "Qurilish va developerlik",
+          "h": "Xoldingning korporativ SI-platformasi",
+          "items": [
+            "Loyihalar, smetalar va reglamentlar bo‘yicha yagona bilimlar bazasi",
+            "Obyektlar bo‘yicha muddat va byudjetni nazorat qilish",
+            "Tender hujjatlarini tayyorlash",
+            "Korporativ chatdagi xodimlar uchun yordamchi"
+          ]
+        },
+        {
+          "k": "Moliya",
+          "h": "Banklar va sug‘urta kompaniyalari",
+          "items": [
+            "Mobil ilovadagi agent: ovoz, matn yoki hujjat surati orqali to‘lov",
+            "Mijoz hujjatlari paketini tekshirish",
+            "Murojaatlar va qo‘ng‘iroqlar tahlili",
+            "Bankning yopiq konturi ichida ishlash"
+          ]
+        },
+        {
+          "k": "Savdo va distributsiya",
+          "h": "Tarmoqlar, dilerlar, distributorlar",
+          "items": [
+            "Hamkorlar va montajchilar uchun sodiqlik dasturlari",
+            "Hududlar bo‘yicha marketing va savdo tahlili",
+            "Debitorlik qarzi va qoldiqlarni nazorat qilish",
+            "Dilerlar buyurtmalarini avtomatlashtirish"
+          ]
+        },
+        {
+          "k": "Ishlab chiqarish",
+          "h": "Zavodlar va sanoat guruhlari",
+          "items": [
+            "Real vaqtdagi ishlab chiqarish rejasi va fakti",
+            "Texnika xavfsizligini videonazorat qilish",
+            "Xaridlar va yetkazib beruvchilar tahlili",
+            "Texnologning raqamli yordamchisi"
+          ]
+        },
+        {
+          "k": "Transport va infratuzilma",
+          "h": "Aeroportlar, temir yo‘l, logistika",
+          "items": [
+            "Yo‘lovchilar oqimi va zonalar bandligini video tahlil qilish",
+            "Yo‘lovchilarga ko‘p tilli javoblar",
+            "Aktivlarga xizmat ko‘rsatishni rejalashtirish",
+            "Rahbariyat uchun yig‘ma tahlil"
+          ]
+        }
+      ]
+    },
+    "pilot": {
+      "label": "Birinchi jarayonni qanday tanlash",
+      "title": "Yaxshi pilot qanday bo‘lishi kerak",
+      "text": "Diagnostikada izlaydigan belgilarimiz. Mosliklar qancha ko‘p bo‘lsa, pilot shuncha tez o‘zini oqlaydi.",
+      "cells": [
+        {
+          "k": "Chastota",
+          "h": "Har kuni takrorlanadi",
+          "p": "Haftasiga o‘nlab yoki yuzlab bir xil operatsiyalar."
+        },
+        {
+          "k": "Ma’lumotlar",
+          "h": "Ma’lumotlar mavjud",
+          "p": "Tizimlar va jadvallarga tarqalib ketgan bo‘lsa ham."
+        },
+        {
+          "k": "O‘lchanuvchanlik",
+          "h": "Qanday hisoblash aniq",
+          "p": "Soatlar, kunlar, xatolar, pul — oldin va keyinni solishtirish mumkin bo‘lgan narsa."
+        },
+        {
+          "k": "Egasi",
+          "h": "Mas’ul shaxs bor",
+          "p": "Bu jarayon xalaqit beradigan va uni o‘zgartirishni xohlaydigan odam."
+        },
+        {
+          "k": "Xavf",
+          "h": "Xatoni tuzatish mumkin",
+          "p": "Birinchi jarayon bitta xato qimmatga tushadigan jarayon bo‘lmasligi kerak."
+        },
+        {
+          "k": "Ko‘rinish",
+          "h": "Natija sezilarli",
+          "p": "Rahbariyat pilot ta’sirini ko‘rib, kengaytirish haqida qaror qabul qila olishi kerak."
+        }
+      ]
+    },
+    "band": {
+      "title": "O‘z vazifangizni topmadingizmi?",
+      "text": "Uni arizada tasvirlab bering. Muhandis u hal qilinadimi va nimadan boshlash kerakligini aytadi.",
+      "cta1": "Vazifani tasvirlash"
+    }
+  },
+  "government": {
+    "crumb": "Davlat sektori",
+    "title": "Davlat uchun SI: ma’lumotlar mamlakatda, qarorlar — odamlarda qoladi",
+    "lede": "Davlat organlari juda katta hajmdagi murojaatlar, hujjatlar va topshiriqlarni qayta ishlaydi. Biz buni ma’lumotlarni yurisdiksiyadan chiqarmasdan va mansabdor shaxslardan qarorlar uchun javobgarlikni olmasdan tezroq bajarishga yordam beramiz.",
+    "principles": {
+      "label": "Tamoyillar",
+      "title": "Davlat sektori bilan ishlashning to‘rt sharti",
+      "cells": [
+        {
+          "k": "Ma’lumotlar suvereniteti",
+          "h": "Ma’lumotlar mamlakatda qoladi",
+          "p": "Fuqarolarning shaxsga doir ma’lumotlari O‘zbekiston ichidagi infratuzilmada «Shaxsga doir ma’lumotlar to‘g‘risida»gi Qonun (O‘RQ-547) va lokalizatsiya talablariga muvofiq saqlanadi va qayta ishlanadi."
+        },
+        {
+          "k": "Izolyatsiya",
+          "h": "Yopiq kontur",
+          "p": "Platforma internetga kirishsiz izolyatsiyalangan tarmoqda, mahalliy til modellarida joylashtiriladi."
+        },
+        {
+          "k": "Javobgarlik",
+          "h": "Inson qaror qiladi",
+          "p": "SI tayyorlaydi, tekshiradi va taklif qiladi. Imzo, rezolyutsiya va yuridik ahamiyatga ega harakatlar mas’ul shaxsda qoladi."
+        },
+        {
+          "k": "Shaffoflik",
+          "h": "Har bir qadam jurnalda",
+          "p": "Kim so‘radi, agent nima javob berdi, qaysi hujjatlarga havola qildi, harakatni kim tasdiqladi. Jurnal tekshiruv uchun ochiq."
+        }
+      ]
+    },
+    "cases": {
+      "label": "Vazifalar",
+      "title": "Pilotdayoq nimani hal qilish mumkin",
+      "text": "6–10 haftada o‘lchanadigan ta’sirga ega vazifalar.",
+      "rows": [
+        [
+          "Fuqarolar murojaatlari",
+          "Murojaatlarni tasniflash, mas’ul idorani aniqlash, javob loyihasi, ko‘rib chiqish muddatlarini nazorat qilish. Turli tillar va yozuvlar bilan, jumladan lotin va kirill yozuvidagi o‘zbek tili bilan ishlaydi.",
+          "Ko‘rib chiqish muddati"
+        ],
+        [
+          "Topshiriqlar nazorati",
+          "Bayonnomalar va hujjatlardan topshiriqlarni ajratish, ijrochilarni tayinlash, eslatmalar, rahbariyat uchun muddati o‘tganlar xulosasi.",
+          "Muddatida bajarilgan ulush"
+        ],
+        [
+          "Normativ baza",
+          "Yurist yordamchisi: qonunlar, qarorlar va ichki hujjatlar bo‘yicha aniq iqtibos va tegishli tahririyatga havola bilan qidiruv.",
+          "Xulosa tayyorlash vaqti"
+        ],
+        [
+          "Rahbariyat uchun tahlil",
+          "Hududlar va idoraviy tashkilotlar bo‘yicha asosiy ko‘rsatkichlar bitta panelda, oddiy tildagi savollarga javoblar.",
+          "Javobgacha vaqt"
+        ],
+        [
+          "Ovozli liniya",
+          "Ishonch telefonlari uchun ko‘p tilli ovozli agent: odatiy savollarga javob beradi va murakkab murojaatlarni operatorga uzatadi.",
+          "Operatorsiz ulush"
+        ],
+        [
+          "Video tahlil",
+          "Mavjud kameralarda tashrif buyuruvchilarni sanash, xizmat ko‘rsatish zonalari bandligi, navbatlar va kirishni nazorat qilish.",
+          "Kutish vaqti"
+        ]
+      ]
+    },
+    "languages": {
+      "label": "Tillar",
+      "title": "Mahalliy tillar — tarjima emas, asos",
+      "text": "Ko‘pchilik global SI mahsulotlari o‘zbek yoki qozoq tili bilan, ayniqsa og‘zaki nutq va yozuvlar aralashgan matn bilan yomon ishlaydi. Biz nutqni tanib olish va sintezni mahalliy tilga sozlaymiz va sifatni haqiqiy murojaatlarda tekshiramiz.",
+      "facts": [
+        [
+          "3",
+          "asosiy til tayyor holda: ingliz, rus, o‘zbek; boshqalari — loyihaga qarab"
+        ],
+        [
+          "2",
+          "o‘zbek yozuvi, lotin va kirill, avtomatik aniqlanadi"
+        ],
+        [
+          "24/7",
+          "ovozli va matnli agentlar tanaffussiz ishlaydi"
+        ],
+        [
+          "100%",
+          "agent harakatlari jurnalda qayd etiladi"
+        ]
+      ]
+    },
+    "procurement": {
+      "label": "Xarid va shartnoma",
+      "title": "Biz bilan qanday shartnoma tuzish mumkin",
+      "text": "Davlat xaridlarida qabul qilingan formatlarda ishlaymiz va hujjatlarni tayyorlashga yordam beramiz.",
+      "cells": [
+        {
+          "k": "Pilot",
+          "h": "Pilot loyiha",
+          "p": "Yirik xariddan oldin ta’sirni isbotlash uchun hajmi va muddati cheklangan loyiha. Byudjetni asoslash kerak bo‘lganda foydali."
+        },
+        {
+          "k": "Tender",
+          "h": "Tanlov",
+          "p": "Tanlov talablari bo‘yicha texnik taklif, narx hisob-kitobi va hujjatlar paketini tayyorlaymiz."
+        },
+        {
+          "k": "To‘g‘ridan-to‘g‘ri shartnoma",
+          "h": "Qonun ruxsat bergan joyda",
+          "p": "Xarid qoidalari ruxsat berganda. Har bir bosqichni rasmiy qabul qilish bilan bosqichma-bosqich to‘lov."
+        }
+      ],
+      "docsTitle": "Biz taqdim etadigan hujjatlar",
+      "docs": [
+        "Texnik topshiriq yoki uni tayyorlashda yordam",
+        "Arxitektura va xavfsizlik modeli tavsifi",
+        "Qabul qilish bosqichlari bilan loyiha reja-jadvali",
+        "Sinov dasturi va metodikasi",
+        "Kerakli tillarda foydalanuvchi va administrator qo‘llanmalari",
+        "Har bir bosqich yakunlari bo‘yicha hisobot"
+      ]
+    },
+    "band": {
+      "title": "Idorangiz vazifasini muhokama qilaylik",
+      "text": "Muhandis va yo‘nalish rahbari bilan uchrashuv. O‘zimiz sizning huzuringizga borishimiz mumkin.",
+      "cta1": "Uchrashuv belgilash",
+      "cta2": "Xavfsizlik"
+    }
+  },
+  "security": {
+    "crumb": "Xavfsizlik",
+    "title": "Xavfsizlik xizmati uchun javoblar",
+    "lede": "Bu sahifa axborot xavfsizligi mutaxassislari uchun yozilgan: ma’lumotlar qayerda saqlanadi, ularni kim ko‘radi, SI-agent nima qila oladi va nima qila olmaydi, va bularning barchasini qanday tekshirish mumkin.",
+    "data": {
+      "label": "Ma’lumotlar",
+      "title": "Ma’lumotlar qayerda va ularni kim ko‘radi",
+      "qa": [
+        [
+          "Ma’lumotlar qayerda saqlanadi",
+          "Tanlangan joylashtirish variantida: O‘zbekistondagi BlackGust buluti, xususiy bulutingiz, serverlaringiz yoki yopiq kontur. Shaxsga doir ma’lumotlar qonun talab qiladigan yurisdiksiyada qoladi."
+        ],
+        [
+          "Ma’lumotlar modellarni o‘qitish uchun ishlatiladimi?",
+          "Yo‘q. Bulutli modellar shartlari mijoz ma’lumotlarida o‘qitishni istisno qiladigan korporativ API orqali ulanadi. Mahalliy modellar to‘liq infratuzilmangiz ichida ishlaydi."
+        ],
+        [
+          "Tashqi modellarga nima ketadi",
+          "Faqat javob uchun kerakli parchalar. Shaxsga doir ma’lumotlar yuborilishidan oldin yashiriladi. Yopiq konturda tashqi chaqiruvlar butunlay o‘chirilgan."
+        ],
+        [
+          "BlackGust da kimning kirish huquqi bor",
+          "Faqat ismi-sharifi kelishilgan loyiha muhandislarida va faqat ish davrida. Barcha kirishlar jurnalga yoziladi va topshirishda bekor qilinadi."
+        ],
+        [
+          "Shifrlash",
+          "Ma’lumotlar uzatish va saqlashda shifrlanadi. On-premise variantida kalitlar buyurtmachida."
+        ],
+        [
+          "Ma’lumotlarni o‘chirish",
+          "Shartnoma tugagach, ma’lumotlar kelishilgan muddatda o‘chirish dalolatnomasi bilan o‘chiriladi."
+        ]
+      ]
+    },
+    "agents": {
+      "label": "Agentlar",
+      "title": "SI-agent nima qila oladi va nima qila olmaydi",
+      "text": "Agent hech qachon o‘zi nomidan ishlayotgan odamdan ortiq huquq olmaydi. Barcha cheklovlar konfiguratsiyada belgilanadi va model emas, platforma tomonidan ta’minlanadi.",
+      "canTitle": "Qila oladi",
+      "can": [
+        "Foydalanuvchi huquqlari doirasida ma’lumotlarni o‘qish",
+        "Hujjatlar, xatlar va hisobotlarni tayyorlash",
+        "Vazifalar va eslatmalar yaratish",
+        "Oldindan ruxsat etilgan harakatlarni bajarish"
+      ],
+      "cannotTitle": "Inson tasdig‘isiz qila olmaydi",
+      "cannot": [
+        "Hisob tizimlaridagi ma’lumotlarni o‘zgartirish yoki o‘chirish",
+        "Hujjatlarni tashkilotdan tashqariga yuborish",
+        "To‘lovlar va yuridik ahamiyatga ega harakatlarni amalga oshirish",
+        "O‘z huquqlarini kengaytirish"
+      ]
+    },
+    "controls": {
+      "label": "Nazorat",
+      "title": "Nazorat mexanizmlari",
+      "cells": [
+        {
+          "k": "Kirish",
+          "h": "Rolga asoslangan model",
+          "p": "Rollar Active Directory yoki LDAP dan meros qilib olinadi. Obyektlarga kirish qatorlar va maydonlargacha cheklanadi."
+        },
+        {
+          "k": "Audit",
+          "h": "To‘liq jurnal",
+          "p": "Har bir so‘rov, javob, manba va harakat vaqt va foydalanuvchi bilan. Sizning SIEM ga eksport."
+        },
+        {
+          "k": "Kelishuv",
+          "h": "Konturdagi inson",
+          "p": "Summa, hujjat turi yoki yangi kontragent bo‘yicha chegaraviy qoidalar harakatni imzoga yuboradi."
+        },
+        {
+          "k": "Sifat",
+          "h": "Namunaviy tekshiruvlar",
+          "p": "Agentning har bir yangilanishidan oldin nazorat savollari to‘plami o‘tkaziladi. Sifat pasaysa, chiqarish bloklanadi."
+        },
+        {
+          "k": "Himoya",
+          "h": "So‘rovlarni filtrlash",
+          "p": "Kiruvchi so‘rovlar yo‘riqnomalarni chetlab o‘tish yoki begona ma’lumotlarni olishga urinishlar uchun tekshiriladi."
+        },
+        {
+          "k": "Shartnoma",
+          "h": "NDA va majburiyatlar",
+          "p": "Diagnostikadan oldin oshkor qilmaslik to‘g‘risida kelishuv. Asosiy shartnomada ma’lumotlarni himoya qilish majburiyatlari."
+        }
+      ]
+    },
+    "verify": {
+      "label": "Tekshiruv",
+      "title": "Ish boshlanishidan oldin bizni tekshiring",
+      "text": "Arxitektura tavsifi va tahdidlar modelini taqdim etamiz, xavfsizlik xizmatingiz so‘rovnomasini to‘ldiramiz. Muhandis shartnoma imzolanishidan oldin AX mutaxassislaringiz bilan uchrashishi mumkin.",
+      "cta": "Xavfsizlik hujjatlarini so‘rash"
+    }
+  },
+  "pricing": {
+    "crumb": "Narxlar",
+    "title": "Davlat va eng yirik kompaniyalar uchun narxlar",
+    "lede": "BlackGust kalit topshirish asosida joriy etiladi: platforma, obyektdagi muhandislar, integratsiya va o‘qitish qat’iy narxli bitta shartnomada. Strategik konsalting — alohida qator. Narxlar AQSh dollarida; to‘lov hisob-faktura sanasidagi Markaziy bank kursi bo‘yicha so‘mda.",
+    "dev": {
+      "label": "Kalit topshirish asosida ishlab chiqish",
+      "title": "Joriy etishning uch darajasi",
+      "text": "Shartnomaning eng kam qiymati. Yakuniy narx diagnostikadan keyin belgilanadi va hajm o‘zgarmaguncha o‘zgarmaydi."
+    },
+    "tiers": [
+      {
+        "name": "Foundation",
+        "price": "{foundation} dan",
+        "term": "3–4 oy",
+        "for": "Biznesning bitta yo‘nalishi to‘liq",
+        "items": [
+          "Bitta modul: Executive yoki Operations",
+          "5 tagacha ulangan tizim",
+          "Haqiqiy jarayonlarda 2–3 SI-agent",
+          "O‘zbekistondagi BlackGust buluti yoki xususiy bulutingiz",
+          "Obyektdagi muhandislar, xodimlarni o‘qitish"
+        ],
+        "cta": "Foundation ni muhokama qilish"
+      },
+      {
+        "name": "Enterprise",
+        "price": "{enterprise} dan",
+        "term": "6–9 oy",
+        "for": "Tashkilot yagona model sifatida",
+        "items": [
+          "Barcha bo‘linma va filiallar bo‘yicha tashkilot modeli",
+          "15 tagacha ulangan tizim",
+          "6–12 agent, rahbariyat uchun Executive paneli",
+          "O‘zbek va rus tilida ovoz",
+          "On-premise, yagona kirish, audit"
+        ],
+        "cta": "Enterprise ni muhokama qilish",
+        "hl": true
+      },
+      {
+        "name": "Sovereign",
+        "price": "{sovereign} dan",
+        "term": "9–12+ oy",
+        "for": "Davlat va milliy miqyos",
+        "items": [
+          "Perimetringiz ichidagi yopiq kontur",
+          "Ma’lumotlaringizda qo‘shimcha o‘qitilgan mahalliy modellar",
+          "Bizning xavfsizlik arxitekturamiz va tahdidlar modeli",
+          "Bitta platformada bir nechta tashkilot yoki idora",
+          "Xaridlar uchun hujjatlar, alohida jamoa"
+        ],
+        "cta": "Sovereign ni muhokama qilish"
+      }
+    ],
+    "consult": {
+      "label": "Strategik konsalting",
+      "title": "Rahbariyat uchun konsalting",
+      "text": "Ishlab chiqish boshlanishidan oldin javob kerak bo‘lganda yoki birinchi shaxs darajasidagi hamkor kerak bo‘lganda — alohida loyihalar. Kichik kompaniyalar uchun oddiy konsalting va tayyor yechimlarni [AISolution](/aisolution) taqdim etadi.",
+      "items": [
+        {
+          "k": "Boshlash",
+          "h": "Rahbariyat bilan strategik sessiya",
+          "p": "NDA doirasida rahbariyatimiz bilan ikki soat: SI tashkilotingizni qayerda o‘zgartiradi, qayerda yo‘q.",
+          "price": "Bepul"
+        },
+        {
+          "k": "3–4 hafta",
+          "h": "SI-diagnostika",
+          "p": "Intervyular, tizimlar va ma’lumotlar auditi, boshlang‘ich ko‘rsatkichlar, ta’siri baholangan imkoniyatlar xaritasi. Ishlab chiqishga hisoblanadi.",
+          "price": "{diagnostic} dan"
+        },
+        {
+          "k": "6–8 hafta",
+          "h": "SI-strategiya va transformatsiya yo‘l xaritasi",
+          "p": "Direktorlar kengashi darajasidagi strategiya: maqsadli model, ustuvorliklar, byudjet, jamoa, xavflar va uch yillik yo‘l xaritasi.",
+          "price": "{strategy} dan"
+        },
+        {
+          "k": "6–10 hafta",
+          "h": "Suveren SI arxitekturasi",
+          "p": "Yopiq konturdagi yoki on-premise SI-platforma uchun arxitektura, xavfsizlik modeli va infratuzilma spetsifikatsiyasi.",
+          "price": "{architecture} dan"
+        },
+        {
+          "k": "Dastur",
+          "h": "Rahbariyat uchun SI-dastur",
+          "p": "Top-jamoa uchun yopiq dastur: SI nimalarga qodir, uni qanday boshqarish va natijani qanday o‘lchash kerak. Sizning haqiqiy keyslaringizda.",
+          "price": "{academy} dan"
+        },
+        {
+          "k": "Har oy",
+          "h": "Chief AI Officer xizmat sifatida",
+          "p": "Rahbariyatingiz bilan ishlaydigan katta maslahatchi: ustuvorliklar, yetkazib beruvchilarni tanlash, SI-loyihalarni nazorat qilish.",
+          "price": "{advisory} dan",
+          "unit": "oyiga"
+        }
+      ]
+    },
+    "support": {
+      "label": "Ishga tushirilgandan keyin",
+      "title": "Kuzatib borish va rivojlantirish",
+      "text": "SLA bilan alohida yillik shartnoma: platformani yangilash, agentlar sifatini tekshirish, yangi jarayonlar va modullar, ta’sir haqida choraklik hisobotlar. Hajmi ishlab chiqishni qabul qilishda kelishiladi."
+    },
+    "factors": {
+      "label": "Narx nimadan iborat",
+      "title": "Narxga nima ta’sir qiladi",
+      "text": "Yakuniy smeta kutilmagan bo‘lmasligi uchun bu omillarni oldindan aytamiz.",
+      "qa": [
+        [
+          "Qamrov",
+          "Platforma qancha bo‘linma, jarayon, filial va foydalanuvchini qamrab oladi."
+        ],
+        [
+          "Tizimlar",
+          "Tayyor API ga ega tizimni ulash hujjatsiz eski bazani yoki qog‘oz arxivni ulashdan arzonroq."
+        ],
+        [
+          "Modellar",
+          "Ilg‘or modellardan API orqali foydalanish yoki suveren modellar uchun GPU infratuzilmasi va qo‘shimcha o‘qitish."
+        ],
+        [
+          "Joylashtirish",
+          "Yopiq kontur alohida uskunalar va qo‘shimcha vaqt talab qiladi."
+        ],
+        [
+          "Tillar va ovoz",
+          "O‘zbek va rus tilidagi ovoz sizning leksikangiz va haqiqiy yozuvlarga moslab sozlanadi."
+        ]
+      ]
+    },
+    "roi": {
+      "label": "O‘zini oqlash",
+      "title": "Ta’sirni qanday hisoblaymiz",
+      "text": "Hisob bozordagi o‘rtacha ko‘rsatkichlarga emas, sizning raqamlaringizga asoslanadi.",
+      "consoleTitle": "Hisob namunasi",
+      "consoleNote": "Shartli raqamlar",
+      "headers": [
+        "Ko‘rsatkich",
+        "Oldin",
+        "Pilotdan keyin"
+      ],
+      "rows": [
+        [
+          "Bitta shartnomani tekshirish",
+          "90 daq",
+          "20 daq"
+        ],
+        [
+          "Oyiga shartnomalar",
+          "320",
+          "320"
+        ],
+        [
+          "Oyiga yuristlar soati",
+          "480",
+          "107"
+        ],
+        [
+          "Oyiga bo‘shagan soatlar",
+          "—",
+          "373"
+        ]
+      ],
+      "note": "Bo‘shagan soatlar × xodimning soatlik narxi − qo‘llab-quvvatlash va modellarga xarajat = oylik ta’sir. O‘zini oqlash muddati = sarmoya ÷ oylik ta’sir."
+    },
+    "band": {
+      "title": "Tashkilotingiz uchun hisob-kitob oling",
+      "text": "Bepul strategik sessiyadan boshlang. Rahbariyatimiz vazifani baholab, sizga qaysi daraja mos kelishini aytadi.",
+      "cta1": "Sessiyaga ariza"
+    }
+  },
+  "company": {
+    "crumb": "Kompaniya",
+    "title": "Toshkentda boshladik. Natija kerak bo‘lgan joyda ishlaymiz.",
+    "lede": "BlackGust — toshkentlik SI-integrator AISolution kompaniyasining korporativ platformasi. Biz davlat organlari va yirik tashkilotlar uchun ishlab turgan tizimlar ustiga operatsion «miya» quramiz: har bir mayda narsa ko‘rinsin, tashkilot esa nazoratni yo‘qotmasdan kengaya olsin. O‘zbekistonda xalqaro standart bo‘yicha yaratilgan.",
+    "why": {
+      "label": "Nima uchun mavjudmiz",
+      "title": "Yirik tashkilotlar o‘z tili va jarayonlarini tushunadigan vositalarga loyiq",
+      "paras": [
+        "Rivojlanayotgan bozorlardagi yirik kompaniyalar va davlat organlariga boshqa bozorlar uchun yaratilgan SI-mahsulotlar sotiladi: ularning tillarisiz, hisob va ERP tizimlari bilan integratsiyasiz, ma’lumotlar bilan ishlashning mahalliy qoidalarini hisobga olmasdan.",
+        "Biz aksincha ishlaymiz. Muayyan tashkilotning jarayonlaridan boshlaymiz, uning tizimlariga ulanamiz, tili va tartibga solinishini hisobga olamiz. Va yechim ishning bir qismiga aylanmaguncha yonida bo‘lamiz."
+      ]
+    },
+    "facts": [
+      [
+        "2026",
+        "BlackGust AISolution ning korporativ platformasi sifatida ishga tushirildi"
+      ],
+      [
+        "25",
+        "mutaxassis jamoada"
+      ],
+      [
+        "6",
+        "loyiha 2026-yil boshidan beri yakunlandi"
+      ],
+      [
+        "50",
+        "muhandisni 2026-yil oxirigacha tayyorlash maqsadi"
+      ]
+    ],
+    "principles": {
+      "label": "Tamoyillar",
+      "title": "Qarorlarni qanday qabul qilamiz",
+      "cells": [
+        {
+          "k": "Natija",
+          "h": "Va’da bermaymiz, o‘lchaymiz",
+          "p": "Har bir loyiha boshlang‘ich ko‘rsatkichlar bilan boshlanadi va taqqoslash bilan yakunlanadi. Ta’sir bo‘lmasa, buni aytamiz."
+        },
+        {
+          "k": "Ishtirok",
+          "h": "Buyurtmachi yonida ishlaymiz",
+          "p": "Obyektdagi muhandislar jarayonni har qanday brifdan yaxshiroq tushunadi."
+        },
+        {
+          "k": "Nazorat",
+          "h": "Javobgarlik odamlarda qoladi",
+          "p": "SI ishni tezlashtiradi, lekin xato qimmatga tushadigan joyda qaror qabul qilmaydi."
+        },
+        {
+          "k": "Halollik",
+          "h": "Biz «yo‘q» deymiz",
+          "p": "SI o‘zini oqlamaydigan loyihalardan voz kechamiz va texnologiyaning cheklovlarini ochiq aytamiz."
+        }
+      ]
+    },
+    "leadership": {
+      "label": "Rahbariyat",
+      "title": "Kompaniyani kim boshqaradi",
+      "people": [
+        {
+          "k": "Asoschi va CEO",
+          "h": "Abbos Xamidov",
+          "p": "Strategiya, asosiy mijozlar, mahsulot. Senior backend-muhandis, Python va mashinali o‘qitishdan dars beradi."
+        },
+        {
+          "k": "Hammuassis va ijrochi direktor",
+          "h": "Ziyodulla",
+          "p": "Loyihalarni amalga oshirish va yechimlar arxitekturasi."
+        }
+      ]
+    },
+    "parent": {
+      "label": "Bosh kompaniya",
+      "title": "AISolution tomonidan yaratilgan",
+      "text": "AISolution Toshkentda tashkil etilgan va O‘zbekiston kompaniyalari hamda davlat organlari uchun SI yaratadi. BlackGust — uning eng talabchan mijozlar uchun platformasi: davlat, milliy kompaniyalar hamda O‘zbekiston va Osiyoning yirik xoldinglari.",
+      "cta": "AISolution haqida",
+      "ext": "aisolution.uz"
+    },
+    "partners": {
+      "label": "Hamkorlik",
+      "title": "Texnologik hamkorlar",
+      "text": "Biz mavjud eng yaxshi modellar va vositalardan foydalanamiz va mijozni hech qachon bitta yetkazib beruvchiga bog‘lab qo‘ymaymiz.",
+      "cells": [
+        {
+          "k": "Maqom",
+          "h": "OpenAI Select Partner",
+          "p": "AISolution — OpenAI Partner Network doirasidagi OpenAI Select Partner."
+        },
+        {
+          "k": "Hamkorlar tarmog‘i",
+          "h": "Muhandislik hamkor jamoalari",
+          "p": "Namunaviy yechimlar uchun bizning standartlarimiz bo‘yicha ishlaydigan hamkorlar bilan ishlaymiz. Shartnoma va javobgarlik bizda qoladi."
+        }
+      ]
+    },
+    "careers": {
+      "label": "Karyera",
+      "title": "Obyektdagi muhandislar butkempi",
+      "text": "Biz buyurtmachi jarayonini ham tushuna oladigan, yechimni o‘z qo‘li bilan ham yig'a oladigan muhandislarni tayyorlaymiz. Maqsad — 2026-yil oxirigacha 50 nafar tayyorlangan muhandis.",
+      "lookTitle": "Kimni izlaymiz",
+      "look": [
+        "Backend-dasturchilar: Python, PostgreSQL, integratsiyalar",
+        "Ma’lumotlar muhandislari va tahlilchilar",
+        "Nutq va matn bo‘yicha tajribali ML-muhandislar",
+        "Muhandislik tajribasiga ega loyiha menejerlari"
+      ],
+      "teachTitle": "Nimani o‘rgatamiz",
+      "teach": [
+        "SI-agentlarni loyihalash va tekshirish",
+        "Korporativ tizimlar bilan integratsiya",
+        "Obyektda buyurtmachi bilan ishlash",
+        "Xavfsizlik va yopiq konturlarda ishlash"
+      ],
+      "cta": "Ariza topshirish"
+    }
+  },
+  "faq": {
+    "crumb": "Savollar",
+    "title": "Bizga eng ko‘p beriladigan savollar",
+    "lede": "Rollar bo‘yicha guruhlangan: asoschi, moliya direktori va xavfsizlik rahbarining savollari turlicha. Savolingiz bu yerda bo‘lmasa, uni arizada bering — muhandis javob beradi.",
+    "navLabel": "Bo‘limlar",
+    "groups": [
+      {
+        "id": "general",
+        "title": "Umumiy",
+        "items": [
+          [
+            "Oddiy qilib aytganda, BlackGust nima?",
+            "Platforma va muhandislar jamoasi. Platforma tizimlaringizdagi ma’lumotlarni yagona manzaraga bog‘laydi va SI-agentlarga unga xavfsiz kirish imkonini beradi. Muhandislar buni aniq bo‘linmalar ishiga joriy qiladi — rahbariyat savollaridan hujjatlarni qayta ishlashgacha."
+          ],
+          [
+            "Bu ChatGPT dagi chat-botdan nimasi bilan farq qiladi?",
+            "Chat-bot internetda bor narsani biladi. Bizning agentlarimiz sizning ma’lumotlaringiz — shartnomalar, hisob, CRM — bilan foydalanuvchi huquqlari doirasida ishlaydi, manbalarga havola qiladi va jarayonlaringizda harakat qila oladi. Bunga qo‘shimcha — jurnal, nazorat va sizning yurisdiksiyangizda yoki serverlaringizda joylashtirish."
+          ],
+          [
+            "Siz mahsulot sotasizmi yoki xizmat?",
+            "Ikkalasini ham. Platforma — yechimning asosi. Muhandislar ishi uni aynan sizning tashkilotingiz uchun foydali qiladi. Joriy etishsiz litsenziyani alohida sotmaymiz."
+          ],
+          [
+            "Mijozlaringiz kimlar?",
+            "O‘zbekiston va Osiyodagi davlat organlari, milliy kompaniyalar, davlat korxonalari va yirik xoldinglar. Kichik kompaniyalarga [AISolution](/aisolution) tayyor yechimlar bilan xizmat ko‘rsatadi."
+          ],
+          [
+            "O‘zbekistondan tashqarida ishlaysizmi?",
+            "Ha. Bosh ofis Toshkentda, butun Markaziy Osiyo va undan tashqarida ishlaymiz. Muhandislar buyurtmachiga boradi."
+          ],
+          [
+            "BlackGust va AISolution qanday bog‘liq?",
+            "BlackGust — AISolution ning korporativ platformasi. [AISolution](/aisolution) har qanday hajmdagi kompaniyalar uchun SI yaratadi; BlackGust — davlat va eng yirik tashkilotlar uchun daraja."
+          ]
+        ]
+      },
+      {
+        "id": "ceo",
+        "title": "Asoschi va CEO",
+        "items": [
+          [
+            "Qanday ta’sir kutish mumkin?",
+            "Jarayonga bog‘liq. Odatiy natijalar: kundalik operatsiyalar bir necha baravar kam vaqt oladi, rahbariyat savollariga kunlar emas, soniyalar ichida javob beriladi, muddatlar o‘tib ketishidan yo‘qotishlar kamayadi. Tashkilotingiz uchun aniq baholashni diagnostika sizning raqamlaringiz asosida beradi."
+          ],
+          [
+            "Birinchi natija qachon bo‘ladi?",
+            "Baholangan imkoniyatlar xaritasi — 3–4 haftadan keyin. Bitta jarayonda ishlaydigan pilot — diagnostikadan keyin 6–10 haftada."
+          ],
+          [
+            "Agar natija bo‘lmasa-chi?",
+            "Ish alohida qabul qilinadigan bosqichlarga bo‘lingan va {diagnostic} dan diagnostikadan boshlanadi. Sarmoya o‘zini oqlaydigan jarayonlarni topmasak, buni ishlab chiqish boshlanishidan oldin aytamiz."
+          ],
+          [
+            "Nega buni o‘z IT jamoamiz bilan qilmaslik kerak?",
+            "Jamoangizda til modellari, agentlar, mahalliy tillardagi nutq va SI sifatini baholash tajribasi bo‘lsa, mumkin. Odatda biz bilan boshlab, parallel ravishda o‘z muhandislaringizni o‘qitish tezroq — bilim topshirish har bir loyihaga kiradi."
+          ],
+          [
+            "Sizga qaram bo‘lib qolmaymizmi?",
+            "Qaramlik minimal bo‘lishi uchun loyihalaymiz: hujjatlar, konfiguratsiyaga kirish, muhandislaringizni o‘qitish. Modellarni almashtirish mumkin, ma’lumotlar sizda qoladi."
+          ],
+          [
+            "Loyihamizda kim ishlaydi?",
+            "Loyihani diagnostikadan ishga tushirishgacha olib boradigan yetakchi muhandis va vazifaga mos jamoa. Ishtirokchilarning ismlari va tajribasini boshlashdan oldin bilasiz."
+          ]
+        ]
+      },
+      {
+        "id": "cfo",
+        "title": "Moliya",
+        "items": [
+          [
+            "Bu qancha turadi?",
+            "Strategik sessiya bepul. Diagnostika — {diagnostic} dan, ishlab chiqishga hisoblanadi. Kalit topshirish asosida ishlab chiqish: Foundation {foundation} dan, Enterprise {enterprise} dan, Sovereign {sovereign} dan. Batafsil [«Narxlar»](/pricing) sahifasida."
+          ],
+          [
+            "Hisob qaysi valyutada beriladi?",
+            "Narxlar AQSh dollarida ko‘rsatilgan. To‘lov hisob-faktura sanasidagi O‘zbekiston Markaziy banki kursi bo‘yicha so‘mda."
+          ],
+          [
+            "Ishlab chiqish shartnomasiga nima kiradi?",
+            "Loyiha doirasidagi platforma va modullar, obyektdagi muhandislar, tizimlaringizni integratsiya qilish, agentlar, o‘qitish, hujjatlar va bosqichma-bosqich qabul qilish. Ishga tushirilgandan keyingi kuzatib borish — alohida yillik shartnoma."
+          ],
+          [
+            "Qabul qilish qanday rasmiylashtiriladi?",
+            "Har bir bosqich hisobot, namoyish va imzolangan dalolatnoma bilan yakunlanadi. To‘lov bosqichma-bosqich."
+          ],
+          [
+            "O‘zini oqlashni qanday hisoblaysiz?",
+            "Jarayonning boshlang‘ich ko‘rsatkichlarini (vaqt, hajm, xatolar, yo‘qotishlar) qayd etamiz va pilotdan keyin o‘sha ko‘rsatkichlarni o‘lchaymiz. Qo‘llab-quvvatlash va modellar chegirilgan pul farqi — oylik ta’sir."
+          ]
+        ]
+      },
+      {
+        "id": "it",
+        "title": "IT",
+        "items": [
+          [
+            "Tizimlarimizni o‘zgartirish kerakmi?",
+            "Yo‘q. Mavjud tizimlarga API, ma’lumotlar bazasi replikalari yoki eksport orqali ulanamiz. Standart holatda faqat o‘qish huquqi."
+          ],
+          [
+            "Qaysi tizimlar bilan integratsiya qilasiz?",
+            "ERP (SAP, Oracle, Microsoft Dynamics, 1C), CRM (Salesforce, HubSpot, Dynamics), ma’lumotlar bazalari va omborlari (PostgreSQL, Oracle, MS SQL, Snowflake, BigQuery), Kafka, hujjat aylanishi, pochta, IP-telefoniya, Teams, Slack, videokameralar. Nostandart narsalarning barchasini auditda baholaymiz."
+          ],
+          [
+            "Platforma qayerda joylashtiriladi?",
+            "BlackGust bulutida, xususiy bulutingizda, serverlaringizda yoki yopiq tarmoqda. Qarang: [«Joylashtirish»](/platform#deploy)."
+          ],
+          [
+            "Mahalliy modellar uchun qanday serverlar kerak?",
+            "Yuklama va tanlangan modellarga bog‘liq. Yopiq kontur uchun odatda GPU serverlar kerak. Spetsifikatsiyani diagnostikada tayyorlaymiz."
+          ],
+          [
+            "Foydalanuvchilar tizimga qanday kiradi?",
+            "Katalogingiz orqali: Active Directory / LDAP, SAML yoki OIDC. Rollar va guruhlar meros qilib olinadi."
+          ],
+          [
+            "Ishga tushirilgandan keyin yechimni kim qo‘llab-quvvatlaydi?",
+            "Biz, SLA bo‘yicha. Shuningdek, o‘zgarishlarning bir qismini o‘zingiz kiritishingiz uchun muhandislaringizni o‘qitamiz va hujjatlarni topshiramiz."
+          ]
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Xavfsizlik",
+        "items": [
+          [
+            "Modellar bizning ma’lumotlarimizda o‘qitiladimi?",
+            "Yo‘q. Bulutli modellar mijoz ma’lumotlarida o‘qitmaydigan korporativ API orqali ulanadi; mahalliy modellar infratuzilmangizda ishlaydi."
+          ],
+          [
+            "Ma’lumotlarni mamlakatda saqlash talablarini bajarasizmi?",
+            "Ha. Shaxsga doir ma’lumotlar qonun talab qiladigan yurisdiksiyada saqlanadi va qayta ishlanadi — O‘zbekistonda «Shaxsga doir ma’lumotlar to‘g‘risida»gi Qonun bo‘yicha."
+          ],
+          [
+            "Agent insondan bexabar biror narsa qila oladimi?",
+            "Faqat konfiguratsiyasida aniq ruxsat etilganini. Ma’lumotlarni o‘zgartirish, hujjatlarni tashqariga yuborish va yuridik ahamiyatga ega harakatlar inson tasdig‘ini talab qiladi."
+          ],
+          [
+            "Imzolashdan oldin hujjatlarni o‘rganish mumkinmi?",
+            "Ha. NDA dan keyin arxitektura tavsifi va tahdidlar modelini taqdim etamiz hamda xavfsizlik xizmatingiz so‘rovnomasini to‘ldiramiz. Qarang: [«Xavfsizlik»](/security)."
+          ]
+        ]
+      },
+      {
+        "id": "head",
+        "title": "Bo‘lim rahbari",
+        "items": [
+          [
+            "Bu jamoamning qancha vaqtini oladi?",
+            "Jarayon egasi pilot davomida haftasiga 2–4 soat sarflaydi. Qolganlar intervyu va testlarda qatnashadi, har biri 1–2 soat."
+          ],
+          [
+            "SI xodimlarimni almashtiradimi?",
+            "Maqsad — odamlar malakasini talab qiladigan ish bilan shug‘ullanishi uchun kundalik ishlarni olib tashlash. Qarorlar va kelishuvlar odamlarda qoladi."
+          ],
+          [
+            "SI xato qilsa-chi?",
+            "Har bir javobda manbaga havola bor, shuning uchun xatoni tekshirish oson. Xato qimmatga tushadigan joyda harakatni inson tasdiqlaydi. Topilgan xatolar takrorlanmasligi uchun namunaviy tekshiruvlarga qo‘shiladi."
+          ],
+          [
+            "Agent yo‘riqnomalarini dasturchisiz o‘zgartirish mumkinmi?",
+            "Ha. Yo‘riqnomalar va qoidalar interfeysda sozlanadi, biz buni mas’ul xodimga o‘rgatamiz."
+          ]
+        ]
+      },
+      {
+        "id": "gov",
+        "title": "Davlat sektori va xaridlar",
+        "items": [
+          [
+            "Davlat organi biz bilan qanday shartnoma tuzishi mumkin?",
+            "Pilot loyiha, tanlov yoki xarid qoidalari ruxsat bersa, to‘g‘ridan-to‘g‘ri shartnoma orqali. Texnik topshiriq va hujjatlarni tayyorlashga yordam beramiz."
+          ],
+          [
+            "Tizim internetsiz ishlay oladimi?",
+            "Ha, mahalliy til modellaridagi yopiq konturda."
+          ],
+          [
+            "Modellarni o‘z ma’lumotlarimizda o‘qitish mumkinmi?",
+            "Ha. Suveren joylashtirishda ochiq modellar konturingiz ichida hujjatlaringiz va terminologiyangizda qo‘shimcha o‘qitiladi. Ma’lumotlar ham, o‘qitilgan vaznlar ham infratuzilmangizdan chiqmaydi."
+          ],
+          [
+            "Qaysi tillar qo‘llab-quvvatlanadi?",
+            "Ingliz, rus va o‘zbek tillari tayyor holda — interfeys, agent javoblari va nutq uchun. Boshqa tillar, jumladan qozoq, fransuz, nemis va xitoy tillari loyihaga qarab sozlanadi. O‘zbek tili lotin va kirill yozuvida ishlaydi."
+          ],
+          [
+            "Qanday hujjatlarni topshirasiz?",
+            "Reja-jadval, sinov dasturi va metodikasi, foydalanuvchi va administrator qo‘llanmalari va har bir bosqich bo‘yicha hisobot. Qarang: [«Davlat sektori»](/government)."
+          ]
+        ]
+      },
+      {
+        "id": "staff",
+        "title": "Xodimlar",
+        "items": [
+          [
+            "Xodimlar tizimdan qanday foydalanadi?",
+            "Qulay joyda: veb-interfeysda, Teams yoki Slack da, yoki ovoz orqali. Yangi murakkab dasturni o‘rganish shart emas."
+          ],
+          [
+            "O‘qitish bo‘ladimi?",
+            "Ha, haqiqiy vazifalarda, rollar bo‘yicha, jamoa tilida. Bunga qo‘shimcha qisqa yo‘riqnomalar va savollar uchun aloqa."
+          ],
+          [
+            "Tizim mening shaxsiy yozishmalarimni o‘qiy oladimi?",
+            "Yo‘q. Faqat tashkilot va uning xavfsizlik xizmati bilan kelishilgan manbalar ulanadi, ma’lumotlarga har bir murojaat jurnalga yoziladi."
+          ]
+        ]
+      }
+    ],
+    "band": {
+      "title": "Savolingiz qoldimi?",
+      "text": "Maslahatchi dushanbadan shanbagacha, Toshkent vaqti bilan 9:00–19:00 (GMT+5) bir soat ichida javob beradi.",
+      "cta1": "Savol berish"
+    }
+  },
+  "contact": {
+    "crumb": "Aloqa",
+    "title": "Vazifangiz haqida aytib bering",
+    "lede": "Maslahatchi ish vaqtida bir soat ichida javob beradi va rahbariyatimiz bilan suhbat belgilaydi. Birinchi strategik sessiya bepul.",
+    "channels": {
+      "email": {
+        "title": "Pochta",
+        "note": "Hujjat yuborish uchun eng tez yo‘l"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "note": "Bizga yozing, bir soatda javob beramiz"
+      },
+      "phone": {
+        "title": "Telefon",
+        "note": "Du–Sh, 9:00–19:00 GMT+5"
+      },
+      "office": {
+        "title": "Bosh ofis",
+        "note": "Uchrashuvlar oldindan yozilish bo‘yicha",
+        "map": "Xaritani ochish"
+      }
+    },
+    "hoursTitle": "Ish vaqti",
+    "hours": "Du–Sh, Toshkent vaqti bilan 9:00–19:00 (GMT+5). Maslahatchi bir soat ichida javob beradi; SI-yordamchi — kecha-kunduz.",
+    "nextTitle": "Keyin nima bo‘ladi",
+    "next": [
+      "Maslahatchi vazifa va qulay vaqtni aniqlaydi",
+      "Rahbariyat bilan suhbat: vazifa hal qilinadimi va nimadan boshlash kerak",
+      "Qamrov va muddatlar bilan diagnostika taklifi"
+    ],
+    "form": {
+      "name": "Ism",
+      "role": "Lavozim",
+      "org": "Tashkilot",
+      "sector": "Sektor",
+      "interest": "Nima qiziqtiradi",
+      "phone": "Telefon",
+      "email": "Email",
+      "msg": "Vazifa",
+      "msgPh": "Qaysi jarayon eng ko‘p vaqt oladi? Qanday tizimlardan foydalanasiz?",
+      "select": "Tanlang",
+      "sectors": [
+        "Davlat organi",
+        "Davlat korxonasi",
+        "Yirik kompaniya (500+)",
+        "O‘rta kompaniya (50–500)",
+        "Kichik biznes"
+      ],
+      "interests": [
+        "Strategik sessiya",
+        "Diagnostika",
+        "Platforma namoyishi",
+        "Ishlab chiqish",
+        "Xavfsizlik hujjatlari",
+        "Karyera va butkemp"
+      ],
+      "submit": "Ariza yuborish",
+      "sending": "Yuborilmoqda…",
+      "consent": "Arizani yuborish orqali aloqa ma’lumotlaringizni qayta ishlashga rozilik bildirasiz.",
+      "okTitle": "Ariza qabul qilindi",
+      "okText": "Rahmat. Maslahatchi ish vaqtida bir soat ichida javob beradi.",
+      "errRequired": "Ismingizni va telefon raqami yoki email ni ko‘rsating.",
+      "errEmail": "Elektron pochta manzilini tekshiring.",
+      "errRate": "Arizalar juda ko‘p. Bir necha daqiqadan keyin qayta urinib ko‘ring yoki bizga WhatsApp ga yozing.",
+      "errServer": "Arizani yuborib bo‘lmadi. Bizga pochta yoki WhatsApp orqali yozing."
+    }
+  },
+  "aisolution": {
+    "crumb": "AISolution",
+    "title": "BlackGust ortidagi kompaniya",
+    "lede": "BlackGust — Toshkentda tashkil etilgan SI-integrator AISolution kompaniyasining korporativ platformasi. O‘sha muhandislar, o‘sha javobgarlik: AISolution har qanday hajmdagi kompaniyalar uchun SI yaratadi, BlackGust — davlat va eng yirik tashkilotlar uchun daraja.",
+    "about": {
+      "label": "AISolution haqida",
+      "title": "O‘zbekistonlik SI-integrator",
+      "paras": [
+        "AISolution yirik va o‘rta kompaniyalar hamda davlat tashkilotlari uchun SI-yechimlar yaratadi. Jamoa rahbariyatga SI qayerda o‘zini oqlashi bo‘yicha maslahat beradi, so‘ngra mavjud tizimlar ustiga tashkilotning «miyasi»ni quradi: hisob, ERP, CRM, hujjatlar va telefoniya.",
+        "AISolution — OpenAI Partner Network doirasidagi OpenAI Select Partner. Kompaniya bulutli va mahalliy modellar bilan ishlaydi, jumladan o‘zbek nutqini tanib olish va sintez qilishning o‘z yechimlariga ega."
+      ],
+      "cta": "aisolution.uz saytiga o‘tish",
+      "blog": "AISolution blogi"
+    },
+    "facts": [
+      [
+        "25",
+        "mutaxassis"
+      ],
+      [
+        "6",
+        "loyiha 2026-yilda yakunlandi"
+      ],
+      [
+        "2",
+        "daraja: biznes uchun AISolution, yirik kompaniyalar va davlat uchun BlackGust"
+      ],
+      [
+        "1",
+        "jamoa va platforma"
+      ]
+    ],
+    "which": {
+      "label": "Kimga murojaat qilish kerak",
+      "title": "AISolution mi yoki BlackGust mi?",
+      "rows": [
+        [
+          "AISolution",
+          "Kichik va o‘rta kompaniyalar: tayyor SI-yechimlar, chat-botlar, avtomatlashtirish va konsalting. Tez boshlash, qulay byudjetlar.",
+          "aisolution.uz"
+        ],
+        [
+          "BlackGust",
+          "Davlat organlari, milliy kompaniyalar va yirik xoldinglar: kalit topshirish asosidagi tashkilot modeli, suveren joylashtirish, {foundation} dan shartnomalar.",
+          "blackgust.uz"
+        ]
+      ]
+    },
+    "band": {
+      "title": "Davlat organi yoki yirik xolding emasmisiz?",
+      "text": "AISolution kompaniyangiz uchun tayyor yechim tanlaydi: o‘sha jamoa, tezroq va kamroq byudjet bilan.",
+      "cta1": "aisolution.uz saytiga o‘tish",
+      "cta2": "BlackGust bilan bog‘lanish"
+    }
+  }
+}
