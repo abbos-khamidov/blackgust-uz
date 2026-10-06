@@ -2,12 +2,12 @@
   "meta": {
     "siteName": "BlackGust",
     "default": {
-      "title": "BlackGust by AISolution — operational intelligence for government and enterprise",
-      "description": "BlackGust by AISolution: an enterprise AI platform built in Uzbekistan to an international standard. One model of the organization, AI agents on top, every deviation visible. For government bodies and large companies in Uzbekistan and Asia."
+      "title": "BlackGust — enterprise AI company for government and large business in Uzbekistan",
+      "description": "BlackGust by AISolution is the enterprise AI company of Uzbekistan for government, state corporations and large business: banks, fintech, manufacturing, warehouses, construction and education. A platform, on-site engineers and sovereign deployment in one contract."
     },
     "home": {
-      "title": "BlackGust by AISolution — operational intelligence for government and enterprise",
-      "description": "An enterprise AI platform from AISolution, built in Uzbekistan to an international standard: one model of the organization, AI agents, every deviation visible. Sovereign deployment, Uzbek and Russian language."
+      "title": "BlackGust — enterprise AI for government, banks and industry in Uzbekistan",
+      "description": "An enterprise AI platform and a team of engineers: one model of the organization, AI agents, every deviation visible. For state corporations, banks, fintech, manufacturing, logistics, construction and education. A product of AISolution, Tashkent."
     },
     "platform": {
       "title": "Platform — BlackGust",
@@ -35,7 +35,7 @@
     },
     "company": {
       "title": "Company — BlackGust",
-      "description": "BlackGust is the enterprise platform of AISolution, an AI integrator from Tashkent working across Uzbekistan and Asia. Team, leadership, principles, careers."
+      "description": "BlackGust is a product of AISolution, an AI company from Tashkent. CEO Abbos Khamidov, Managing Director Ziyodulla Tashmukhammadov. Team, principles, careers."
     },
     "faq": {
       "title": "FAQ — BlackGust",
@@ -47,7 +47,7 @@
     },
     "aisolution": {
       "title": "AISolution — the company behind BlackGust",
-      "description": "BlackGust is AISolution's platform for government and large enterprise. AISolution is an AI integrator from Tashkent and an OpenAI Select Partner."
+      "description": "BlackGust is a subsidiary product of AISolution for government and large enterprise. AISolution is an AI integrator from Tashkent and an OpenAI Select Partner, led by Abbos Khamidov and Ziyodulla Tashmukhammadov."
     },
     "notFound": {
       "title": "Page not found — BlackGust",
@@ -114,7 +114,7 @@
     "hero": {
       "badge": "By AISolution · Tashkent → Asia → world",
       "title": "An organization that *sees* itself whole and decides faster",
-      "lede": "BlackGust connects the systems you already run — ERP, accounting, CRM, documents, citizen requests, cameras — into one model of your organization and puts AI agents to work on it. Every deviation, however small, surfaces before it becomes a problem. Built in Uzbekistan by AISolution to an international standard, for government bodies and the largest companies of the region.",
+      "lede": "BlackGust connects the systems you already run — ERP, accounting, CRM, documents, citizen requests, cameras — into one model of your organization and puts AI agents to work on it. Every deviation, however small, surfaces before it becomes a problem. Built in Uzbekistan by AISolution to an international standard, for government bodies, state corporations and large business: banks, fintech, manufacturing, logistics, construction and education.",
       "cta2": "How the platform works",
       "meta": [
         [
@@ -123,7 +123,7 @@
         ],
         [
           "Languages",
-          "O‘zbekcha · Русский · English · Қазақша · 中文"
+          "O‘zbekcha · Русский · English · 中文 · 한국어"
         ],
         [
           "Engagement",
@@ -177,7 +177,7 @@
     "what": {
       "label": "What BlackGust is",
       "title": "A platform and engineers. Neither works without the other.",
-      "text": "We don't sell a license and walk away. Our engineers come on site, learn your processes, connect your systems and stay until the solution is part of daily work. The platform stays with you and grows with the organization.",
+      "text": "BlackGust is not another AI startup or chatbot vendor. It is an enterprise AI company that takes responsibility for the result. We don't sell a license and walk away. Our engineers come on site, learn your processes, connect your systems and stay until the solution is part of daily work. The platform stays with you and grows with the organization.",
       "platform": {
         "title": "One model of your organization, with AI agents working on it",
         "items": [
@@ -357,20 +357,38 @@
     },
     "sectors": {
       "label": "Industries",
-      "title": "Where we work",
-      "text": "The problems look alike across industries: lots of data, lots of approvals, too little time. What differs is the systems and the regulation, and we account for both in the diagnostic.",
+      "title": "Where we work: government, corporations and large business",
+      "text": "Banks and fintech, plants and warehouses, construction sites and universities: the problems look alike — lots of data, lots of approvals, too little time. What differs is the systems and the regulation, and we account for both in the diagnostic.",
       "more": "Learn more",
       "cells": [
         {
           "k": "Government",
-          "h": "Ministries, municipalities, state enterprises",
+          "h": "Ministries, hokimiyats, state corporations",
           "p": "Citizen requests, document workflows, tracking of directives, analytics for leadership.",
           "href": "/government"
+        },
+        {
+          "k": "Banks",
+          "h": "Banks and insurers",
+          "p": "Voice and text agents in mobile apps, document checks, transaction monitoring, compliance.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Fintech",
+          "h": "Payments, lending, digital services",
+          "p": "Customer onboarding and KYC checks, support agents, signals of suspicious operations.",
+          "href": "/solutions#industries"
         },
         {
           "k": "Manufacturing",
           "h": "Plants and industrial groups",
           "p": "Plan vs. actual, procurement, quality, video analytics on the shop floor.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Warehouses & logistics",
+          "h": "Warehouses, carriers, distribution centers",
+          "p": "Stock control, receiving and shipping documents, zone monitoring, delivery planning.",
           "href": "/solutions#industries"
         },
         {
@@ -380,9 +398,9 @@
           "href": "/solutions#industries"
         },
         {
-          "k": "Financial services",
-          "h": "Banks and insurers",
-          "p": "Voice and text agents in mobile apps, document checks, transaction monitoring.",
+          "k": "Education",
+          "h": "Universities, schools, training centers",
+          "p": "Admissions and student requests, a knowledge base of programs, assistants for teachers, analytics for leadership.",
           "href": "/solutions#industries"
         },
         {
@@ -392,9 +410,9 @@
           "href": "/solutions#industries"
         },
         {
-          "k": "Transport & logistics",
-          "h": "Carriers and infrastructure",
-          "p": "Passenger flows, capacity, asset maintenance, passenger requests.",
+          "k": "Private sector",
+          "h": "Large private companies and holdings",
+          "p": "One model of every company in the group, consolidated reporting, an assistant for leadership.",
           "href": "/solutions#industries"
         }
       ]
@@ -432,29 +450,6 @@
       ],
       "cta": "More on each phase"
     },
-    "facts": {
-      "label": "By the numbers",
-      "title": "A team, not a reseller",
-      "text": "Our own engineers, our own platform, and contractual accountability for results.",
-      "items": [
-        [
-          "25",
-          "specialists: engineers, analysts and project leads"
-        ],
-        [
-          "6",
-          "projects delivered since the start of 2026"
-        ],
-        [
-          "50",
-          "engineers we plan to train by the end of 2026 through our own bootcamp"
-        ],
-        [
-          "<1 h",
-          "response time from a consultant during business hours. Our AI assistant answers around the clock"
-        ]
-      ]
-    },
     "security": {
       "label": "Security",
       "title": "Your data stays yours",
@@ -475,76 +470,13 @@
       "cta1": "Request a session",
       "cta2": "FAQ"
     },
-    "signals": {
-      "label": "Every detail",
-      "title": "Nothing that happens in the company goes unnoticed",
-      "text": "The model watches every process continuously. A payment that slipped by three days, a contract signed outside the approval route, a branch whose margin is quietly sliding: each one becomes a signal with an owner, before it turns into a loss. That is what lets an organization grow without losing control.",
-      "feedTitle": "Signal feed",
-      "feedNote": "Example · illustrative data",
-      "headers": [
-        "Time",
-        "Source",
-        "Signal",
-        "Owner",
-        "Level"
-      ],
-      "rows": [
-        [
-          "09:12",
-          "ERP",
-          "Supplier payment overdue by 3 days, penalty clause applies from day 5",
-          "Treasury",
-          "c"
-        ],
-        [
-          "09:40",
-          "Contracts",
-          "Contract signed without legal review, amount above threshold",
-          "Legal",
-          "c"
-        ],
-        [
-          "10:05",
-          "BI",
-          "Fergana branch gross margin down 2.1 pts over 3 weeks",
-          "Regional director",
-          "w"
-        ],
-        [
-          "11:30",
-          "Warehouse",
-          "Stock count differs from ledger by 14 units, SKU 40-118",
-          "Warehouse 2",
-          "w"
-        ],
-        [
-          "12:15",
-          "Requests",
-          "12 requests unanswered for more than 48 hours",
-          "Service desk",
-          "w"
-        ],
-        [
-          "13:02",
-          "HR",
-          "Three resignations in one team within a month",
-          "HR director",
-          "o"
-        ]
-      ],
-      "scaleTitle": "Built to scale with you",
-      "scale": [
-        "New branches, entities and systems plug into the same model",
-        "Every new process reuses what is already connected",
-        "Leadership keeps one picture as the organization grows ten-fold"
-      ]
-    },
     "parent": {
       "label": "BlackGust by AISolution",
-      "title": "An Uzbek company building at an international level",
-      "text": "BlackGust is the enterprise platform of AISolution. AISolution has worked with companies and public bodies in Uzbekistan since day one; BlackGust is how we serve the most demanding of them: government, national companies and large holdings across Uzbekistan and Asia.",
+      "title": "A subsidiary product of AISolution, built at an international level",
+      "text": "BlackGust is a subsidiary product of AISolution, an AI company from Tashkent. AISolution has worked with companies and public bodies in Uzbekistan since day one; BlackGust is how we serve the most demanding of them: government, state corporations, banks and large holdings across Uzbekistan and Asia. Both companies are run by the same leadership.",
       "items": [
         "The same team, platform and accountability",
+        "CEO Abbos Khamidov · Managing Director Ziyodulla Tashmukhammadov",
         "OpenAI Select Partner (AISolution)",
         "Delivery in Uzbek, Russian and English"
       ],
@@ -1245,6 +1177,36 @@
             "Asset maintenance planning",
             "Consolidated analytics for leadership"
           ]
+        },
+        {
+          "k": "Fintech",
+          "h": "Payments, lending, digital services",
+          "items": [
+            "Customer onboarding and KYC document checks",
+            "Support agents in apps and messengers",
+            "Signals of suspicious operations for analysts",
+            "Product and channel analytics"
+          ]
+        },
+        {
+          "k": "Warehouses & logistics",
+          "h": "Warehouses, carriers, distribution centers",
+          "items": [
+            "Stock and movement control",
+            "Receiving and shipping documents read automatically",
+            "Video monitoring of zones and safety",
+            "Capacity and delivery planning"
+          ]
+        },
+        {
+          "k": "Education",
+          "h": "Universities, schools, training centers",
+          "items": [
+            "Admissions and student requests in several languages",
+            "A knowledge base of programs and regulations",
+            "AI assistants for teachers and methodologists",
+            "Analytics for university and ministry leadership"
+          ]
         }
       ]
     },
@@ -1744,17 +1706,18 @@
     },
     "leadership": {
       "label": "Leadership",
-      "title": "Who runs the company",
+      "title": "Who leads BlackGust and AISolution",
+      "text": "The same leadership runs both companies: BlackGust is AISolution's subsidiary product for government and large business, so roles and accountability are shared.",
       "people": [
         {
-          "k": "Founder & CEO",
-          "h": "Abbas Khamidov",
-          "p": "Strategy, key clients, product. Senior backend engineer; teaches Python and machine learning."
+          "k": "Founder & CEO · AISolution and BlackGust",
+          "h": "Abbos Khamidov",
+          "p": "Strategy, key clients and product. Senior backend engineer; teaches Python and machine learning."
         },
         {
-          "k": "Co-founder & Executive Director",
-          "h": "Ziyodulla",
-          "p": "Project delivery and solution architecture."
+          "k": "Co-founder & Managing Director · AISolution and BlackGust",
+          "h": "Ziyodulla Tashmukhammadov",
+          "p": "Operations, project delivery and solution architecture."
         }
       ]
     },
@@ -1836,6 +1799,14 @@
           [
             "How are BlackGust and AISolution related?",
             "BlackGust is AISolution's enterprise platform. [AISolution](/aisolution) builds AI for companies of every size; BlackGust is the level for government and the largest organizations."
+          ],
+          [
+            "How is BlackGust different from other AI companies and startups?",
+            "Most AI companies sell a tool or a chatbot and leave integration to you. BlackGust delivers the whole result: a platform that connects your systems into one model, engineers who work on site until it is in daily use, sovereign deployment with data kept in Uzbekistan, and a fixed-price contract with phase-by-phase acceptance. We work only with government bodies, state corporations and large business, and we are backed by [AISolution](/aisolution)."
+          ],
+          [
+            "Who leads BlackGust?",
+            "BlackGust is a subsidiary product of AISolution and is run by the same leadership: Abbos Khamidov, founder and CEO, and Ziyodulla Tashmukhammadov, co-founder and Managing Director. More on the [company](/company) page."
           ]
         ]
       },
@@ -2091,7 +2062,7 @@
   "aisolution": {
     "crumb": "AISolution",
     "title": "The company behind BlackGust",
-    "lede": "BlackGust is the enterprise platform of AISolution, an AI integrator founded in Tashkent. Same engineers, same accountability: AISolution builds AI for companies of every size, BlackGust is the level for government and the largest organizations.",
+    "lede": "BlackGust is a subsidiary product of AISolution, an AI integrator founded in Tashkent. Same leadership, same engineers, same accountability: AISolution builds AI for companies of every size, BlackGust is the level for government, state corporations and the largest organizations.",
     "about": {
       "label": "About AISolution",
       "title": "An AI integrator from Uzbekistan",

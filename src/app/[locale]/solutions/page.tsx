@@ -27,7 +27,7 @@ export default async function Page({ params }: P) {
       <section className="sec paper" id="industries">
         <div className="wrap">
           <SecHead label={d.industries.label} title={d.industries.title} text={d.industries.text} />
-          <div className="cells c2">
+          <div className="cells c3">
             {d.industries.cells.map((c: Cell) => (
               <div key={c.k}><span className="k">{c.k}</span><h3 className="h4">{c.h}</h3>
                 <ul className="ticks">{(c.items ?? []).map((i: string) => <li key={i}>{i}</li>)}</ul>

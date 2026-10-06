@@ -2,12 +2,12 @@
   "meta": {
     "siteName": "BlackGust",
     "default": {
-      "title": "BlackGust by AISolution — davlat va yirik biznes uchun operatsion intellekt",
-      "description": "BlackGust by AISolution: O‘zbekistonda xalqaro standart bo‘yicha yaratilgan korporativ sun’iy intellekt platformasi. Tashkilotning yagona modeli, SI-agentlar, har bir og‘ish ko‘z oldida. O‘zbekiston va Osiyodagi davlat organlari hamda yirik kompaniyalar uchun."
+      "title": "BlackGust — davlat va yirik biznes uchun sun’iy intellekt kompaniyasi | O‘zbekiston",
+      "description": "BlackGust by AISolution — davlat organlari, davlat korporatsiyalari va yirik biznes uchun O‘zbekistonning korporativ sun’iy intellekt kompaniyasi: banklar, fintex, ishlab chiqarish, zavodlar, omborlar, qurilish va ta’lim. Platforma, joyidagi muhandislar va suveren joylashtirish — bitta shartnomada."
     },
     "home": {
-      "title": "BlackGust by AISolution — davlat va yirik biznes uchun operatsion intellekt",
-      "description": "AISolution tomonidan O‘zbekistonda xalqaro standart bo‘yicha yaratilgan korporativ SI-platforma: tashkilotning yagona modeli, SI-agentlar, har bir og‘ish ko‘z oldida. Suveren joylashtirish, o‘zbek va rus tillari."
+      "title": "BlackGust — O‘zbekistonda davlat, banklar va sanoat uchun korporativ sun’iy intellekt",
+      "description": "Korporativ SI-platforma va muhandislar jamoasi: tashkilotning yagona modeli, SI-agentlar, har bir og‘ish ko‘z oldida. Davlat korporatsiyalari, banklar, fintex, ishlab chiqarish, logistika, qurilish va ta’lim uchun. AISolution mahsuloti, Toshkent."
     },
     "platform": {
       "title": "Platforma — BlackGust",
@@ -35,7 +35,7 @@
     },
     "company": {
       "title": "Kompaniya — BlackGust",
-      "description": "BlackGust — O‘zbekiston va Osiyoda ishlaydigan toshkentlik SI-integrator AISolution kompaniyasining korporativ platformasi. Jamoa, rahbariyat, tamoyillar, karyera."
+      "description": "BlackGust — toshkentlik SI-kompaniya AISolution mahsuloti. Bosh direktor Abbos Xamidov, boshqaruvchi direktor Ziyodulla Toshmuhammadov. Jamoa, tamoyillar, karyera."
     },
     "faq": {
       "title": "Savol-javoblar — BlackGust",
@@ -47,7 +47,7 @@
     },
     "aisolution": {
       "title": "AISolution — BlackGust ortidagi kompaniya",
-      "description": "BlackGust — AISolution kompaniyasining davlat va yirik biznes uchun platformasi. AISolution — Toshkentdagi SI-integrator va OpenAI Select Partner."
+      "description": "BlackGust — AISolution’ning davlat va yirik biznes uchun sho‘ba mahsuloti. AISolution — Toshkentdagi SI-integrator va OpenAI Select Partner; rahbarlari Abbos Xamidov va Ziyodulla Toshmuhammadov."
     },
     "notFound": {
       "title": "Sahifa topilmadi — BlackGust",
@@ -114,7 +114,7 @@
     "hero": {
       "badge": "By AISolution · Toshkent → Osiyo → dunyo",
       "title": "O‘zini yaxlit *ko‘radigan* va tezroq qaror qabul qiladigan tashkilot",
-      "lede": "BlackGust sizda mavjud tizimlarni — ERP, hisob, CRM, hujjatlar, fuqarolar murojaatlari, kameralar — tashkilotning yagona modeliga birlashtiradi va unga SI-agentlarni ulaydi. Har qanday og‘ish, hatto eng kichigi ham, muammoga aylanmasidan oldin ko‘rinadi. AISolution jamoasi tomonidan O‘zbekistonda xalqaro standart bo‘yicha yaratilgan — mintaqaning davlat organlari va eng yirik kompaniyalari uchun.",
+      "lede": "BlackGust sizda mavjud tizimlarni — ERP, hisob, CRM, hujjatlar, fuqarolar murojaatlari, kameralar — tashkilotning yagona modeliga birlashtiradi va unga SI-agentlarni ulaydi. Har qanday og‘ish, hatto eng kichigi ham, muammoga aylanmasidan oldin ko‘rinadi. AISolution jamoasi tomonidan O‘zbekistonda xalqaro standart bo‘yicha yaratilgan — davlat organlari, davlat korporatsiyalari va yirik biznes uchun: banklar, fintex, ishlab chiqarish, logistika, qurilish va ta’lim.",
       "cta2": "Platforma qanday ishlaydi",
       "meta": [
         [
@@ -123,7 +123,7 @@
         ],
         [
           "Tillar",
-          "O‘zbekcha · Русский · English · Қазақша · 中文"
+          "O‘zbekcha · Русский · English · 中文 · 한국어"
         ],
         [
           "Format",
@@ -177,7 +177,7 @@
     "what": {
       "label": "BlackGust nima",
       "title": "Platforma va muhandislar. Biri ikkinchisisiz ishlamaydi.",
-      "text": "Biz litsenziyani sotib, ketib qolmaymiz. Muhandislarimiz sizga keladi, jarayonlarni o‘rganadi, tizimlarni ulaydi va yechim kundalik ishning bir qismiga aylanmaguncha yoningizda bo‘ladi. Platforma sizda qoladi va tashkilot bilan birga o‘sadi.",
+      "text": "BlackGust — navbatdagi SI-startap yoki chat-bot sotuvchisi emas. Bu natija uchun javob beradigan korporativ sun’iy intellekt kompaniyasi. Biz litsenziyani sotib, ketib qolmaymiz. Muhandislarimiz sizga keladi, jarayonlarni o‘rganadi, tizimlarni ulaydi va yechim kundalik ishning bir qismiga aylanmaguncha yoningizda bo‘ladi. Platforma sizda qoladi va tashkilot bilan birga o‘sadi.",
       "platform": {
         "title": "SI-agentlar ishlaydigan tashkilotning yagona modeli",
         "items": [
@@ -357,20 +357,38 @@
     },
     "sectors": {
       "label": "Sohalar",
-      "title": "Biz qayerda ishlaymiz",
-      "text": "Turli sohalardagi vazifalar o‘xshash: ma’lumot ko‘p, kelishuvlar ko‘p, vaqt kam. Farq tizimlar va tartibga solishda — ikkalasini ham diagnostikada hisobga olamiz.",
+      "title": "Qayerda ishlaymiz: davlat, korporatsiyalar va yirik biznes",
+      "text": "Banklar va fintex, zavodlar va omborlar, qurilish maydonlari va universitetlar: vazifalar o‘xshash — ma’lumot ko‘p, kelishuvlar ko‘p, vaqt kam. Farq tizimlar va tartibga solishda — ikkalasini ham diagnostikada hisobga olamiz.",
       "more": "Batafsil",
       "cells": [
         {
           "k": "Davlat",
-          "h": "Vazirliklar, hokimliklar, davlat korxonalari",
+          "h": "Vazirliklar, hokimliklar, davlat korporatsiyalari",
           "p": "Fuqarolar murojaatlari, hujjat aylanishi, topshiriqlar ijrosini nazorat qilish, rahbariyat uchun tahlil.",
           "href": "/government"
         },
         {
+          "k": "Banklar",
+          "h": "Banklar va sug‘urta kompaniyalari",
+          "p": "Mobil ilovalardagi ovozli va matnli agentlar, hujjatlarni tekshirish, operatsiyalar monitoringi, komplayens.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Fintex",
+          "h": "To‘lovlar, kreditlash, raqamli xizmatlar",
+          "p": "Mijozlarni ro‘yxatdan o‘tkazish va KYC tekshiruvi, qo‘llab-quvvatlash agentlari, shubhali operatsiyalar signallari.",
+          "href": "/solutions#industries"
+        },
+        {
           "k": "Ishlab chiqarish",
           "h": "Zavodlar va sanoat guruhlari",
-          "p": "Reja va fakt, xaridlar, sifat, maydondagi video tahlil.",
+          "p": "Reja va fakt, xaridlar, sifat, sexdagi video tahlil.",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "Omborlar va logistika",
+          "h": "Omborlar, tashuvchilar, tarqatish markazlari",
+          "p": "Qoldiqlar nazorati, kirim va chiqim hujjatlari, zonalar monitoringi, yetkazib berishni rejalashtirish.",
           "href": "/solutions#industries"
         },
         {
@@ -380,9 +398,9 @@
           "href": "/solutions#industries"
         },
         {
-          "k": "Moliya",
-          "h": "Banklar va sug‘urta kompaniyalari",
-          "p": "Mobil ilovalardagi ovozli va matnli agentlar, hujjatlarni tekshirish, operatsiyalarni nazorat qilish.",
+          "k": "Ta’lim",
+          "h": "Universitetlar, maktablar, o‘quv markazlari",
+          "p": "Qabul va talabalar murojaatlari, dasturlar bo‘yicha bilimlar bazasi, o‘qituvchilar uchun yordamchilar, rahbariyat uchun tahlil.",
           "href": "/solutions#industries"
         },
         {
@@ -392,9 +410,9 @@
           "href": "/solutions#industries"
         },
         {
-          "k": "Transport va logistika",
-          "h": "Tashuvchilar va infratuzilma",
-          "p": "Yo‘lovchilar oqimi, yuklama, aktivlarga xizmat ko‘rsatish, yo‘lovchilar murojaatlari.",
+          "k": "Xususiy sektor",
+          "h": "Yirik xususiy kompaniyalar va xoldinglar",
+          "p": "Guruhdagi har bir kompaniyaning yagona modeli, konsolidatsiyalangan hisobot, rahbariyat uchun yordamchi.",
           "href": "/solutions#industries"
         }
       ]
@@ -432,93 +450,6 @@
       ],
       "cta": "Bosqichlar haqida batafsil"
     },
-    "facts": {
-      "label": "Raqamlarda",
-      "title": "Vositachi emas, jamoa",
-      "text": "O‘z muhandislarimiz, o‘z platformamiz va shartnoma bo‘yicha natija uchun javobgarlik.",
-      "items": [
-        [
-          "25",
-          "mutaxassis: muhandislar, tahlilchilar, loyiha rahbarlari"
-        ],
-        [
-          "6",
-          "loyiha 2026-yil boshidan beri yakunlandi"
-        ],
-        [
-          "50",
-          "muhandisni 2026-yil oxirigacha o‘z butkempimizda tayyorlashni rejalashtirganmiz"
-        ],
-        [
-          "<1 soat",
-          "ish vaqtida maslahatchining javob berish vaqti. SI-yordamchi kecha-kunduz javob beradi"
-        ]
-      ]
-    },
-    "signals": {
-      "label": "Har bir mayda narsa",
-      "title": "Kompaniyada sodir bo‘layotgan hech narsa e’tibordan chetda qolmaydi",
-      "text": "Model har bir jarayonni uzluksiz kuzatib boradi. Uch kunga kechiktirilgan to‘lov, kelishuvni chetlab imzolangan shartnoma, marjasi sezdirmay pasayayotgan filial — har biri zararga aylanmasidan oldin mas’ul shaxsi bor signalga aylanadi. Aynan shu tashkilotga nazoratni yo‘qotmasdan o‘sish imkonini beradi.",
-      "feedTitle": "Signallar lentasi",
-      "feedNote": "Namuna · shartli ma’lumotlar",
-      "headers": [
-        "Vaqt",
-        "Manba",
-        "Signal",
-        "Mas’ul",
-        "Daraja"
-      ],
-      "rows": [
-        [
-          "09:12",
-          "ERP",
-          "Yetkazib beruvchiga to‘lov 3 kunga kechikdi, 5-kundan shartnoma bo‘yicha jarima",
-          "G‘aznachilik",
-          "c"
-        ],
-        [
-          "09:40",
-          "Shartnomalar",
-          "Shartnoma yuridik tekshiruvsiz imzolandi, summa chegaradan yuqori",
-          "Yuridik bo‘lim",
-          "c"
-        ],
-        [
-          "10:05",
-          "BI",
-          "Farg‘ona filialining yalpi marjasi 3 haftada 2,1 foiz bandga pasaydi",
-          "Hududiy direktor",
-          "w"
-        ],
-        [
-          "11:30",
-          "Ombor",
-          "Qoldiq hisobdan 14 birlikka farq qiladi, artikul 40-118",
-          "2-ombor",
-          "w"
-        ],
-        [
-          "12:15",
-          "Murojaatlar",
-          "12 ta murojaat 48 soatdan ortiq javobsiz",
-          "Qo‘llab-quvvatlash xizmati",
-          "w"
-        ],
-        [
-          "13:02",
-          "HR",
-          "Bir jamoada bir oy ichida uch kishi ishdan ketdi",
-          "HR-direktor",
-          "o"
-        ]
-      ],
-      "scaleTitle": "Siz bilan birga o‘sishga tayyor",
-      "scale": [
-        "Yangi filiallar, yuridik shaxslar va tizimlar o‘sha modelga ulanadi",
-        "Har bir yangi jarayon allaqachon ulangan narsalardan foydalanadi",
-        "Tashkilot o‘n baravar o‘ssa ham, rahbariyat yagona manzarani ko‘radi"
-      ]
-    },
     "security": {
       "label": "Xavfsizlik",
       "title": "Ma’lumotlaringiz sizniki bo‘lib qoladi",
@@ -541,10 +472,11 @@
     },
     "parent": {
       "label": "BlackGust by AISolution",
-      "title": "Xalqaro darajadagi o‘zbek kompaniyasi",
-      "text": "BlackGust — AISolution kompaniyasining korporativ platformasi. AISolution birinchi kundan O‘zbekiston kompaniyalari va davlat organlari bilan ishlaydi; BlackGust — ularning eng talabchanlari bilan ishlash usulimiz: davlat, milliy kompaniyalar hamda O‘zbekiston va Osiyoning yirik xoldinglari.",
+      "title": "AISolution’ning sho‘ba mahsuloti, xalqaro darajada yaratilgan",
+      "text": "BlackGust — toshkentlik SI-kompaniya AISolution’ning sho‘ba mahsuloti. AISolution birinchi kundan O‘zbekiston kompaniyalari va davlat organlari bilan ishlaydi; BlackGust — ularning eng talabchanlari bilan ishlash usulimiz: davlat, davlat korporatsiyalari, banklar hamda O‘zbekiston va Osiyoning yirik xoldinglari. Ikkala kompaniyani bir xil rahbariyat boshqaradi.",
       "items": [
         "O‘sha jamoa, platforma va javobgarlik",
+        "Bosh direktor Abbos Xamidov · boshqaruvchi direktor Ziyodulla Toshmuhammadov",
         "OpenAI Select Partner (AISolution)",
         "O‘zbek, rus va ingliz tillarida ishlash"
       ],
@@ -1245,6 +1177,36 @@
             "Aktivlarga xizmat ko‘rsatishni rejalashtirish",
             "Rahbariyat uchun yig‘ma tahlil"
           ]
+        },
+        {
+          "k": "Fintex",
+          "h": "To‘lovlar, kreditlash, raqamli xizmatlar",
+          "items": [
+            "Mijozlarni ro‘yxatdan o‘tkazish va KYC hujjatlarini tekshirish",
+            "Ilovalar va messenjerlardagi qo‘llab-quvvatlash agentlari",
+            "Tahlilchilar uchun shubhali operatsiyalar signallari",
+            "Mahsulot va kanallar tahlili"
+          ]
+        },
+        {
+          "k": "Omborlar va logistika",
+          "h": "Omborlar, tashuvchilar, tarqatish markazlari",
+          "items": [
+            "Qoldiqlar va harakatlar nazorati",
+            "Kirim va chiqim hujjatlarini avtomatik o‘qish",
+            "Zonalar va xavfsizlikning video monitoringi",
+            "Sig‘im va yetkazib berishni rejalashtirish"
+          ]
+        },
+        {
+          "k": "Ta’lim",
+          "h": "Universitetlar, maktablar, o‘quv markazlari",
+          "items": [
+            "Bir necha tilda qabul va talabalar murojaatlari",
+            "Dasturlar va me’yoriy hujjatlar bo‘yicha bilimlar bazasi",
+            "O‘qituvchilar va metodistlar uchun SI-yordamchilar",
+            "Universitet va vazirlik rahbariyati uchun tahlil"
+          ]
         }
       ]
     },
@@ -1744,17 +1706,18 @@
     },
     "leadership": {
       "label": "Rahbariyat",
-      "title": "Kompaniyani kim boshqaradi",
+      "title": "BlackGust va AISolution’ni kim boshqaradi",
+      "text": "Ikkala kompaniyani bir xil rahbariyat boshqaradi: BlackGust — AISolution’ning davlat va yirik biznes uchun sho‘ba mahsuloti, shuning uchun rollar va javobgarlik umumiy.",
       "people": [
         {
-          "k": "Asoschi va CEO",
+          "k": "Asoschi va bosh direktor (CEO) · AISolution va BlackGust",
           "h": "Abbos Xamidov",
           "p": "Strategiya, asosiy mijozlar, mahsulot. Senior backend-muhandis, Python va mashinali o‘qitishdan dars beradi."
         },
         {
-          "k": "Hammuassis va ijrochi direktor",
-          "h": "Ziyodulla",
-          "p": "Loyihalarni amalga oshirish va yechimlar arxitekturasi."
+          "k": "Hammuassis va boshqaruvchi direktor · AISolution va BlackGust",
+          "h": "Ziyodulla Toshmuhammadov",
+          "p": "Operatsion faoliyat, loyihalarni amalga oshirish va yechimlar arxitekturasi."
         }
       ]
     },
@@ -1836,6 +1799,14 @@
           [
             "BlackGust va AISolution qanday bog‘liq?",
             "BlackGust — AISolution ning korporativ platformasi. [AISolution](/aisolution) har qanday hajmdagi kompaniyalar uchun SI yaratadi; BlackGust — davlat va eng yirik tashkilotlar uchun daraja."
+          ],
+          [
+            "BlackGust boshqa SI-kompaniyalar va startaplardan nimasi bilan farq qiladi?",
+            "Ko‘pchilik SI-kompaniyalar vosita yoki chat-bot sotadi va integratsiyani sizga qoldiradi. BlackGust natijani to‘liq yetkazib beradi: tizimlaringizni yagona modelga birlashtiradigan platforma, yechim kundalik ishga kirmaguncha joyida ishlaydigan muhandislar, ma’lumotlar O‘zbekistonda qoladigan suveren joylashtirish va bosqichma-bosqich qabul qilinadigan qat’iy narxli shartnoma. Biz faqat davlat organlari, davlat korporatsiyalari va yirik biznes bilan ishlaymiz, ortimizda esa [AISolution](/aisolution) turadi."
+          ],
+          [
+            "BlackGust’ni kim boshqaradi?",
+            "BlackGust — AISolution’ning sho‘ba mahsuloti va uni o‘sha rahbariyat boshqaradi: asoschi va bosh direktor Abbos Xamidov hamda hammuassis va boshqaruvchi direktor Ziyodulla Toshmuhammadov. Batafsil — [kompaniya](/company) sahifasida."
           ]
         ]
       },
@@ -2091,7 +2062,7 @@
   "aisolution": {
     "crumb": "AISolution",
     "title": "BlackGust ortidagi kompaniya",
-    "lede": "BlackGust — Toshkentda tashkil etilgan SI-integrator AISolution kompaniyasining korporativ platformasi. O‘sha muhandislar, o‘sha javobgarlik: AISolution har qanday hajmdagi kompaniyalar uchun SI yaratadi, BlackGust — davlat va eng yirik tashkilotlar uchun daraja.",
+    "lede": "BlackGust — Toshkentda tashkil etilgan SI-integrator AISolution’ning sho‘ba mahsuloti. O‘sha rahbariyat, o‘sha muhandislar, o‘sha javobgarlik: AISolution har qanday hajmdagi kompaniyalar uchun SI yaratadi, BlackGust — davlat, davlat korporatsiyalari va eng yirik tashkilotlar uchun daraja.",
     "about": {
       "label": "AISolution haqida",
       "title": "O‘zbekistonlik SI-integrator",

@@ -32,10 +32,23 @@ export const parentCompany = {
   telegram: "https://t.me/aisolutionuz",
 };
 
+/** Leadership of both AISolution and BlackGust (same roles in both companies) — used in JSON-LD Person entities */
+export const leadership = {
+  ceo: { name: "Abbos Khamidov", alt: ["Abbos Xamidov", "Аббос Хамидов"] },
+  md: { name: "Ziyodulla Tashmukhammadov", alt: ["Ziyodulla Toshmuhammadov", "Зиёдулла Ташмухаммадов"] },
+};
+
+/** What the organization is known for (schema.org knowsAbout) */
+export const seoTopics = [
+  "Enterprise artificial intelligence", "AI agents", "Sovereign AI", "AI for government", "AI for state corporations",
+  "AI for banks", "AI for fintech", "AI for manufacturing", "AI for warehouses and logistics", "AI for construction",
+  "AI in education", "AI integration", "Data integration", "Speech recognition for Uzbek",
+];
+
 export type Currency = "USD";
 
 /** All prices on blackgust.uz are in USD; clients pay in UZS at the Central Bank rate on the invoice date. */
-export const currencyByLocale: Record<Locale, Currency> = { uz: "USD", ru: "USD", en: "USD", kk: "USD", zh: "USD" };
+export const currencyByLocale: Record<Locale, Currency> = { uz: "USD", ru: "USD", en: "USD", zh: "USD", ko: "USD" };
 
 /**
  * Minimum ("from") list prices. Edit here — every page and every language picks them up.

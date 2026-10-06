@@ -13,7 +13,6 @@ import { Split } from "@/components/Split";
 import { Md } from "@/components/Md";
 import { Band, SecHead, Arrow } from "@/components/Hero";
 import { Tabs } from "@/components/Tabs";
-import { Counter } from "@/components/Counter";
 import { Typed } from "@/components/Typed";
 import { FlowViz } from "@/components/FlowViz";
 
@@ -66,13 +65,13 @@ export default async function Home({ params }: P) {
       <section className="sec">
         <div className="wrap">
           <SecHead label={h.problem.label} title={h.problem.title} text={h.problem.text} />
-          <div className="cells c4">
+          <div className="cells c4" data-scene="deck">
             {h.problem.cells.map((c: Cell) => <div key={c.k}><span className="k">{c.k}</span><h3 className="h4">{c.h}</h3><p>{c.p}</p></div>)}
           </div>
         </div>
       </section>
 
-      <section className="sec">
+      <section className="sec" data-scrub="">
         <div className="gridlines" />
         <div className="wrap" style={{ position: "relative" }}>
           <SecHead label={h.what.label} title={h.what.title} text={h.what.text} />
@@ -93,33 +92,6 @@ export default async function Home({ params }: P) {
         <div className="wrap">
           <SecHead label={h.how.label} title={h.how.title} text={h.how.text} />
           <FlowViz locale={locale} steps={h.how.steps} v={viz} />
-        </div>
-      </section>
-
-      <section className="sec">
-        <div className="wrap">
-          <SecHead label={h.signals.label} title={h.signals.title} text={h.signals.text} />
-          <div className="split split-wide">
-            <div className="console signal-feed">
-              <div className="ch"><span><i />{h.signals.feedTitle}</span><span>{h.signals.feedNote}</span></div>
-              <div className="cb">
-                <div className="tbl-w"><table className="tbl">
-                  <thead><tr>{h.signals.headers.map((x: string) => <th key={x}>{x}</th>)}</tr></thead>
-                  <tbody>
-                    {h.signals.rows.map((r: string[], i: number) => (
-                      <tr key={i} style={{ ["--d" as string]: `${i * 0.6}s` }}>
-                        <td className="num">{r[0]}</td><td>{r[1]}</td><td className="wrapcell">{r[2]}</td><td>{r[3]}</td><td><span className={sevClass[r[4]]}>●</span></td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table></div>
-              </div>
-            </div>
-            <div className="gap" style={{ alignSelf: "center" }}>
-              <h3 className="h3">{h.signals.scaleTitle}</h3>
-              <ul className="ticks">{h.signals.scale.map((s: string) => <li key={s}>{s}</li>)}</ul>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -191,14 +163,7 @@ export default async function Home({ params }: P) {
         </div>
       </section>
 
-      <section className="sec">
-        <div className="wrap">
-          <SecHead label={h.facts.label} title={h.facts.title} text={h.facts.text} />
-          <div className="facts">{h.facts.items.map(([n, t]: string[]) => <div key={t}><Counter value={n} /><span>{t}</span></div>)}</div>
-        </div>
-      </section>
-
-      <section className="sec">
+      <section className="sec" data-scrub="">
         <div className="gridlines" />
         <div className="wrap parent-band" style={{ position: "relative" }}>
           <div className="gap">
@@ -222,7 +187,7 @@ export default async function Home({ params }: P) {
             <p className="dim" style={{ maxWidth: "52ch" }}>{h.security.text}</p>
             <Link className="btn btn-g" href="/security" style={{ justifySelf: "start" }}>{h.security.cta} <Arrow /></Link>
           </div>
-          <ul className="ticks" style={{ alignSelf: "center" }}>{h.security.items.map((i: string) => <li key={i}>{i}</li>)}</ul>
+          <ul className="ticks" data-scene="checklist" style={{ alignSelf: "center" }}>{h.security.items.map((i: string) => <li key={i}>{i}</li>)}</ul>
         </div>
       </section>
 

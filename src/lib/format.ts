@@ -2,11 +2,11 @@ import { currencyByLocale, prices, type Currency } from "@/config/site";
 import { localeTags, type Locale } from "@/i18n/routing";
 
 /**
- * Uzbek and Kazakh ICU data is missing in some browsers (Android WebView, headless builds), which would make
- * server and client output differ and break hydration. Both use Russian-style grouping ("1 126,4"), so they
- * format through "ru" — present in every ICU build — and Uzbek gets Latin unit words.
+ * Uzbek ICU data is missing in some browsers (Android WebView, headless builds), which would make
+ * server and client output differ and break hydration. Uzbek uses Russian-style grouping ("1 126,4"), so it
+ * formats through "ru" — present in every ICU build — with Latin unit words.
  */
-export const numberTag = (locale: Locale) => (locale === "uz" || locale === "kk" ? "ru" : localeTags[locale]);
+export const numberTag = (locale: Locale) => (locale === "uz" ? "ru" : localeTags[locale]);
 const UZ_UNITS: [RegExp, string][] = [[/млрд/g, "mlrd"], [/млн/g, "mln"], [/тыс\./g, "ming"]];
 
 export function money(locale: Locale, amount: number, opts: Intl.NumberFormatOptions = {}): string {

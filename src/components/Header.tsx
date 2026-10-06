@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { localeNames, routing, type Locale } from "@/i18n/routing";
-import { Logo } from "./Icons";
+import { Logo, IconGlobe } from "./Icons";
 import { BrandMark } from "./BrandMark";
 
 const NAV = ["platform", "approach", "solutions", "government", "security", "pricing", "company", "faq"] as const;
@@ -33,6 +33,17 @@ export function Header() {
     return () => { document.removeEventListener("click", close); document.removeEventListener("keydown", esc); };
   }, []);
 
+  // hover highlight glides between the pill links
+  const glide = (e: React.PointerEvent<HTMLElement>) => {
+    const nav = e.currentTarget;
+    const a = (e.target as HTMLElement).closest("a");
+    if (!a || !nav.contains(a)) return;
+    nav.style.setProperty("--hx", `${a.offsetLeft}px`);
+    nav.style.setProperty("--hw", `${a.offsetWidth}px`);
+    nav.classList.add("gl");
+  };
+  const unglide = (e: React.PointerEvent<HTMLElement>) => e.currentTarget.classList.remove("gl");
+
   const active = (k: string) => pathname === `/${k}` || pathname.startsWith(`/${k}/`);
 
   return (
@@ -41,7 +52,8 @@ export function Header() {
       <i className="prog" aria-hidden="true" />
       <div className="wrap bar">
         <Link className="brand" href="/" aria-label="BlackGust"><Logo /><BrandMark /></Link>
-        <nav className="pill" aria-label={t("ui.mainMenu")}>
+        <nav className="pill" aria-label={t("ui.mainMenu")} onPointerOver={glide} onPointerLeave={unglide}>
+          <span className="pill-hl" aria-hidden="true" />
           {NAV.map((k) => (
             <Link key={k} href={`/${k}`} aria-current={active(k) ? "page" : undefined}>{t(`nav.${k}`)}</Link>
           ))}
@@ -49,7 +61,7 @@ export function Header() {
         <div className="right">
           <div className="lang" ref={langRef}>
             <button type="button" aria-expanded={langOpen} aria-haspopup="listbox" aria-label={t("ui.language")} onClick={() => setLangOpen((v) => !v)}>
-              {locale.toUpperCase()} <span aria-hidden="true">▾</span>
+              <IconGlobe /><span className="ln">{localeNames[locale]}</span><span className="lc">{locale}</span> <span aria-hidden="true">▾</span>
             </button>
             {langOpen && (
               <ul role="listbox" aria-label={t("ui.language")}>

@@ -12,7 +12,7 @@ Next.js 16 App Router + TypeScript, next-intl 4, GSAP + ScrollTrigger, Lenis. No
 - `params` in pages/layouts is a Promise: `const { locale } = await params`.
 
 ## Content & i18n
-- ALL user-facing text lives in `src/messages/{uz,ru,en,kk,zh}.json`. `en.json` is the source of truth for keys; `uz` is the default locale.
+- ALL user-facing text lives in `src/messages/{uz,ru,en,zh,ko}.json`. `en.json` is the source of truth for keys; `uz` is the default locale.
 - Never hardcode copy in components. Add the key to `en.json` and to every other locale, then run `npm run i18n:check` (must pass; it checks keys, array lengths, `{placeholders}` and link targets).
 - Strings support inline markdown via `<Md>`: `[text](/path)`, `**bold**`, `*em*`. Internal links start with `/` and are locale-aware automatically.
 - Prices are never written in messages. Use `{foundation}`, `{enterprise}`, `{sovereign}`, `{diagnostic}`, `{strategy}`, `{architecture}`, `{academy}`, `{advisory}`; values come from `src/config/site.ts` (USD everywhere) and are formatted by `src/lib/format.ts`.
@@ -26,9 +26,11 @@ Next.js 16 App Router + TypeScript, next-intl 4, GSAP + ScrollTrigger, Lenis. No
 - Global smooth scroll + header in `src/components/MotionRoot.tsx`.
 - Page choreography in `src/lib/motion/page.ts`, started by `<PageMotion />` which MUST be the last element of every page (it runs after hydration; touching page DOM earlier breaks hydration).
 - The live model on the home page: `src/lib/motion/flow.ts` (canvas engine, pure function of scroll progress + time) and `src/components/FlowViz.tsx` (markup + ScrollTrigger).
+- Scroll scenes are opted in from markup: `data-scene="deck"` (cards dealt while pinned), `data-scene="checklist"` (items verified while pinned), `data-scrub` on a section (paragraph words light up on scroll). Pinned triggers are sorted by position before every refresh.
+- Page transitions: `<PageTransition/>` (exit cover naming the destination) + the CSS shutter in `template.tsx` (entry). It dispatches `bg:leave` before `router.push` so `<PageMotion/>` unwraps pin spacers while the page still exists — never navigate programmatically from a page with pins without firing it.
 - Globe hero: `src/lib/motion/globe.ts` via `<GlobeCanvas/>`. Intro (once per session) and the page shutter are pure CSS; everything is disabled under `prefers-reduced-motion`.
 - Content must be fully visible without JS and with `prefers-reduced-motion`. Only elements below the fold may be pre-hidden.
-- Number formatting rendered on the server must be identical on the client (Intl differs between Node and browsers): always pass explicit `minimumFractionDigits`/`maximumFractionDigits`, and format through `numberTag(locale)` (uz/kk ICU data is missing in some browsers).
+- Number formatting rendered on the server must be identical on the client (Intl differs between Node and browsers): always pass explicit `minimumFractionDigits`/`maximumFractionDigits`, and format through `numberTag(locale)` (uz ICU data is missing in some browsers).
 
 ## SEO
 - Every page exports `generateMetadata` via `pageMetadata(locale, key, path)` — canonical + hreflang for all locales + OG.

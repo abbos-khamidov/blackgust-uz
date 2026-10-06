@@ -34,9 +34,9 @@ export default async function Page({ params }: P) {
           <div className="cells c2">{d.principles.cells.map((c: Cell) => <div key={c.h}><span className="k">{c.k}</span><h3 className="h4">{c.h}</h3><p>{c.p}</p></div>)}</div>
         </div>
       </section>
-      <section className="sec">
+      <section className="sec" id="leadership">
         <div className="wrap">
-          <SecHead label={d.leadership.label} title={d.leadership.title} />
+          <SecHead label={d.leadership.label} title={d.leadership.title} text={d.leadership.text} />
           <div className="cells c2">{d.leadership.people.map((c: Cell) => <div key={c.h}><span className="k">{c.k}</span><h3 className="h4">{c.h}</h3><p>{c.p}</p></div>)}</div>
         </div>
       </section>

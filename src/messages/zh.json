@@ -2,12 +2,12 @@
   "meta": {
     "siteName": "BlackGust",
     "default": {
-      "title": "BlackGust by AISolution — 面向政府与大型企业的运营智能",
-      "description": "BlackGust by AISolution：在乌兹别克斯坦按国际标准打造的企业级 AI 平台。统一的组织模型、AI 智能体、每一处偏差清晰可见。服务乌兹别克斯坦及亚洲的政府机构和大型企业。"
+      "title": "BlackGust — 乌兹别克斯坦面向政府与大型企业的企业级 AI 公司",
+      "description": "BlackGust by AISolution 是乌兹别克斯坦面向政府机构、国有集团和大型企业的企业级 AI 公司：银行、金融科技、制造、工厂、仓储、建筑和教育。平台、驻场工程师和主权部署，一份合同全部涵盖。"
     },
     "home": {
-      "title": "BlackGust by AISolution — 面向政府与大型企业的运营智能",
-      "description": "AISolution 在乌兹别克斯坦按国际标准打造的企业级 AI 平台：统一的组织模型、AI 智能体、每一处偏差清晰可见。主权部署，支持乌兹别克语和俄语。"
+      "title": "BlackGust — 面向政府、银行和工业的企业级人工智能 | 乌兹别克斯坦",
+      "description": "企业级 AI 平台与工程师团队：统一的组织模型、AI 智能体、每一处偏差清晰可见。服务国有集团、银行、金融科技、制造、物流、建筑和教育。AISolution 旗下产品，塔什干。"
     },
     "platform": {
       "title": "平台 — BlackGust",
@@ -35,7 +35,7 @@
     },
     "company": {
       "title": "公司 — BlackGust",
-      "description": "BlackGust 是 AISolution 的企业级平台。AISolution 是来自塔什干、业务覆盖乌兹别克斯坦和亚洲的 AI 集成商。团队、管理层、原则与招聘。"
+      "description": "BlackGust 是塔什干 AI 公司 AISolution 旗下产品。首席执行官 Abbos Khamidov，董事总经理 Ziyodulla Tashmukhammadov。团队、原则与招聘。"
     },
     "faq": {
       "title": "常见问题 — BlackGust",
@@ -47,7 +47,7 @@
     },
     "aisolution": {
       "title": "AISolution — BlackGust 背后的公司",
-      "description": "BlackGust 是 AISolution 面向政府和大型企业的平台。AISolution 是来自塔什干的 AI 集成商、OpenAI Select Partner。"
+      "description": "BlackGust 是 AISolution 面向政府和大型企业的子品牌产品。AISolution 是来自塔什干的 AI 集成商、OpenAI Select Partner，由 Abbos Khamidov 和 Ziyodulla Tashmukhammadov 领导。"
     },
     "notFound": {
       "title": "页面未找到 — BlackGust",
@@ -114,7 +114,7 @@
     "hero": {
       "badge": "By AISolution · 塔什干 → 亚洲 → 世界",
       "title": "让组织*看清*全局，更快决策",
-      "lede": "BlackGust 将您现有的系统——ERP、财务、CRM、文档、公民诉求、摄像头——连接成统一的组织模型，并让 AI 智能体在其上工作。任何偏差，哪怕再小，都会在演变成问题之前显现。由 AISolution 团队在乌兹别克斯坦按国际标准打造，服务本地区的政府机构和大型企业。",
+      "lede": "BlackGust 将您现有的系统——ERP、财务、CRM、文档、公民诉求、摄像头——连接成统一的组织模型，并让 AI 智能体在其上工作。任何偏差，哪怕再小，都会在演变成问题之前显现。由 AISolution 团队在乌兹别克斯坦按国际标准打造，服务政府机构、国有集团和大型企业：银行、金融科技、制造、物流、建筑和教育。",
       "cta2": "平台如何运作",
       "meta": [
         [
@@ -123,7 +123,7 @@
         ],
         [
           "语言",
-          "O‘zbekcha · Русский · English · Қазақша · 中文"
+          "O‘zbekcha · Русский · English · 中文 · 한국어"
         ],
         [
           "合作方式",
@@ -177,7 +177,7 @@
     "what": {
       "label": "BlackGust 是什么",
       "title": "平台加工程师，缺一不可。",
-      "text": "我们不卖完许可证就离开。我们的工程师来到现场，理解您的流程，接入您的系统，一直陪到方案成为日常工作的一部分。平台留在您手中，并随组织一起成长。",
+      "text": "BlackGust 不是又一家 AI 初创公司，也不是聊天机器人供应商，而是一家对结果负责的企业级 AI 公司。我们不卖完许可证就离开。我们的工程师来到现场，理解您的流程，接入您的系统，一直陪到方案成为日常工作的一部分。平台留在您手中，并随组织一起成长。",
       "platform": {
         "title": "一个统一的组织模型，AI 智能体在其上工作",
         "items": [
@@ -357,20 +357,38 @@
     },
     "sectors": {
       "label": "行业",
-      "title": "我们服务的领域",
-      "text": "各行业的问题大同小异：数据多、审批多、时间少。不同的是系统和监管要求，这两点我们都会在诊断中考虑。",
+      "title": "我们服务的领域：政府、集团企业与大型企业",
+      "text": "银行与金融科技、工厂与仓库、工地与高校：问题大同小异——数据多、审批多、时间少。不同的是系统和监管要求，这两点我们都会在诊断中考虑。",
       "more": "了解更多",
       "cells": [
         {
           "k": "政府",
-          "h": "部委、地方政府、国有企业",
+          "h": "部委、地方政府、国有集团",
           "p": "公民诉求、公文流转、督办事项跟踪、管理层分析。",
           "href": "/government"
+        },
+        {
+          "k": "银行",
+          "h": "银行和保险公司",
+          "p": "移动应用中的语音与文本智能体、文件审核、交易监控、合规。",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "金融科技",
+          "h": "支付、信贷、数字服务",
+          "p": "客户开户与 KYC 审核、客服智能体、可疑交易信号。",
+          "href": "/solutions#industries"
         },
         {
           "k": "制造",
           "h": "工厂和工业集团",
           "p": "计划与实际对比、采购、质量、车间视频分析。",
+          "href": "/solutions#industries"
+        },
+        {
+          "k": "仓储与物流",
+          "h": "仓库、承运商、配送中心",
+          "p": "库存管控、收发货单据、区域监控、配送计划。",
           "href": "/solutions#industries"
         },
         {
@@ -380,9 +398,9 @@
           "href": "/solutions#industries"
         },
         {
-          "k": "金融",
-          "h": "银行和保险公司",
-          "p": "移动应用中的语音与文本智能体、文件审核、交易监控。",
+          "k": "教育",
+          "h": "大学、学校、培训中心",
+          "p": "招生与学生诉求、课程知识库、教师助手、管理层分析。",
           "href": "/solutions#industries"
         },
         {
@@ -392,9 +410,9 @@
           "href": "/solutions#industries"
         },
         {
-          "k": "交通与物流",
-          "h": "运输企业和基础设施",
-          "p": "客流、运力、资产维护、乘客诉求。",
+          "k": "私营部门",
+          "h": "大型民营企业和集团",
+          "p": "集团内每家公司的统一模型、合并报表、管理层助手。",
           "href": "/solutions#industries"
         }
       ]
@@ -432,93 +450,6 @@
       ],
       "cta": "了解各阶段详情"
     },
-    "facts": {
-      "label": "数据一览",
-      "title": "是团队，而不是中间商",
-      "text": "自有工程师、自有平台，并在合同中对结果负责。",
-      "items": [
-        [
-          "25",
-          "名专业人员：工程师、分析师和项目经理"
-        ],
-        [
-          "6",
-          "个项目自 2026 年初以来已交付"
-        ],
-        [
-          "50",
-          "名工程师计划在 2026 年底前通过自有训练营培养"
-        ],
-        [
-          "<1 h",
-          "工作时间内顾问的响应时间。AI 助手全天候应答"
-        ]
-      ]
-    },
-    "signals": {
-      "label": "每一个细节",
-      "title": "公司里发生的任何事都不会被忽略",
-      "text": "模型持续监测每一个流程。一笔延迟三天的付款、一份绕过审批签署的合同、一个毛利悄然下滑的分支机构——每件事都会在造成损失之前变成有责任人的信号。正是这一点，让组织在扩张中不失控制。",
-      "feedTitle": "信号流",
-      "feedNote": "示例 · 演示数据",
-      "headers": [
-        "时间",
-        "来源",
-        "信号",
-        "负责人",
-        "级别"
-      ],
-      "rows": [
-        [
-          "09:12",
-          "ERP",
-          "供应商付款逾期 3 天，第 5 天起触发合同罚则",
-          "资金部",
-          "c"
-        ],
-        [
-          "09:40",
-          "合同",
-          "合同未经法务审核即签署，金额超过阈值",
-          "法务部",
-          "c"
-        ],
-        [
-          "10:05",
-          "BI",
-          "费尔干纳分公司毛利率 3 周内下降 2.1 个百分点",
-          "区域总监",
-          "w"
-        ],
-        [
-          "11:30",
-          "仓库",
-          "实物库存与账面相差 14 件，物料号 40-118",
-          "2 号仓",
-          "w"
-        ],
-        [
-          "12:15",
-          "诉求",
-          "12 条诉求超过 48 小时未答复",
-          "客服中心",
-          "w"
-        ],
-        [
-          "13:02",
-          "人力",
-          "同一团队一个月内三人离职",
-          "人力总监",
-          "o"
-        ]
-      ],
-      "scaleTitle": "为与您共同成长而设计",
-      "scale": [
-        "新的分支机构、法人实体和系统接入同一个模型",
-        "每个新流程都复用已接入的内容",
-        "即使组织规模扩大十倍，管理层仍能看清全局"
-      ]
-    },
     "security": {
       "label": "安全",
       "title": "您的数据始终属于您",
@@ -541,10 +472,11 @@
     },
     "parent": {
       "label": "BlackGust by AISolution",
-      "title": "具有国际水准的乌兹别克斯坦公司",
-      "text": "BlackGust 是 AISolution 的企业级平台。AISolution 从第一天起就服务乌兹别克斯坦的企业和政府机构；BlackGust 是我们服务其中要求最高客户的方式：政府、国家级企业以及乌兹别克斯坦和亚洲的大型集团。",
+      "title": "AISolution 旗下的国际水准产品",
+      "text": "BlackGust 是塔什干 AI 公司 AISolution 旗下的子品牌产品。AISolution 从第一天起就服务乌兹别克斯坦的企业和政府机构；BlackGust 是我们服务其中要求最高客户的方式：政府、国有集团、银行以及乌兹别克斯坦和亚洲的大型集团。两家公司由同一管理团队领导。",
       "items": [
         "同一支团队、平台和责任",
+        "首席执行官 Abbos Khamidov · 董事总经理 Ziyodulla Tashmukhammadov",
         "OpenAI Select Partner（AISolution）",
         "使用乌兹别克语、俄语和英语交付"
       ],
@@ -1245,6 +1177,36 @@
             "资产维护计划",
             "面向管理层的综合分析"
           ]
+        },
+        {
+          "k": "金融科技",
+          "h": "支付、信贷、数字服务",
+          "items": [
+            "客户开户与 KYC 文件审核",
+            "应用和即时通讯中的客服智能体",
+            "面向分析师的可疑交易信号",
+            "产品与渠道分析"
+          ]
+        },
+        {
+          "k": "仓储与物流",
+          "h": "仓库、承运商、配送中心",
+          "items": [
+            "库存与货物流转管控",
+            "自动读取收发货单据",
+            "区域与安全视频监控",
+            "运力与配送计划"
+          ]
+        },
+        {
+          "k": "教育",
+          "h": "大学、学校、培训中心",
+          "items": [
+            "多语言招生与学生诉求处理",
+            "课程与规章知识库",
+            "面向教师和教研人员的 AI 助手",
+            "面向高校和主管部门领导的分析"
+          ]
         }
       ]
     },
@@ -1744,17 +1706,18 @@
     },
     "leadership": {
       "label": "管理层",
-      "title": "公司由谁领导",
+      "title": "谁在领导 BlackGust 和 AISolution",
+      "text": "两家公司由同一管理团队领导：BlackGust 是 AISolution 面向政府和大型企业的子品牌产品，因此角色与责任一致。",
       "people": [
         {
-          "k": "创始人兼 CEO",
-          "h": "Abbas Khamidov",
+          "k": "创始人兼首席执行官 · AISolution 与 BlackGust",
+          "h": "Abbos Khamidov",
           "p": "负责战略、重点客户和产品。资深后端工程师，教授 Python 和机器学习。"
         },
         {
-          "k": "联合创始人兼执行董事",
-          "h": "Ziyodulla",
-          "p": "负责项目交付与方案架构。"
+          "k": "联合创始人兼董事总经理 · AISolution 与 BlackGust",
+          "h": "Ziyodulla Tashmukhammadov",
+          "p": "负责运营、项目交付与方案架构。"
         }
       ]
     },
@@ -1836,6 +1799,14 @@
           [
             "BlackGust 和 AISolution 是什么关系？",
             "BlackGust 是 AISolution 的企业级平台。[AISolution](/aisolution) 为各类规模的企业打造 AI；BlackGust 是面向政府和大型组织的级别。"
+          ],
+          [
+            "BlackGust 与其他 AI 公司和初创企业有何不同？",
+            "大多数 AI 公司只卖工具或聊天机器人，把集成留给您。BlackGust 对完整结果负责：把您的系统连接成统一模型的平台、驻场直到方案进入日常工作的工程师、数据留在乌兹别克斯坦的主权部署，以及分阶段验收的固定价格合同。我们只服务政府机构、国有集团和大型企业，背后是 [AISolution](/aisolution)。"
+          ],
+          [
+            "谁在领导 BlackGust？",
+            "BlackGust 是 AISolution 旗下的子品牌产品，由同一管理团队领导：创始人兼首席执行官 Abbos Khamidov，以及联合创始人兼董事总经理 Ziyodulla Tashmukhammadov。详情见[公司](/company)页面。"
           ]
         ]
       },
@@ -2091,7 +2062,7 @@
   "aisolution": {
     "crumb": "AISolution",
     "title": "BlackGust 背后的公司",
-    "lede": "BlackGust 是在塔什干创立的 AI 集成商 AISolution 的企业级平台。同样的工程师、同样的责任：AISolution 为各类规模的企业打造 AI，BlackGust 是面向政府和大型组织的级别。",
+    "lede": "BlackGust 是在塔什干创立的 AI 集成商 AISolution 旗下的子品牌产品。同样的管理层、同样的工程师、同样的责任：AISolution 为各类规模的企业打造 AI，BlackGust 是面向政府、国有集团和大型组织的级别。",
     "about": {
       "label": "关于 AISolution",
       "title": "来自乌兹别克斯坦的 AI 集成商",

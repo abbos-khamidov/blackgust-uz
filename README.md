@@ -1,10 +1,10 @@
 # BlackGust — blackgust.uz
 
-Site for BlackGust in Uzbekistan and Asia — the enterprise/government product of AISolution. Languages: Uzbek (default), Russian, English, Kazakh, Chinese. Visual-first: dot-matrix globe hero, intro, page shutter, pinned scroll scenes, live model.
+Site for BlackGust in Uzbekistan and Asia — the enterprise/government product of AISolution. Languages: Uzbek (default), Russian, English, Chinese, Korean. Visual-first: dot-matrix globe hero, intro, page shutter, pinned scroll scenes, live model.
 
 ## Stack
 - Next.js 16 (App Router, Turbopack), React 19, TypeScript
-- next-intl 4 — locale routing (`/` = Uzbek, `/ru`, `/en`, `/kk`, `/zh`)
+- next-intl 4 — locale routing (`/` = Uzbek, `/ru`, `/en`, `/zh`, `/ko`; old `/kk/*` → 301 to `/*`)
 - GSAP + ScrollTrigger, Lenis smooth scroll, Canvas 2D (live organization model)
 - zod for API validation; self-hosted fonts (@fontsource)
 
@@ -53,6 +53,6 @@ Nginx: proxy `blackgust.uz` → `127.0.0.1:3011`, Let's Encrypt for TLS, redirec
 - Technical claims on Platform/Security pages (in-region data center, SAML/OIDC, Kubernetes, SIEM export, own Uzbek STT/TTS, deploy timelines).
 - "OpenAI Select Partner" is stated for AISolution only (approved wording). Get written approval before showing it next to the BlackGust brand.
 - Create the mailbox hello@blackgust.uz and confirm WhatsApp on +998 93 949 20 00.
-- Native-speaker review of UZ, KK, ZH texts.
+- Native-speaker review of UZ, ZH, KO texts.
 - Consulting prices are proposals — confirm.
 - Uzbek text uses ‘ (U+2018) for oʻ/gʻ and ’ (U+2019) for the tutuq belgisi, because IBM Plex Sans renders U+02BB/U+02BC with broken spacing.

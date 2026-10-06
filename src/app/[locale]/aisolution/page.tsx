@@ -7,6 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 import { parentCompany, SITE_URL } from "@/config/site";
 import { SubHero, Band, SecHead } from "@/components/Hero";
 import { Counter } from "@/components/Counter";
+import type { Cell } from "@/lib/types";
 import { JsonLd } from "@/components/JsonLd";
 
 type P = { params: Promise<{ locale: Locale }> };
@@ -18,10 +19,13 @@ export default async function Page({ params }: P) {
   setRequestLocale(locale);
   const d = await content(locale, "aisolution");
   const ui = await content(locale, "ui");
+  const lead = (await content(locale, "company")).leadership;
   const schema = {
     "@context": "https://schema.org", "@type": "Organization", "@id": `${parentCompany.url}/#org`, name: parentCompany.name, url: parentCompany.url,
     sameAs: [parentCompany.wikidata, parentCompany.blog, parentCompany.telegram],
     subOrganization: { "@id": `${SITE_URL}/#org` },
+    founder: { "@id": `${SITE_URL}/#ceo` },
+    employee: [{ "@id": `${SITE_URL}/#ceo` }, { "@id": `${SITE_URL}/#md` }],
   };
   return (
     <>
@@ -39,6 +43,12 @@ export default async function Page({ params }: P) {
         </div>
       </section>
       <section className="sec"><div className="wrap"><div className="facts">{d.facts.map(([n, t]: string[]) => <div key={t}><Counter value={n} /><span>{t}</span></div>)}</div></div></section>
+      <section className="sec">
+        <div className="wrap">
+          <SecHead label={lead.label} title={lead.title} text={lead.text} />
+          <div className="cells c2">{lead.people.map((c: Cell) => <div key={c.h}><span className="k">{c.k}</span><h3 className="h4">{c.h}</h3><p>{c.p}</p></div>)}</div>
+        </div>
+      </section>
       <section className="sec paper">
         <div className="wrap">
           <SecHead label={d.which.label} title={d.which.title} />

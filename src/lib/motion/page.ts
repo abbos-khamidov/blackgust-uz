@@ -13,6 +13,7 @@ export function initPageMotion(root: HTMLElement): () => void {
   const below = (el: Element) => el.getBoundingClientRect().top > vh() * 0.92;
   const desk = window.matchMedia("(min-width: 900px)").matches;
   const fine = window.matchMedia("(pointer:fine)").matches;
+  const wide = window.matchMedia("(min-width: 1000px)").matches;
   const cleanups: (() => void)[] = [];
   // first full load: the CSS intro covers the page for ~1.6s, so the hero sequence waits for it
   const w = window as unknown as { __bgIntro?: boolean };
@@ -56,13 +57,13 @@ export function initPageMotion(root: HTMLElement): () => void {
       gsap.from(w, { yPercent: 110, duration: 1.1, ease: "expo.out", stagger: 0.035, scrollTrigger: { trigger: h, start: "top 88%" } });
     });
     gsap.utils.toArray<HTMLElement>(".sec-head p, .sec-head .label, .split > .gap > .label").forEach((p) => {
-      if (!below(p)) return;
+      if (!below(p) || p.closest("[data-scrub]")) return;
       gsap.from(p, { y: 20, opacity: 0, duration: 1, ease: "power3.out", scrollTrigger: { trigger: p, start: "top 90%" } });
     });
 
     /* grids: staggered rise */
     gsap.utils.toArray<HTMLElement>(".cells, .rows, .ticks, .qa, .tiers, .faq, .facts, .phases, .tbl tbody, .channels").forEach((g) => {
-      if (g.closest(".console") || g.closest(".viz")) return;
+      if (g.closest(".console") || g.closest(".viz") || (g.dataset.scene && (wide || g.dataset.scene === "checklist"))) return;
       const kids = Array.from(g.children).filter(below);
       if (!kids.length) return;
       gsap.set(kids, { y: 34, opacity: 0 });
@@ -162,41 +163,64 @@ export function initPageMotion(root: HTMLElement): () => void {
       });
     });
 
-    /* live signal feed: newest event slides in on top, clock in the header ticks */
-    root.querySelectorAll<HTMLElement>(".signal-feed").forEach((feed) => {
-      const tb = feed.querySelector("tbody");
-      if (!tb) return;
-      const orig = Array.from(tb.children) as HTMLElement[];
-      const origT = orig.map((r) => r.children[0]?.textContent ?? "");
-      feed.classList.add("live");
-      const toMin = (s: string) => { const [h, m] = s.split(":").map(Number); return (h || 0) * 60 + (m || 0); };
-      const fmt = (n: number) => `${String(Math.floor(n / 60) % 24).padStart(2, "0")}:${String(n % 60).padStart(2, "0")}`;
-      let clock = Math.max(...origT.map(toMin));
-      let on = false, id = 0;
-      const push = () => {
-        const last = tb.lastElementChild as HTMLElement | null;
-        if (!last) return;
-        clock += 3 + Math.floor(Math.random() * 11);
-        if (last.children[0]) last.children[0].textContent = fmt(clock);
-        tb.querySelectorAll("tr.fresh").forEach((r) => r.classList.remove("fresh"));
-        tb.prepend(last);
-        last.classList.add("fresh");
-        gsap.fromTo(last, { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.7, ease: "expo.out" });
-        gsap.fromTo(Array.from(tb.children).slice(1), { y: -14 }, { y: 0, duration: 0.6, ease: "power3.out", stagger: 0.02 });
-      };
-      const st = ScrollTrigger.create({
-        trigger: feed, start: "top 90%", end: "bottom 10%",
-        onToggle: (s) => {
-          on = s.isActive;
-          window.clearInterval(id);
-          if (on) id = window.setInterval(push, 2600);
+    /* pinned scene: the problem cards are dealt onto the table one by one */
+    gsap.utils.toArray<HTMLElement>("[data-scene=\"deck\"]").forEach((deck) => {
+      const sec = deck.closest<HTMLElement>(".sec");
+      if (!wide || !sec) return;
+      const cards = Array.from(deck.children) as HTMLElement[];
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: sec, pin: true, scrub: 0.8, invalidateOnRefresh: true,
+          start: () => (sec.offsetHeight > vh() ? "bottom bottom" : "center center"),
+          end: () => `+=${vh() * 0.9}`,
         },
       });
-      cleanups.push(() => {
-        window.clearInterval(id); st.kill();
-        feed.classList.remove("live");
-        orig.forEach((r, i) => { r.classList.remove("fresh"); if (r.children[0]) r.children[0].textContent = origT[i]; tb.appendChild(r); });
+      cards.forEach((c, i) => {
+        tl.fromTo(c,
+          { y: () => vh() * 0.55, rotate: (i % 2 ? 1 : -1) * (3 + i * 1.5), rotateX: 26, opacity: 0, transformPerspective: 1100, transformOrigin: "50% 100%" },
+          { y: 0, rotate: 0, rotateX: 0, opacity: 1, duration: 1, ease: "power3.out" }, i * 0.55);
       });
+      tl.to({}, { duration: 0.35 });
+    });
+
+    /* pinned scene: the security checklist is verified item by item */
+    gsap.utils.toArray<HTMLElement>("[data-scene=\"checklist\"]").forEach((list) => {
+      const sec = list.closest<HTMLElement>(".sec");
+      const items = Array.from(list.children) as HTMLElement[];
+      if (!sec || !items.length) return;
+      list.classList.add("check");
+      const set = (p: number) => {
+        const n = Math.min(items.length, Math.floor(p * (items.length + 0.6)));
+        items.forEach((it, i) => it.classList.toggle("ok", i < n));
+        list.style.setProperty("--p", p.toFixed(3));
+      };
+      const st = ScrollTrigger.create(wide
+        ? { trigger: sec, pin: true, start: () => (sec.offsetHeight > vh() ? "bottom bottom" : "center center"), end: () => `+=${vh() * 0.7}`, scrub: true, invalidateOnRefresh: true, onUpdate: (s) => set(s.progress) }
+        : { trigger: list, start: "top 80%", end: "bottom 45%", scrub: true, onUpdate: (s) => set(s.progress) });
+      set(st.progress);
+      cleanups.push(() => { list.classList.remove("check"); list.style.removeProperty("--p"); items.forEach((it) => it.classList.remove("ok")); });
+    });
+
+    /* scroll-scrubbed reading: words light up as the paragraph passes through the viewport */
+    root.querySelectorAll<HTMLElement>("[data-scrub] .sec-head p, [data-scrub] p.dim").forEach((p) => {
+      if (p.children.length || !below(p)) return;
+      const text = p.textContent ?? "";
+      // CJK has no spaces: light it up in short character runs instead of words
+      const cjk = /[぀-ヿ㐀-鿿]/.test(text) && !/ /.test(text.trim());
+      const parts = cjk ? (text.match(/[\s\S]{1,3}/gu) ?? [text]) : text.split(/(\s+)/);
+      p.textContent = "";
+      const words: HTMLElement[] = [];
+      for (const w of parts) {
+        if (!w) continue;
+        if (/^\s+$/.test(w)) { p.append(w); continue; }
+        const s = document.createElement("span");
+        s.className = "sw";
+        s.textContent = w;
+        p.append(s);
+        words.push(s);
+      }
+      cleanups.push(() => { p.textContent = text; });
+      gsap.fromTo(words, { opacity: 0.16 }, { opacity: 1, ease: "none", stagger: 0.1, scrollTrigger: { trigger: p, start: "top 84%", end: "bottom 50%", scrub: true } });
     });
 
     /* marquee: speed and direction follow scroll velocity */
@@ -224,13 +248,14 @@ export function initPageMotion(root: HTMLElement): () => void {
 
   /* magnetic buttons + cell spotlight (plain listeners) */
   if (fine) {
-    root.querySelectorAll<HTMLElement>(".btn-p").forEach((b) => {
+    root.querySelectorAll<HTMLElement>(".btn-p, .btn-g").forEach((b) => {
+      const pull = b.classList.contains("btn-p") ? 1 : 0.6;
       const xT = gsap.quickTo(b, "x", { duration: 0.5, ease: "power3.out" });
       const yT = gsap.quickTo(b, "y", { duration: 0.5, ease: "power3.out" });
       const move = (e: PointerEvent) => {
         const r = b.getBoundingClientRect();
-        xT((e.clientX - r.left - r.width / 2) * 0.22);
-        yT((e.clientY - r.top - r.height / 2) * 0.3);
+        xT((e.clientX - r.left - r.width / 2) * 0.22 * pull);
+        yT((e.clientY - r.top - r.height / 2) * 0.3 * pull);
       };
       const leave = () => { xT(0); yT(0); };
       b.addEventListener("pointermove", move);
@@ -274,9 +299,10 @@ export function initPageMotion(root: HTMLElement): () => void {
 
   /* 3D tilt: pricing tiers, consoles, layers */
   if (fine) {
-    root.querySelectorAll<HTMLElement>(".tier, .console, .layer, .channel").forEach((c) => {
+    root.querySelectorAll<HTMLElement>(".tier, .console, .layer, .channel, .cells > *").forEach((c) => {
+      if (c.parentElement?.dataset.scene) return; // scroll scenes own these transforms
       const isConsole = c.classList.contains("console");
-      const amp = isConsole ? 4 : c.classList.contains("layer") ? 0 : 6;
+      const amp = isConsole ? 4 : c.classList.contains("layer") ? 0 : c.parentElement?.classList.contains("cells") ? 3 : 6;
       const rx = gsap.quickTo(c, "rotateX", { duration: 0.6, ease: "power3.out" });
       const ry = gsap.quickTo(c, "rotateY", { duration: 0.6, ease: "power3.out" });
       if (amp) gsap.set(c, { transformPerspective: 1000 });
@@ -294,7 +320,9 @@ export function initPageMotion(root: HTMLElement): () => void {
     });
   }
 
-  const refresh = () => ScrollTrigger.refresh();
+  // pins high on the page (deck) are created after ones below them (FlowViz, process): order by position before measuring
+  const refresh = () => { ScrollTrigger.sort(); ScrollTrigger.refresh(); };
+  refresh();
   const t = window.setTimeout(refresh, 300);
   if (document.fonts?.ready) document.fonts.ready.then(refresh);
 

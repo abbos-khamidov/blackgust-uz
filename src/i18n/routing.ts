@@ -1,6 +1,6 @@
 import { defineRouting } from "next-intl/routing";
 
-export const locales = ["uz", "ru", "en", "kk", "zh"] as const;
+export const locales = ["uz", "ru", "en", "zh", "ko"] as const;
 export type Locale = (typeof locales)[number];
 
 export const routing = defineRouting({
@@ -16,8 +16,8 @@ export const localeNames: Record<Locale, string> = {
   uz: "O‘zbekcha",
   ru: "Русский",
   en: "English",
-  kk: "Қазақша",
   zh: "中文",
+  ko: "한국어",
 };
 
 /** BCP-47 tags used for hreflang and Intl formatting */
@@ -25,6 +25,6 @@ export const localeTags: Record<Locale, string> = {
   uz: "uz",
   ru: "ru",
   en: "en",
-  kk: "kk",
   zh: "zh-Hans",
+  ko: "ko",
 };

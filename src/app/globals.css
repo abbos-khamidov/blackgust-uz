@@ -477,6 +477,9 @@ html.lenis,html.lenis body{height:auto}
 .lang{position:relative}
 .lang>button{display:inline-flex;align-items:center;gap:.45rem;background:none;border:1px solid var(--line-2);color:var(--bone);border-radius:999px;padding:.55rem .85rem;font:inherit;font-size:.8rem;font-family:var(--f-mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 .lang>button:hover{border-color:var(--brass)}
+.lang>button svg{width:15px;height:15px;flex:none;color:var(--brass)}
+.lang>button .ln{font-family:var(--f-body);text-transform:none;letter-spacing:0;font-size:.85rem}
+.lang>button .lc{display:none}
 .lang ul{position:absolute;right:0;top:calc(100% + 8px);min-width:180px;background:var(--ink-2);border:1px solid var(--line-2);border-radius:6px;padding:6px;display:grid;gap:2px;z-index:70;box-shadow:0 20px 40px -20px rgba(0,0,0,.8)}
 .lang li a{display:flex;justify-content:space-between;gap:12px;padding:.55rem .7rem;border-radius:4px;font-size:.9rem;color:#C9C7C0}
 .lang li a:hover,.lang li a[aria-current="true"]{background:var(--ink-3);color:var(--bone)}
@@ -485,7 +488,8 @@ html.lenis,html.lenis body{height:auto}
 .drawer .langs{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
 .drawer .langs a{border:1px solid var(--line-2);border-radius:999px;padding:.45rem .8rem;font-size:.85rem}
 .drawer .langs a[aria-current="true"]{border-color:var(--brass);color:var(--brass)}
-@media (max-width:1080px){.top .right .lang{display:none}}
+@media (max-width:1080px){.lang>button .ln{display:none}.lang>button .lc{display:inline}}
+@media (max-width:420px){.top .right .lang{display:none}}
 
 /* contact channels */
 .channels{display:grid;gap:10px}
@@ -521,12 +525,7 @@ html.lenis,html.lenis body{height:auto}
 .brand:hover .bm-c{color:var(--brass);transition:color .3s}
 @media (prefers-reduced-motion:reduce){.bm-c,.bm-scan{animation:none}.bm-scan{display:none}}
 
-/* signal feed */
-.signal-feed .tbl{min-width:560px}
-.signal-feed td.wrapcell{white-space:normal;min-width:240px;color:var(--bone)}
-.signal-feed tbody tr{animation:sigflash 7.2s ease-in-out infinite;animation-delay:var(--d)}
-@keyframes sigflash{0%,100%{background:transparent}4%{background:rgba(201,168,106,.12)}14%{background:transparent}}
-@media (prefers-reduced-motion:reduce){.signal-feed tbody tr{animation:none}}
+/* utility: underline */
 .u{text-decoration:underline;text-underline-offset:3px}
 
 /* consulting price list */
@@ -654,15 +653,6 @@ body::after{content:"";position:fixed;inset:-50%;z-index:150;pointer-events:none
 .facts>div::after{content:"";position:absolute;left:0;right:20px;top:-1px;height:1px;background:linear-gradient(90deg,var(--brass),transparent);transform-origin:0 50%;transform:scaleX(var(--fx,1));transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
 .facts>div+div::after{left:20px}
 
-/* signal feed: live */
-.signal-feed .cb{position:relative;overflow:hidden}
-.signal-feed .cb::after{content:"";position:absolute;left:0;right:0;top:0;height:60px;background:linear-gradient(180deg,transparent,rgba(201,168,106,.07),transparent);animation:feedscan 4.5s linear infinite;pointer-events:none}
-@keyframes feedscan{from{transform:translateY(-60px)}to{transform:translateY(520px)}}
-.signal-feed.live tbody tr{animation:none}
-.signal-feed tr.fresh td{background:rgba(201,168,106,.1);transition:background 1.6s}
-.signal-feed tr.fresh td:first-child{box-shadow:inset 2px 0 0 var(--brass)}
-.signal-feed .ch b{color:var(--brass);font-weight:500;font-variant-numeric:tabular-nums}
-
 /* console glow */
 .console{position:relative;transform-style:preserve-3d}
 .console::before{content:"";position:absolute;inset:-40px;z-index:-1;background:radial-gradient(50% 50% at 50% 50%,rgba(201,168,106,.09),transparent 70%);pointer-events:none}
@@ -719,3 +709,56 @@ main{counter-reset:sec}
 .sec:not(.paper):nth-of-type(even)::before{background:radial-gradient(38% 46% at 10% 80%,rgba(201,168,106,.05),transparent 70%)}
 .split-wide{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
 @media (max-width:900px){.split-wide{grid-template-columns:1fr}}
+
+/* ---------- Korean: Hangul falls back to system fonts; never break inside a word ---------- */
+html:lang(ko){--f-body:"IBM Plex Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;--f-display:"Spectral","Apple SD Gothic Neo","Malgun Gothic","Noto Serif KR",serif}
+html:lang(ko) body{word-break:keep-all;overflow-wrap:anywhere}
+
+/* ---------- page transition: exit cover (entry is .shutter) ---------- */
+.ptx{position:fixed;inset:0;z-index:189;pointer-events:none;visibility:hidden}
+.ptx.on{visibility:visible;pointer-events:auto;cursor:progress}
+.ptx-bars{position:absolute;inset:0;display:grid;grid-template-columns:repeat(6,1fr)}
+.ptx-bars i{background:var(--ink-2);border-right:1px solid rgba(201,168,106,.18);transform:scaleY(0);transform-origin:50% 100%}
+.ptx-bars i::before{content:"";display:block;height:2px;background:var(--brass)}
+.ptx.on .ptx-bars i{transform:scaleY(1);transition:transform .52s cubic-bezier(.75,0,.2,1);transition-delay:calc(var(--k) * 40ms)}
+.ptx-bars i:nth-child(1){--k:5}.ptx-bars i:nth-child(2){--k:4}.ptx-bars i:nth-child(3){--k:3}.ptx-bars i:nth-child(4){--k:2}.ptx-bars i:nth-child(5){--k:1}.ptx-bars i:nth-child(6){--k:0}
+.ptx-l{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:14px;width:min(90vw,900px);text-align:center;opacity:0}
+.ptx-l span{font-family:var(--f-mono);font-size:var(--s-xs);letter-spacing:.3em;text-transform:uppercase;color:var(--brass)}
+.ptx-l b{font-family:var(--f-display);font-weight:300;font-size:var(--s-2xl);line-height:1.05;color:var(--bone);clip-path:inset(0 0 100% 0);transform:translateY(.3em)}
+.ptx.on .ptx-l{opacity:1;transition:opacity .25s .22s}
+.ptx.on .ptx-l b{clip-path:inset(-10% 0 -10% 0);transform:none;transition:clip-path .6s cubic-bezier(.2,.7,.2,1) .26s,transform .6s cubic-bezier(.2,.7,.2,1) .26s}
+
+/* ---------- pinned checklist: items are verified as the scene scrolls ---------- */
+.ticks.check{position:relative}
+.ticks.check::after{content:"";position:absolute;left:-22px;top:.3em;bottom:.3em;width:1px;background:linear-gradient(var(--brass),var(--brass)) top/100% calc(var(--p,0) * 100%) no-repeat,var(--rule)}
+.paper .ticks.check::after{background:linear-gradient(var(--paper-ink),var(--paper-ink)) top/100% calc(var(--p,0) * 100%) no-repeat,var(--paper-line)}
+.ticks.check li{opacity:.3;transition:opacity .5s,transform .5s cubic-bezier(.2,.7,.2,1)}
+.ticks.check li.ok{opacity:1;transform:translateX(6px)}
+.ticks.check li::before{transform:rotate(-45deg) scale(0);transition:transform .45s cubic-bezier(.3,1.7,.5,1)}
+.ticks.check li.ok::before{transform:rotate(-45deg) scale(1)}
+
+/* ---------- scrubbed reading ---------- */
+.sw{transition:none}
+
+/* ---------- tabs: gliding indicator + panel entrance ---------- */
+.tabs{position:relative}
+.tab-ind{position:absolute;left:0;top:0;height:1.5px;width:var(--tw,0);transform:translate(var(--tx,0),var(--ty,0));background:var(--brass);opacity:0;pointer-events:none;transition:transform .55s cubic-bezier(.2,.7,.2,1),width .55s cubic-bezier(.2,.7,.2,1)}
+.paper .tab-ind{background:var(--paper-ink)}
+.tabs.has-ind .tab-ind{opacity:1}
+.tabs.has-ind button[aria-selected="true"]{border-color:transparent}
+.tabs button{transition:color .3s}
+.tabpanel:not([hidden])>*{animation:fadeUp .55s cubic-bezier(.2,.7,.2,1) both}
+.tabpanel:not([hidden])>*+*{animation-delay:.08s}
+
+/* ---------- header nav: hover highlight glides between links ---------- */
+.pill{position:relative}
+.pill-hl{position:absolute;left:0;top:4px;bottom:4px;width:var(--hw,0);transform:translateX(var(--hx,0));border-radius:999px;background:rgba(236,233,226,.06);border:1px solid rgba(201,168,106,.28);opacity:0;pointer-events:none;transition:transform .4s cubic-bezier(.2,.7,.2,1),width .4s cubic-bezier(.2,.7,.2,1),opacity .25s}
+.pill.gl .pill-hl{opacity:1}
+.pill a{position:relative;z-index:1}
+
+@media (prefers-reduced-motion:reduce){
+  .ptx{display:none!important}
+  .ticks.check li{opacity:1;transform:none}
+  .ticks.check li::before{transform:rotate(-45deg)}
+  .tab-ind,.pill-hl{transition:none}
+}

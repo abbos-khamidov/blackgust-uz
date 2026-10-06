@@ -5,6 +5,13 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Kazakh was retired: send old /kk URLs to the Uzbek (default) page with the same path
+  async redirects() {
+    return [
+      { source: "/kk", destination: "/", permanent: true },
+      { source: "/kk/:path*", destination: "/:path*", permanent: true },
+    ];
+  },
   async headers() {
     return [
       {
